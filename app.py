@@ -245,11 +245,11 @@ def build_assistant_message(result):
         notice = "🔎 외부검색 결과를 함께 반영하여 답변드립니다."
         return f"{notice}\n\n---\n\n{answer}"
 
-    if grade == "good":
+    if grade in ["good", "weak"]:
         notice = "✅ 내부 지식 저장소에서 관련 정보를 확인하였으며, 해당 내용을 기반으로 답변드립니다."
         return f"{notice}\n\n---\n\n{answer}"
 
-    # weak/bad 안내는 각 질문 카드의 HITL 영역에서만 보여줌
+    # bad일 때만 각 질문 카드의 HITL 영역에서 외부검색 버튼을 보여줌
     return answer
 
 
@@ -507,7 +507,7 @@ with left:
 
             st.markdown(qa.get("answer", ""))
 
-            if grade in ["bad", "weak"] and not used_web:
+            if grade == "bad" and not used_web:
                 st.markdown(
                     """
                     <div class="hitl-box">
