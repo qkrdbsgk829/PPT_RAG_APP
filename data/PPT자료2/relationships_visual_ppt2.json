@@ -1,0 +1,518 @@
+[
+  {
+    "id": "a70ebf80260a",
+    "source": "PPT 2",
+    "source_id": "71fe4dfd0451",
+    "source_type": "Document",
+    "relation": "HAS_SECTION",
+    "target": "추진목적",
+    "target_id": "257077ed42b9",
+    "target_type": "Section",
+    "evidence_list": [
+      "PPT 2의 고정 상위 섹션"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "9aa7995a5118",
+    "source": "PPT 2",
+    "source_id": "71fe4dfd0451",
+    "source_type": "Document",
+    "relation": "HAS_SECTION",
+    "target": "구현방향",
+    "target_id": "e3562d5717ce",
+    "target_type": "Section",
+    "evidence_list": [
+      "PPT 2의 고정 상위 섹션"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "271cce9b1c8c",
+    "source": "PPT 2",
+    "source_id": "71fe4dfd0451",
+    "source_type": "Document",
+    "relation": "HAS_SECTION",
+    "target": "추진방향",
+    "target_id": "84b8a75d54d5",
+    "target_type": "Section",
+    "evidence_list": [
+      "PPT 2의 고정 상위 섹션"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "3ce34cfd5d71",
+    "source": "PPT 2",
+    "source_id": "71fe4dfd0451",
+    "source_type": "Document",
+    "relation": "HAS_SECTION",
+    "target": "시나리오",
+    "target_id": "c38ab6baa41d",
+    "target_type": "Section",
+    "evidence_list": [
+      "PPT 2의 고정 상위 섹션"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054"
+    ]
+  },
+  {
+    "id": "06cc5a7a5010",
+    "source": "PPT 2",
+    "source_id": "71fe4dfd0451",
+    "source_type": "Document",
+    "relation": "HAS_SECTION",
+    "target": "상세일정",
+    "target_id": "bf59382ac576",
+    "target_type": "Section",
+    "evidence_list": [
+      "PPT 2의 고정 상위 섹션"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "923ee55f44ec",
+    "source": "추진목적",
+    "source_id": "257077ed42b9",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "업무 효율 개선",
+    "target_id": "b821fc507be5",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "a5419feb6fb8",
+    "source": "추진목적",
+    "source_id": "257077ed42b9",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Data 활용성 증대",
+    "target_id": "f32bf021f524",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "45307063fd42",
+    "source": "추진목적",
+    "source_id": "257077ed42b9",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "DT/AX 가속화",
+    "target_id": "a88f5ca0d9b1",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "9e54601b86a5",
+    "source": "추진목적",
+    "source_id": "257077ed42b9",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "조기 수율 Ramp-up",
+    "target_id": "dcdfd123034d",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0007"
+    ]
+  },
+  {
+    "id": "e6f2d05567a5",
+    "source": "추진목적",
+    "source_id": "257077ed42b9",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Well-Qualified Data",
+    "target_id": "1fa258eb9f45",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0008"
+    ]
+  },
+  {
+    "id": "648a65b98e47",
+    "source": "구현방향",
+    "source_id": "e3562d5717ce",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Data Infra 정비",
+    "target_id": "795d31c4ef02",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "c4ed0c670685",
+    "source": "구현방향",
+    "source_id": "e3562d5717ce",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Thread Layer 구현",
+    "target_id": "524ad06051ed",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "6e649c314bdf",
+    "source": "구현방향",
+    "source_id": "e3562d5717ce",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Ontology 기반 Semantic Layer",
+    "target_id": "782fb581dcc2",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0033"
+    ]
+  },
+  {
+    "id": "b12e6c16d4c4",
+    "source": "구현방향",
+    "source_id": "e3562d5717ce",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Data Connectivity 구축",
+    "target_id": "464af2d12a32",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0017"
+    ]
+  },
+  {
+    "id": "851127158ae3",
+    "source": "구현방향",
+    "source_id": "e3562d5717ce",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Ontology Model",
+    "target_id": "b203339bc9a0",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0018"
+    ]
+  },
+  {
+    "id": "20a225399945",
+    "source": "추진방향",
+    "source_id": "84b8a75d54d5",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Process 관점",
+    "target_id": "d91935122ef7",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0055",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0058"
+    ]
+  },
+  {
+    "id": "f664103ea8fb",
+    "source": "추진방향",
+    "source_id": "84b8a75d54d5",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "System 관점",
+    "target_id": "956730711108",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "b59e21f4791b",
+    "source": "추진방향",
+    "source_id": "84b8a75d54d5",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Data 관점",
+    "target_id": "3f33b7163345",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0055"
+    ]
+  },
+  {
+    "id": "32fa9a830187",
+    "source": "추진방향",
+    "source_id": "84b8a75d54d5",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Pain Point 진단 및 개선",
+    "target_id": "7193ae6ef485",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047"
+    ]
+  },
+  {
+    "id": "5707d3be9013",
+    "source": "추진방향",
+    "source_id": "84b8a75d54d5",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "유저 활용 시나리오 및 Concept UI",
+    "target_id": "b0fb192bc912",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042"
+    ]
+  },
+  {
+    "id": "9e9e06012119",
+    "source": "시나리오",
+    "source_id": "c38ab6baa41d",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "설계-공정-제조 Spec 연계",
+    "target_id": "dd13b12bfb3b",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "bfecae603959",
+    "source": "시나리오",
+    "source_id": "c38ab6baa41d",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "개발 Run 분석 및 Feedback Loop",
+    "target_id": "b248ed6bbd47",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "461dce302b9a",
+    "source": "시나리오",
+    "source_id": "c38ab6baa41d",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "고객 불량 Tracking 및 분석",
+    "target_id": "9befaa498905",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "id": "c9b2d2357aea",
+    "source": "시나리오",
+    "source_id": "c38ab6baa41d",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "재료-소재 개발 Simulation 고도화",
+    "target_id": "5a47a55105d2",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "eff9cb15fbc1",
+    "source": "시나리오",
+    "source_id": "c38ab6baa41d",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "User Scenario 정의",
+    "target_id": "f0bf7f9f16b9",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 10"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0026",
+      "ppt2_chunk_0029",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "id": "e48728ecc6c9",
+    "source": "상세일정",
+    "source_id": "bf59382ac576",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "3월 W1~W4",
+    "target_id": "7f2f004869a5",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "7bb97bc70ea0",
+    "source": "상세일정",
+    "source_id": "bf59382ac576",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "4월 W5~W7",
+    "target_id": "d4e0ec71e58d",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "335f194b550f",
+    "source": "상세일정",
+    "source_id": "bf59382ac576",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "5월 W8~W10",
+    "target_id": "5de4cd292718",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "6fb6ba4acc3e",
+    "source": "상세일정",
+    "source_id": "bf59382ac576",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "6월 W11~W13",
+    "target_id": "ee5585a3a2f1",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "21d8ca21e93a",
+    "source": "상세일정",
+    "source_id": "bf59382ac576",
+    "source_type": "Section",
+    "relation": "HAS_DETAIL",
+    "target": "Output 산출물",
+    "target_id": "a5d3b11b73b3",
+    "target_type": "Detail",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  }
+]

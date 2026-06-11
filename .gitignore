@@ -1,0 +1,11 @@
+.env
+
+__pycache__/
+*.pyc
+
+ppt_1_2_3_embeddings.json
+
+.vscode/
+.idea/
+
+*.log

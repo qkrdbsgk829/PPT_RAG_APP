@@ -1,0 +1,506 @@
+[
+  {
+    "id": "71fe4dfd0451",
+    "name": "PPT 2",
+    "type": "Document",
+    "description": "PPT 전체 문서",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt2_chunk_0000",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0012",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0014",
+      "ppt2_chunk_0015",
+      "ppt2_chunk_0016",
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0021",
+      "ppt2_chunk_0022",
+      "ppt2_chunk_0023",
+      "ppt2_chunk_0024",
+      "ppt2_chunk_0025",
+      "ppt2_chunk_0026",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0028",
+      "ppt2_chunk_0029",
+      "ppt2_chunk_0030",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0032",
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0035",
+      "ppt2_chunk_0036",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0038",
+      "ppt2_chunk_0039",
+      "ppt2_chunk_0040",
+      "ppt2_chunk_0041",
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0043",
+      "ppt2_chunk_0044",
+      "ppt2_chunk_0045",
+      "ppt2_chunk_0046",
+      "ppt2_chunk_0047",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0055",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0060",
+      "ppt2_chunk_0061",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0063",
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0066",
+      "ppt2_chunk_0067",
+      "ppt2_chunk_0068",
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0073",
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076",
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080",
+      "ppt2_chunk_0081",
+      "ppt2_chunk_0082",
+      "ppt2_chunk_0083"
+    ]
+  },
+  {
+    "id": "257077ed42b9",
+    "name": "추진목적",
+    "type": "Section",
+    "description": "추진목적 관련 핵심 주제",
+    "evidence_list": [],
+    "source_chunks": []
+  },
+  {
+    "id": "e3562d5717ce",
+    "name": "구현방향",
+    "type": "Section",
+    "description": "구현방향 관련 핵심 주제",
+    "evidence_list": [],
+    "source_chunks": []
+  },
+  {
+    "id": "84b8a75d54d5",
+    "name": "추진방향",
+    "type": "Section",
+    "description": "추진방향 관련 핵심 주제",
+    "evidence_list": [],
+    "source_chunks": []
+  },
+  {
+    "id": "c38ab6baa41d",
+    "name": "시나리오",
+    "type": "Section",
+    "description": "시나리오 관련 핵심 주제",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054"
+    ]
+  },
+  {
+    "id": "bf59382ac576",
+    "name": "상세일정",
+    "type": "Section",
+    "description": "상세일정 관련 핵심 주제",
+    "evidence_list": [],
+    "source_chunks": []
+  },
+  {
+    "id": "b821fc507be5",
+    "name": "업무 효율 개선",
+    "type": "Detail",
+    "section": "추진목적",
+    "description": "Digital Thread 기반 전사 업무 효율성 향상",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "f32bf021f524",
+    "name": "Data 활용성 증대",
+    "type": "Detail",
+    "section": "추진목적",
+    "description": "제품 개발 기간 단축 및 품질 확보",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "a88f5ca0d9b1",
+    "name": "DT/AX 가속화",
+    "type": "Detail",
+    "section": "추진목적",
+    "description": "Digital Twin 및 AI 추진 가속화 목표",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "id": "dcdfd123034d",
+    "name": "조기 수율 Ramp-up",
+    "type": "Detail",
+    "section": "추진목적",
+    "description": "신제품 개발 TAT 단축 및 고객 피드백 반영",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0007"
+    ]
+  },
+  {
+    "id": "1fa258eb9f45",
+    "name": "Well-Qualified Data",
+    "type": "Detail",
+    "section": "추진목적",
+    "description": "고품질 데이터 확보로 의사결정 지원",
+    "evidence_list": [
+      "슬라이드 4"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0008"
+    ]
+  },
+  {
+    "id": "795d31c4ef02",
+    "name": "Data Infra 정비",
+    "type": "Detail",
+    "section": "구현방향",
+    "description": "Data Silo 제거 및 표준화/전처리 추진",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "524ad06051ed",
+    "name": "Thread Layer 구현",
+    "type": "Detail",
+    "section": "구현방향",
+    "description": "Data Lake 기반 정보 식별 및 Single Source 구축",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "782fb581dcc2",
+    "name": "Ontology 기반 Semantic Layer",
+    "type": "Detail",
+    "section": "구현방향",
+    "description": "Graph 구조로 다차원 관계 고도화",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0033"
+    ]
+  },
+  {
+    "id": "464af2d12a32",
+    "name": "Data Connectivity 구축",
+    "type": "Detail",
+    "section": "구현방향",
+    "description": "Linked Data 및 Domain별 Data Set 표준화",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0017"
+    ]
+  },
+  {
+    "id": "b203339bc9a0",
+    "name": "Ontology Model",
+    "type": "Detail",
+    "section": "구현방향",
+    "description": "데이터 간 의미론적 관계 정의",
+    "evidence_list": [
+      "슬라이드 8"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0018"
+    ]
+  },
+  {
+    "id": "d91935122ef7",
+    "name": "Process 관점",
+    "type": "Detail",
+    "section": "추진방향",
+    "description": "Off-line 작업 감소 및 표준 프로세스 강화",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0055",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0058"
+    ]
+  },
+  {
+    "id": "956730711108",
+    "name": "System 관점",
+    "type": "Detail",
+    "section": "추진방향",
+    "description": "API 연동 한계 극복 및 데이터 정합성 확보",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "3f33b7163345",
+    "name": "Data 관점",
+    "type": "Detail",
+    "section": "추진방향",
+    "description": "데이터 정확성 및 Revision 관리 자동화",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0055"
+    ]
+  },
+  {
+    "id": "7193ae6ef485",
+    "name": "Pain Point 진단 및 개선",
+    "type": "Detail",
+    "section": "추진방향",
+    "description": "Process/System/Data별 장애 요소 도출 및 개선",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047"
+    ]
+  },
+  {
+    "id": "b0fb192bc912",
+    "name": "유저 활용 시나리오 및 Concept UI",
+    "type": "Detail",
+    "section": "추진방향",
+    "description": "사용자 요구 기반 UI 및 시나리오 정의",
+    "evidence_list": [
+      "슬라이드 14"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0042"
+    ]
+  },
+  {
+    "id": "dd13b12bfb3b",
+    "name": "설계-공정-제조 Spec 연계",
+    "type": "Detail",
+    "section": "시나리오",
+    "description": "Data 연결 및 Feedback 프로세스 개선",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "b248ed6bbd47",
+    "name": "개발 Run 분석 및 Feedback Loop",
+    "type": "Detail",
+    "section": "시나리오",
+    "description": "평가 계획 및 Data 공유 환경 구축",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "9befaa498905",
+    "name": "고객 불량 Tracking 및 분석",
+    "type": "Detail",
+    "section": "시나리오",
+    "description": "원인 분석 및 Traceability Mapping 강화",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "id": "5a47a55105d2",
+    "name": "재료-소재 개발 Simulation 고도화",
+    "type": "Detail",
+    "section": "시나리오",
+    "description": "물성 평가 및 Parameter 연동 관리",
+    "evidence_list": [
+      "슬라이드 16"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "id": "f0bf7f9f16b9",
+    "name": "User Scenario 정의",
+    "type": "Detail",
+    "section": "시나리오",
+    "description": "엔지니어 관점 개선 시나리오 및 기대효과",
+    "evidence_list": [
+      "슬라이드 10"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0026",
+      "ppt2_chunk_0029",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "id": "7f2f004869a5",
+    "name": "3월 W1~W4",
+    "type": "Detail",
+    "section": "상세일정",
+    "description": "Process 파악, 조직 구성, As-is 정의, 데이터 구조 초안",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "d4e0ec71e58d",
+    "name": "4월 W5~W7",
+    "type": "Detail",
+    "section": "상세일정",
+    "description": "연계 Key 선정, Thread Readiness 파악, 요구사항 식별",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "5de4cd292718",
+    "name": "5월 W8~W10",
+    "type": "Detail",
+    "section": "상세일정",
+    "description": "Data Hierarchy 정의, 진단 및 개선 방향 수립, 기능 설계",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "ee5585a3a2f1",
+    "name": "6월 W11~W13",
+    "type": "Detail",
+    "section": "상세일정",
+    "description": "To-Be 시나리오 도출, 실행 계획 및 Concept UI 정의",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "a5d3b11b73b3",
+    "name": "Output 산출물",
+    "type": "Detail",
+    "section": "상세일정",
+    "description": "Fit-GAP Process, 현황 진단서, 운영 정의서, UI Concept",
+    "evidence_list": [
+      "슬라이드 21"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  }
+]

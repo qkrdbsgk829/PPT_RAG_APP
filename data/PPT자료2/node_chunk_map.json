@@ -1,0 +1,400 @@
+[
+  {
+    "node_id": "71fe4dfd0451",
+    "node_name": "PPT 2",
+    "node_type": "Document",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0000",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0012",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0014",
+      "ppt2_chunk_0015",
+      "ppt2_chunk_0016",
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0021",
+      "ppt2_chunk_0022",
+      "ppt2_chunk_0023",
+      "ppt2_chunk_0024",
+      "ppt2_chunk_0025",
+      "ppt2_chunk_0026",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0028",
+      "ppt2_chunk_0029",
+      "ppt2_chunk_0030",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0032",
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0035",
+      "ppt2_chunk_0036",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0038",
+      "ppt2_chunk_0039",
+      "ppt2_chunk_0040",
+      "ppt2_chunk_0041",
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0043",
+      "ppt2_chunk_0044",
+      "ppt2_chunk_0045",
+      "ppt2_chunk_0046",
+      "ppt2_chunk_0047",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0055",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0060",
+      "ppt2_chunk_0061",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0063",
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0066",
+      "ppt2_chunk_0067",
+      "ppt2_chunk_0068",
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0073",
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076",
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080",
+      "ppt2_chunk_0081",
+      "ppt2_chunk_0082",
+      "ppt2_chunk_0083"
+    ]
+  },
+  {
+    "node_id": "257077ed42b9",
+    "node_name": "추진목적",
+    "node_type": "Section",
+    "document": "PPT 2",
+    "chunk_ids": []
+  },
+  {
+    "node_id": "e3562d5717ce",
+    "node_name": "구현방향",
+    "node_type": "Section",
+    "document": "PPT 2",
+    "chunk_ids": []
+  },
+  {
+    "node_id": "84b8a75d54d5",
+    "node_name": "추진방향",
+    "node_type": "Section",
+    "document": "PPT 2",
+    "chunk_ids": []
+  },
+  {
+    "node_id": "c38ab6baa41d",
+    "node_name": "시나리오",
+    "node_type": "Section",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054"
+    ]
+  },
+  {
+    "node_id": "bf59382ac576",
+    "node_name": "상세일정",
+    "node_type": "Section",
+    "document": "PPT 2",
+    "chunk_ids": []
+  },
+  {
+    "node_id": "b821fc507be5",
+    "node_name": "업무 효율 개선",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "node_id": "f32bf021f524",
+    "node_name": "Data 활용성 증대",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "node_id": "a88f5ca0d9b1",
+    "node_name": "DT/AX 가속화",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0006"
+    ]
+  },
+  {
+    "node_id": "dcdfd123034d",
+    "node_name": "조기 수율 Ramp-up",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0007"
+    ]
+  },
+  {
+    "node_id": "1fa258eb9f45",
+    "node_name": "Well-Qualified Data",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0006",
+      "ppt2_chunk_0008"
+    ]
+  },
+  {
+    "node_id": "795d31c4ef02",
+    "node_name": "Data Infra 정비",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "node_id": "524ad06051ed",
+    "node_name": "Thread Layer 구현",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "node_id": "782fb581dcc2",
+    "node_name": "Ontology 기반 Semantic Layer",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0033"
+    ]
+  },
+  {
+    "node_id": "464af2d12a32",
+    "node_name": "Data Connectivity 구축",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0017"
+    ]
+  },
+  {
+    "node_id": "b203339bc9a0",
+    "node_name": "Ontology Model",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0018"
+    ]
+  },
+  {
+    "node_id": "d91935122ef7",
+    "node_name": "Process 관점",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0055",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0058"
+    ]
+  },
+  {
+    "node_id": "956730711108",
+    "node_name": "System 관점",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "node_id": "3f33b7163345",
+    "node_name": "Data 관점",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0055"
+    ]
+  },
+  {
+    "node_id": "7193ae6ef485",
+    "node_name": "Pain Point 진단 및 개선",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0047"
+    ]
+  },
+  {
+    "node_id": "b0fb192bc912",
+    "node_name": "유저 활용 시나리오 및 Concept UI",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0042"
+    ]
+  },
+  {
+    "node_id": "dd13b12bfb3b",
+    "node_name": "설계-공정-제조 Spec 연계",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "node_id": "b248ed6bbd47",
+    "node_name": "개발 Run 분석 및 Feedback Loop",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "node_id": "9befaa498905",
+    "node_name": "고객 불량 Tracking 및 분석",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "node_id": "5a47a55105d2",
+    "node_name": "재료-소재 개발 Simulation 고도화",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0048"
+    ]
+  },
+  {
+    "node_id": "f0bf7f9f16b9",
+    "node_name": "User Scenario 정의",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0026",
+      "ppt2_chunk_0029",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "node_id": "7f2f004869a5",
+    "node_name": "3월 W1~W4",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "node_id": "d4e0ec71e58d",
+    "node_name": "4월 W5~W7",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "node_id": "5de4cd292718",
+    "node_name": "5월 W8~W10",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "node_id": "ee5585a3a2f1",
+    "node_name": "6월 W11~W13",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "node_id": "a5d3b11b73b3",
+    "node_name": "Output 산출물",
+    "node_type": "Detail",
+    "document": "PPT 2",
+    "chunk_ids": [
+      "ppt2_chunk_0073"
+    ]
+  }
+]

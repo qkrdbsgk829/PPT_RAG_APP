@@ -1,0 +1,2891 @@
+[
+  {
+    "id": "951d5b5f3c3a",
+    "name": "PPT 1",
+    "type": "Document",
+    "description": "Agentic AI 서비스 추진 방안 PPT",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002",
+      "ppt1_chunk_0003",
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0008",
+      "ppt1_chunk_0009",
+      "ppt1_chunk_0010",
+      "ppt1_chunk_0011",
+      "ppt1_chunk_0012",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0015",
+      "ppt1_chunk_0016",
+      "ppt1_chunk_0017",
+      "ppt1_chunk_0018",
+      "ppt1_chunk_0019",
+      "ppt1_chunk_0020",
+      "ppt1_chunk_0021",
+      "ppt1_chunk_0022",
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0024",
+      "ppt1_chunk_0025",
+      "ppt1_chunk_0026",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0028",
+      "ppt1_chunk_0029",
+      "ppt1_chunk_0030",
+      "ppt1_chunk_0031",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0037",
+      "ppt1_chunk_0038",
+      "ppt1_chunk_0039",
+      "ppt1_chunk_0040",
+      "ppt1_chunk_0041",
+      "ppt1_chunk_0042",
+      "ppt1_chunk_0043",
+      "ppt1_chunk_0044",
+      "ppt1_chunk_0045",
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0047",
+      "ppt1_chunk_0048",
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0050",
+      "ppt1_chunk_0051",
+      "ppt1_chunk_0052",
+      "ppt1_chunk_0053",
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0055",
+      "ppt1_chunk_0056",
+      "ppt1_chunk_0057",
+      "ppt1_chunk_0058",
+      "ppt1_chunk_0059",
+      "ppt1_chunk_0060",
+      "ppt1_chunk_0061",
+      "ppt1_chunk_0062",
+      "ppt1_chunk_0063",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0065",
+      "ppt1_chunk_0066",
+      "ppt1_chunk_0067",
+      "ppt1_chunk_0068",
+      "ppt1_chunk_0069",
+      "ppt1_chunk_0070",
+      "ppt1_chunk_0071",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0074",
+      "ppt1_chunk_0075",
+      "ppt1_chunk_0076",
+      "ppt1_chunk_0077",
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0079",
+      "ppt1_chunk_0080",
+      "ppt1_chunk_0081",
+      "ppt1_chunk_0082",
+      "ppt1_chunk_0083",
+      "ppt1_chunk_0084",
+      "ppt1_chunk_0085",
+      "ppt1_chunk_0086",
+      "ppt1_chunk_0087",
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0090",
+      "ppt1_chunk_0091",
+      "ppt1_chunk_0092",
+      "ppt1_chunk_0093",
+      "ppt1_chunk_0094",
+      "ppt1_chunk_0095",
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0098",
+      "ppt1_chunk_0099",
+      "ppt1_chunk_0100",
+      "ppt1_chunk_0101",
+      "ppt1_chunk_0102",
+      "ppt1_chunk_0103",
+      "ppt1_chunk_0104",
+      "ppt1_chunk_0105",
+      "ppt1_chunk_0106",
+      "ppt1_chunk_0107",
+      "ppt1_chunk_0108",
+      "ppt1_chunk_0109",
+      "ppt1_chunk_0110",
+      "ppt1_chunk_0111",
+      "ppt1_chunk_0112",
+      "ppt1_chunk_0113",
+      "ppt1_chunk_0114",
+      "ppt1_chunk_0115",
+      "ppt1_chunk_0116",
+      "ppt1_chunk_0117",
+      "ppt1_chunk_0118",
+      "ppt1_chunk_0119",
+      "ppt1_chunk_0120",
+      "ppt1_chunk_0121",
+      "ppt1_chunk_0122",
+      "ppt1_chunk_0123",
+      "ppt1_chunk_0124",
+      "ppt1_chunk_0125",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0127",
+      "ppt1_chunk_0128",
+      "ppt1_chunk_0129",
+      "ppt1_chunk_0130",
+      "ppt1_chunk_0131",
+      "ppt1_chunk_0132",
+      "ppt1_chunk_0133",
+      "ppt1_chunk_0134",
+      "ppt1_chunk_0135",
+      "ppt1_chunk_0136",
+      "ppt1_chunk_0137",
+      "ppt1_chunk_0138",
+      "ppt1_chunk_0139",
+      "ppt1_chunk_0140",
+      "ppt1_chunk_0141",
+      "ppt1_chunk_0142",
+      "ppt1_chunk_0143",
+      "ppt1_chunk_0144",
+      "ppt1_chunk_0145",
+      "ppt1_chunk_0146",
+      "ppt1_chunk_0147",
+      "ppt1_chunk_0148"
+    ]
+  },
+  {
+    "id": "519860d12fd2",
+    "name": "Agentic AI 동향",
+    "type": "Topic",
+    "description": "Agentic AI 동향 관련 대주제",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070",
+      "ppt1_chunk_0123"
+    ]
+  },
+  {
+    "id": "c9b5f50da49e",
+    "name": "Agentic AI 생태계",
+    "type": "Topic",
+    "description": "Agentic AI 생태계 관련 대주제",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071",
+      "ppt1_chunk_0124"
+    ]
+  },
+  {
+    "id": "b7e5827e2141",
+    "name": "컨설팅 방법론",
+    "type": "Topic",
+    "description": "컨설팅 방법론 관련 대주제",
+    "evidence_list": [],
+    "source_chunks": []
+  },
+  {
+    "id": "e43a87067d1a",
+    "name": "추진 필요성",
+    "type": "Topic",
+    "description": "추진 필요성 관련 대주제",
+    "evidence_list": [],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "b7721615a1b6",
+    "name": "AI 서비스 추진 방안",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "Agentic AI 혁신 수용과 즉각적 행동 촉구",
+    "evidence_list": [
+      "Agentic AI 혁신 수용과 즉각적 행동 촉구"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002",
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013"
+    ]
+  },
+  {
+    "id": "48e2d666f4ca",
+    "name": "Agentic AI 혁신",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 서비스 추진 방안",
+    "description": "AI 혁신 수용의 중요성",
+    "evidence_list": [
+      "Agentic AI: Embrace the Revolution - Now or Never"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002"
+    ]
+  },
+  {
+    "id": "3e5c4f794a47",
+    "name": "AI 서비스 전략",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 서비스 추진 방안",
+    "description": "AI 서비스 추진 구체 방안",
+    "evidence_list": [
+      "AI 서비스 추진 방안"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002"
+    ]
+  },
+  {
+    "id": "3ed113b2eb07",
+    "name": "기술 주도 변화",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 서비스 추진 방안",
+    "description": "AI가 주도하는 기술 변화",
+    "evidence_list": [
+      "Agentic AI 주도적 역할"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002"
+    ]
+  },
+  {
+    "id": "2d9561868fc7",
+    "name": "미래 도시 변화",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 서비스 추진 방안",
+    "description": "AI 혁신이 도시 생활에 미치는 영향",
+    "evidence_list": [
+      "고층 건물 배경 이미지"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0000",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002"
+    ]
+  },
+  {
+    "id": "353c508bdb13",
+    "name": "즉각 행동 필요성",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 서비스 추진 방안",
+    "description": "지금 당장 혁신 수용 강조",
+    "evidence_list": [
+      "Now or Never"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002",
+      "ppt1_chunk_0000"
+    ]
+  },
+  {
+    "id": "d675b48edc19",
+    "name": "Agentic AI 동향 및 개요",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "Agentic AI 최신 동향과 오해 해소",
+    "evidence_list": [
+      "Agentic AI 최신 동향과 오해 해소"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "5983dc6e9a46",
+    "name": "Gen AI 현주소",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Agentic AI 동향 및 개요",
+    "description": "생성형 AI 도입과 한계",
+    "evidence_list": [
+      "78% 기업 도입, 80% 실질 이익 미달"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "81c4c270f9e7",
+    "name": "업무 자동화 한계",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Agentic AI 동향 및 개요",
+    "description": "부분적 작업 자동화 한계",
+    "evidence_list": [
+      "부분 작업 수행, 인간 수정 필요"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "f1dcc58392ef",
+    "name": "AI Agent 발전",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Agentic AI 동향 및 개요",
+    "description": "업무 흐름 자동화 및 최적화",
+    "evidence_list": [
+      "Agentic AI로 전환 필요성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "ba180fd9aece",
+    "name": "제한적 통합",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Agentic AI 동향 및 개요",
+    "description": "툴/API 통합 미흡",
+    "evidence_list": [
+      "Sandboxed AI interface"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0010",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032"
+    ]
+  },
+  {
+    "id": "193841409b40",
+    "name": "사용자 피로도",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Agentic AI 동향 및 개요",
+    "description": "반복적 프롬프트 작성 부담",
+    "evidence_list": [
+      "Prompt 작성 반복 부담"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "374e5ff9a57b",
+    "name": "AI 적용 분야 개요",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "AI 적용 가치 및 활용 현황",
+    "evidence_list": [
+      "AI 적용 가치 및 활용 현황"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0012",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032"
+    ]
+  },
+  {
+    "id": "0245a144d65a",
+    "name": "생산성 향상",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 적용 분야 개요",
+    "description": "일상 업무 AI 적용 효과",
+    "evidence_list": [
+      "10~20% 생산성 향상"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0012",
+      "ppt1_chunk_0009",
+      "ppt1_chunk_0068"
+    ]
+  },
+  {
+    "id": "1cdb714ab3e9",
+    "name": "핵심 업무 재구성",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 적용 분야 개요",
+    "description": "AI 통한 업무 효율성 개선",
+    "evidence_list": [
+      "30~50% 효율성 및 효과성 개선"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0012"
+    ]
+  },
+  {
+    "id": "7fcb4990106f",
+    "name": "신제품 개발",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 적용 분야 개요",
+    "description": "AI 활용 신제품·서비스 창출",
+    "evidence_list": [
+      "장기 경쟁 우위 구축"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0012"
+    ]
+  },
+  {
+    "id": "15845feee3cf",
+    "name": "선도 기업 활용",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 적용 분야 개요",
+    "description": "80% 기업 핵심 업무 AI 활용",
+    "evidence_list": [
+      "80% 기업 reshaping 및 신제품 개발"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0012"
+    ]
+  },
+  {
+    "id": "243977e25160",
+    "name": "일상 업무 중심",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 적용 분야 개요",
+    "description": "대부분 기업 단순 업무 AI 활용",
+    "evidence_list": [
+      "44% 단순/일상 업무 활용"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0012"
+    ]
+  },
+  {
+    "id": "8b90d9f0d07d",
+    "name": "AI 기술 Trends",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "Agentic AI 시대 핵심 AI 기술 동향",
+    "evidence_list": [
+      "Agentic AI 시대 핵심 AI 기술 동향"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032"
+    ]
+  },
+  {
+    "id": "13d083b4af46",
+    "name": "AI Agent",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 Trends",
+    "description": "자율 의사결정 및 복합 업무 수행",
+    "evidence_list": [
+      "AI Agent 자율 의사결정"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0011",
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0016",
+      "ppt1_chunk_0017",
+      "ppt1_chunk_0023"
+    ]
+  },
+  {
+    "id": "2d9fba45057e",
+    "name": "Composite AI",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 Trends",
+    "description": "다양 AI 기술 결합 문제 해결",
+    "evidence_list": [
+      "ML, Gen-AI 결합"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0016",
+      "ppt1_chunk_0017"
+    ]
+  },
+  {
+    "id": "611e4658c6a6",
+    "name": "ModelOps",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 Trends",
+    "description": "AI 모델 운영 및 관리 최적화",
+    "evidence_list": [
+      "모델 배포, 모니터링 체계"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0016",
+      "ppt1_chunk_0017"
+    ]
+  },
+  {
+    "id": "c0e37d73b7a1",
+    "name": "AI TRiSM",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 Trends",
+    "description": "신뢰성, 리스크, 보안 통합 관리",
+    "evidence_list": [
+      "AI 신뢰성 및 보안 강화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0017",
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0016"
+    ]
+  },
+  {
+    "id": "e387083d8f3a",
+    "name": "Hype Cycle",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 Trends",
+    "description": "2025년 AI 기술 발전 예측",
+    "evidence_list": [
+      "Gartner Hype Cycle 2025"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0014",
+      "ppt1_chunk_0015"
+    ]
+  },
+  {
+    "id": "7528a1f93d60",
+    "name": "AI 기술 변화 트렌드",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "AI 기술 발전과 산업별 적용 변화",
+    "evidence_list": [
+      "AI 기술 발전과 산업별 적용 변화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0018",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032"
+    ]
+  },
+  {
+    "id": "0039606e8128",
+    "name": "Data 기반 자동화",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 변화 트렌드",
+    "description": "RPA/OCR 활용 업무 자동화",
+    "evidence_list": [
+      "RPA, OCR, Process Mining"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0018"
+    ]
+  },
+  {
+    "id": "c0e8c80fd5c8",
+    "name": "지능화 기술",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 변화 트렌드",
+    "description": "ML/DL 및 LLM 기반 예측·자동화",
+    "evidence_list": [
+      "Machine Learning, GPT, Claude"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0018",
+      "ppt1_chunk_0020"
+    ]
+  },
+  {
+    "id": "60bbf3a963ec",
+    "name": "Agentic AI 자율화",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 변화 트렌드",
+    "description": "Multi-Agent 통한 업무 자동화",
+    "evidence_list": [
+      "Multi-Agent, Workflow Engine"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0018"
+    ]
+  },
+  {
+    "id": "f0bbc188a369",
+    "name": "Physical AI 무인화",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 변화 트렌드",
+    "description": "로봇 활용 현장 자동화",
+    "evidence_list": [
+      "Robotics, AGV, CoT"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0018"
+    ]
+  },
+  {
+    "id": "d54d9cde9d4d",
+    "name": "산업 전 과정 적용",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI 기술 변화 트렌드",
+    "description": "설계, 제조, 운영 등 전 분야",
+    "evidence_list": [
+      "설계, 제조, 운영 산업군"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0018"
+    ]
+  },
+  {
+    "id": "d5992451ec18",
+    "name": "AI Model & AI Agent & Agentic AI",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "AI 모델과 에이전트 비교 및 발전",
+    "evidence_list": [
+      "AI 모델과 에이전트 비교 및 발전"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032"
+    ]
+  },
+  {
+    "id": "40be1325971c",
+    "name": "Conventional Models",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI Model & AI Agent & Agentic AI",
+    "description": "제한된 지식과 단일 추론",
+    "evidence_list": [
+      "학습 데이터 기반 제한"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0024"
+    ]
+  },
+  {
+    "id": "a1dae27877cd",
+    "name": "AI Agents",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI Model & AI Agent & Agentic AI",
+    "description": "외부 도구 활용 및 다중 추론",
+    "evidence_list": [
+      "Native Tool, 세션 히스토리 활용"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0011",
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0025"
+    ]
+  },
+  {
+    "id": "bff567629c9e",
+    "name": "Agentic AI",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI Model & AI Agent & Agentic AI",
+    "description": "자율 목표 설정 및 실행",
+    "evidence_list": [
+      "자율 계획, 오케스트레이션"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002",
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0005"
+    ]
+  },
+  {
+    "id": "6cd02082af99",
+    "name": "기술 스택 차이",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI Model & AI Agent & Agentic AI",
+    "description": "알고리즘→플랫폼·워크플로우",
+    "evidence_list": [
+      "Algorithm vs Platform, Workflow"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0023"
+    ]
+  },
+  {
+    "id": "08cb7bcfa1fe",
+    "name": "복잡한 요구 대응",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "AI Model & AI Agent & Agentic AI",
+    "description": "인지 아키텍처 활용",
+    "evidence_list": [
+      "Native Cognitive Architecture"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0023",
+      "ppt1_chunk_0025"
+    ]
+  },
+  {
+    "id": "6610accb4b48",
+    "name": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "type": "Page",
+    "topic": "Agentic AI 동향",
+    "description": "챗봇 유형별 기능 및 대화 예시 비교",
+    "evidence_list": [
+      "챗봇 유형별 기능 및 대화 예시 비교"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "ca9898014e97",
+    "name": "Generative AI 챗봇",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "description": "정보 검색 및 요약 중심",
+    "evidence_list": [
+      "내부 DB, 웹페이지 검색"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0028"
+    ]
+  },
+  {
+    "id": "2c9daec9e797",
+    "name": "AI Agent 챗봇",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "description": "상황 이해 및 실행 대행",
+    "evidence_list": [
+      "상황 컨텍스트 이해, 실행 대행"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0029"
+    ]
+  },
+  {
+    "id": "b34e40b8bb8f",
+    "name": "Agentic AI 챗봇",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "description": "실시간 의도 이해 및 자율 실행",
+    "evidence_list": [
+      "사용자 개입 최소화, 능동적 계획 수행"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0030"
+    ]
+  },
+  {
+    "id": "78372fe85a11",
+    "name": "대화 예시",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "description": "예약 관련 대화 시나리오",
+    "evidence_list": [
+      "회의 예약 대화 예시"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0028",
+      "ppt1_chunk_0029",
+      "ppt1_chunk_0030"
+    ]
+  },
+  {
+    "id": "4fb1c2338e30",
+    "name": "자동화 수준 차이",
+    "type": "Keyword",
+    "topic": "Agentic AI 동향",
+    "page": "Generative AI vs AI Agent vs Agentic AI 챗봇 비교",
+    "description": "단순 생성→대행→자율 실행",
+    "evidence_list": [
+      "Generative→Agent→Agentic AI"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0027"
+    ]
+  },
+  {
+    "id": "7d75e072522b",
+    "name": "Agentic AI 생태계 및 Key Players",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "Agentic AI 주요 환경과 플레이어 소개",
+    "evidence_list": [
+      "Agentic AI 주요 환경과 플레이어 소개"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071"
+    ]
+  },
+  {
+    "id": "19a90530403a",
+    "name": "생태계 구성",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 생태계 및 Key Players",
+    "description": "Agentic AI 환경 및 참여자",
+    "evidence_list": [
+      "Agentic AI 생태계 및 Key Players"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071"
+    ]
+  },
+  {
+    "id": "6bd604cfac02",
+    "name": "글로벌 기업",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 생태계 및 Key Players",
+    "description": "OpenAI, Apple, Google 등",
+    "evidence_list": [
+      "OpenAI, Apple, Google 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0060",
+      "ppt1_chunk_0064"
+    ]
+  },
+  {
+    "id": "a9e676a8007f",
+    "name": "국내 기업",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 생태계 및 Key Players",
+    "description": "SK텔레콤, LG U+, 삼성SDS 등",
+    "evidence_list": [
+      "국내 주요 기업 Agentic AI 도입"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071"
+    ]
+  },
+  {
+    "id": "3cc76aa2169b",
+    "name": "Multi-Agent Framework",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 생태계 및 Key Players",
+    "description": "LangChain, CreaAI, Orby AI",
+    "evidence_list": [
+      "다중 에이전트 연계 기술"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0044",
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064"
+    ]
+  },
+  {
+    "id": "723c1050fc17",
+    "name": "플랫폼 및 서비스",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 생태계 및 Key Players",
+    "description": "Hyperscaler, App 서비스 사업자",
+    "evidence_list": [
+      "MS, AWS, Salesforce 등"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071"
+    ]
+  },
+  {
+    "id": "b2713da8b119",
+    "name": "글로벌 동향",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "글로벌 Agentic AI 서비스 및 사례",
+    "evidence_list": [
+      "글로벌 Agentic AI 서비스 및 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0054"
+    ]
+  },
+  {
+    "id": "47191c93d844",
+    "name": "OpenAI Agent",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "글로벌 동향",
+    "description": "CUA 모델, 웹 상호작용",
+    "evidence_list": [
+      "OpenAI Operator CUA 모델"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036"
+    ]
+  },
+  {
+    "id": "4fa45ec55917",
+    "name": "Apple Siri",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "글로벌 동향",
+    "description": "LLM 기반 Siri 업그레이드",
+    "evidence_list": [
+      "Apple Intelligent, Ferret-UI"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036"
+    ]
+  },
+  {
+    "id": "1c29fd4025d9",
+    "name": "Google Gemini",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "글로벌 동향",
+    "description": "Project Mariner, 자동화",
+    "evidence_list": [
+      "Google Gemini 기반 프로젝트"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036"
+    ]
+  },
+  {
+    "id": "820aabe311d3",
+    "name": "Anthropic",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "글로벌 동향",
+    "description": "컴퓨터 조작 AI",
+    "evidence_list": [
+      "Anthropic MCP 개념"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0037"
+    ]
+  },
+  {
+    "id": "6bf84853523c",
+    "name": "Microsoft Copilot",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "글로벌 동향",
+    "description": "Dynamics 365 Copilot",
+    "evidence_list": [
+      "Microsoft Dynamics 365 Copilot"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0037"
+    ]
+  },
+  {
+    "id": "97dc08080f2e",
+    "name": "국내 동향 및 전망",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "국내 Agentic AI 시장 성장과 기업 사례",
+    "evidence_list": [
+      "국내 Agentic AI 시장 성장과 기업 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0038",
+      "ppt1_chunk_0049"
+    ]
+  },
+  {
+    "id": "5ee11c6e039a",
+    "name": "시장 성장",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "국내 동향 및 전망",
+    "description": "AI 시장 5.3조→13.9조 성장 전망",
+    "evidence_list": [
+      "2025~2029 국내 AI 시장 전망"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0038"
+    ]
+  },
+  {
+    "id": "919ea0089b06",
+    "name": "Agentic AI 고성장",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "국내 동향 및 전망",
+    "description": "연평균 57% 성장 예상",
+    "evidence_list": [
+      "Agentic AI 연평균 성장률 57%"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0038"
+    ]
+  },
+  {
+    "id": "5cfb02215099",
+    "name": "SK텔레콤 에스타",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "국내 동향 및 전망",
+    "description": "목표/계획 설정 AI 프로젝트",
+    "evidence_list": [
+      "SK텔레콤 에스타 프로젝트"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0038"
+    ]
+  },
+  {
+    "id": "e0e38dd89fbe",
+    "name": "LG U+ AI Agent 추진그룹",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "국내 동향 및 전망",
+    "description": "신규 AI 서비스 개발 조직",
+    "evidence_list": [
+      "LG U+ AI Agent 추진그룹"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0038"
+    ]
+  },
+  {
+    "id": "d589d32a6417",
+    "name": "삼성SDS Fabrix",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "국내 동향 및 전망",
+    "description": "ERP/SCM AI 적용 플랫폼",
+    "evidence_list": [
+      "삼성SDS Fabrix 발표"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0038"
+    ]
+  },
+  {
+    "id": "8b7b40979778",
+    "name": "Agentic AI Landscape",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "Agentic AI 플랫폼과 생태계 구성",
+    "evidence_list": [
+      "Agentic AI 플랫폼과 생태계 구성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0041",
+      "ppt1_chunk_0049"
+    ]
+  },
+  {
+    "id": "96e264d55d7d",
+    "name": "Hyperscaler 플랫폼",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI Landscape",
+    "description": "MS, AWS, Google Vertex AI",
+    "evidence_list": [
+      "글로벌 클라우드 AI 인프라"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0043",
+      "ppt1_chunk_0041"
+    ]
+  },
+  {
+    "id": "b843e500e402",
+    "name": "Multi-agent Framework",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI Landscape",
+    "description": "LangChain, CreaAI, Orby AI",
+    "evidence_list": [
+      "다중 에이전트 연계 및 플러그인"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0044",
+      "ppt1_chunk_0041"
+    ]
+  },
+  {
+    "id": "8cbc18f298c5",
+    "name": "App 서비스 사업자",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI Landscape",
+    "description": "Salesforce, ServiceNow",
+    "evidence_list": [
+      "CRM, ERP 내장 Agent 기능"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0045",
+      "ppt1_chunk_0041"
+    ]
+  },
+  {
+    "id": "96fb0fcb9217",
+    "name": "Agent Mesh 구축",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI Landscape",
+    "description": "플랫폼과 도메인별 Agent 조합",
+    "evidence_list": [
+      "Agent Mesh 최적화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0041"
+    ]
+  },
+  {
+    "id": "dde4029d0a4e",
+    "name": "Impact Radar",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI Landscape",
+    "description": "AI 기술 영향력 분석",
+    "evidence_list": [
+      "Simulation Twins, Knowledge Graphs"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0041",
+      "ppt1_chunk_0042"
+    ]
+  },
+  {
+    "id": "67c7016c43d5",
+    "name": "Agentic AI 핵심 구성요소",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "Agent 모델 및 운영 구조 설명",
+    "evidence_list": [
+      "Agent 모델 및 운영 구조 설명"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0049"
+    ]
+  },
+  {
+    "id": "ccaabb0001df",
+    "name": "Agent",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 핵심 구성요소",
+    "description": "독립적 의사결정 수행",
+    "evidence_list": [
+      "Agent 환경 감지 및 행동"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0001",
+      "ppt1_chunk_0002",
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0005"
+    ]
+  },
+  {
+    "id": "af4cdab64f79",
+    "name": "Environment",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 핵심 구성요소",
+    "description": "Agent 상호작용 공간",
+    "evidence_list": [
+      "외부 시스템 및 공간"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0047"
+    ]
+  },
+  {
+    "id": "a075d5e28ef0",
+    "name": "Communication",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 핵심 구성요소",
+    "description": "Agent 간 정보 교환 프로토콜",
+    "evidence_list": [
+      "MCP 프로토콜"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0047"
+    ]
+  },
+  {
+    "id": "a1a842fe6e05",
+    "name": "Coordination",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 핵심 구성요소",
+    "description": "Agent 협력 및 역할 분배",
+    "evidence_list": [
+      "협력 및 역할 분담 메커니즘"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0047"
+    ]
+  },
+  {
+    "id": "5745dcdd64b2",
+    "name": "Decision Making",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 핵심 구성요소",
+    "description": "목표 달성 위한 행동 선택",
+    "evidence_list": [
+      "개별 Agent 동작 선택"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0046",
+      "ppt1_chunk_0047"
+    ]
+  },
+  {
+    "id": "e407696f89f9",
+    "name": "대표 Agentic AI Case (1/2)",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "Agentic AI 주요 사례 및 기술 구조",
+    "evidence_list": [
+      "Agentic AI 주요 사례 및 기술 구조"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0054"
+    ]
+  },
+  {
+    "id": "da97f92f5cd9",
+    "name": "비정형 데이터 검색",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (1/2)",
+    "description": "실시간 벡터 DB 검색 및 문맥 인지",
+    "evidence_list": [
+      "Perplexity RAG 구조"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0050",
+      "ppt1_chunk_0090",
+      "ppt1_chunk_0106"
+    ]
+  },
+  {
+    "id": "0fd8f3186b4e",
+    "name": "외부 Tool 호출",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (1/2)",
+    "description": "MCP 서버 통한 도구 연계",
+    "evidence_list": [
+      "CURSOR Tool Calling"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0051",
+      "ppt1_chunk_0090"
+    ]
+  },
+  {
+    "id": "940a3c3b17ec",
+    "name": "추론/행동",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (1/2)",
+    "description": "Reasoning + Acting 반복 수행",
+    "evidence_list": [
+      "ReAct 구조"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0052",
+      "ppt1_chunk_0090"
+    ]
+  },
+  {
+    "id": "9919770eb069",
+    "name": "Chain-of-Thought",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (1/2)",
+    "description": "단계적 문제 해결",
+    "evidence_list": [
+      "생각하고 실행 반복"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0052"
+    ]
+  },
+  {
+    "id": "1694dcce0ddb",
+    "name": "대표 Agentic AI Case (2/2)",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "Agentic AI 평가, 코드 생성, 협업 사례",
+    "evidence_list": [
+      "Agentic AI 평가, 코드 생성, 협업 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0049"
+    ]
+  },
+  {
+    "id": "1c78cb305dbe",
+    "name": "Self-Reflection",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (2/2)",
+    "description": "출력물 자체 평가 및 개선",
+    "evidence_list": [
+      "Open Serve AI Critique & Learn"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0055",
+      "ppt1_chunk_0092",
+      "ppt1_chunk_0115"
+    ]
+  },
+  {
+    "id": "29570b9815ce",
+    "name": "CodeAct",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (2/2)",
+    "description": "실시간 코드 생성 및 실행",
+    "evidence_list": [
+      "Manus Python 코드 생성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0056",
+      "ppt1_chunk_0094"
+    ]
+  },
+  {
+    "id": "59a8eab78bb0",
+    "name": "Multi-Agent Workflow",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (2/2)",
+    "description": "전문 에이전트 협업 워크플로우",
+    "evidence_list": [
+      "Gemini Deep Research"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0057",
+      "ppt1_chunk_0054",
+      "ppt1_chunk_0094"
+    ]
+  },
+  {
+    "id": "cda1f3bc15f3",
+    "name": "협업 역할 분담",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "대표 Agentic AI Case (2/2)",
+    "description": "Planner, Writer, Reviewer, Aggregator",
+    "evidence_list": [
+      "Multi-Agent 역할 분담"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0054"
+    ]
+  },
+  {
+    "id": "30eaf5a07757",
+    "name": "Agentic AI 도입 사례 1/2",
+    "type": "Page",
+    "topic": "Agentic AI 생태계",
+    "description": "글로벌 기업 Agentic AI 적용 사례",
+    "evidence_list": [
+      "글로벌 기업 Agentic AI 적용 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0049",
+      "ppt1_chunk_0054"
+    ]
+  },
+  {
+    "id": "cc2a99b37e01",
+    "name": "금융사기 대응",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 도입 사례 1/2",
+    "description": "HSBC AI agent 기반 사기 탐지",
+    "evidence_list": [
+      "HSBC Dynamic Risk Assessment"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0059",
+      "ppt1_chunk_0060"
+    ]
+  },
+  {
+    "id": "3440c1d473ed",
+    "name": "고객 지원 시스템",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 도입 사례 1/2",
+    "description": "Uber AI agent 고객 응대 자동화",
+    "evidence_list": [
+      "Uber Eats 챗봇 배달 지원"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0059",
+      "ppt1_chunk_0061"
+    ]
+  },
+  {
+    "id": "7948d7aaaa97",
+    "name": "스마트홈 연계",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 도입 사례 1/2",
+    "description": "Amazon Alexa AI 개선",
+    "evidence_list": [
+      "Alexa 스마트홈 제어"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0059",
+      "ppt1_chunk_0062"
+    ]
+  },
+  {
+    "id": "22fcccf35963",
+    "name": "드라이브 스루 주문",
+    "type": "Keyword",
+    "topic": "Agentic AI 생태계",
+    "page": "Agentic AI 도입 사례 1/2",
+    "description": "Wendy's 자연어 주문 자동화",
+    "evidence_list": [
+      "TTS, STT, LLM 기반 주문 처리"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0059",
+      "ppt1_chunk_0063"
+    ]
+  },
+  {
+    "id": "c28c4002f196",
+    "name": "컨설팅 추진 방법론 및 주요 사례",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "Agentic AI 컨설팅 방법론과 사례",
+    "evidence_list": [
+      "Agentic AI 컨설팅 방법론과 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0125"
+    ]
+  },
+  {
+    "id": "6686450a9f57",
+    "name": "컨설팅 방법론",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "컨설팅 추진 방법론 및 주요 사례",
+    "description": "AI 컨설팅 추진 전략 및 사례",
+    "evidence_list": [
+      "컨설팅 추진 방법론 및 주요 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0125"
+    ]
+  },
+  {
+    "id": "d4606a22e6b4",
+    "name": "업무 재설계",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "컨설팅 추진 방법론 및 주요 사례",
+    "description": "Human+Agent 협업 업무 재설계",
+    "evidence_list": [
+      "기업 변화 기대치"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0074",
+      "ppt1_chunk_0078"
+    ]
+  },
+  {
+    "id": "0e0cdcddefac",
+    "name": "E2E 최적화",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "컨설팅 추진 방법론 및 주요 사례",
+    "description": "업무 전 과정 최적화 설계",
+    "evidence_list": [
+      "E2E 최적화 프로세스 설계"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0125"
+    ]
+  },
+  {
+    "id": "1fd95cb5acac",
+    "name": "과제 발굴",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "컨설팅 추진 방법론 및 주요 사례",
+    "description": "AI Agent 과제 발굴 관점",
+    "evidence_list": [
+      "AI Agent 서비스 과제 발굴"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0085",
+      "ppt1_chunk_0125"
+    ]
+  },
+  {
+    "id": "f3ac1303f1a8",
+    "name": "기능 특화 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "컨설팅 추진 방법론 및 주요 사례",
+    "description": "기능별 특화 Agent 유형 정의",
+    "evidence_list": [
+      "기능 특화 Agent 유형 사전 정의"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "afa811e37850",
+    "name": "Agentic AI 보고서 개요",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "보고서 목차 및 구성 안내",
+    "evidence_list": [
+      "보고서 목차 및 구성 안내"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0122"
+    ]
+  },
+  {
+    "id": "ffade029e13a",
+    "name": "보고서 목차",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 보고서 개요",
+    "description": "Agentic AI 주요 섹션 구성",
+    "evidence_list": [
+      "Agentic AI 보고서 개요"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0122"
+    ]
+  },
+  {
+    "id": "1579429c8092",
+    "name": "진실과 오해",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 보고서 개요",
+    "description": "동향 및 개요 설명",
+    "evidence_list": [
+      "Agentic AI 동향 및 개요"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0004",
+      "ppt1_chunk_0013",
+      "ppt1_chunk_0027",
+      "ppt1_chunk_0032",
+      "ppt1_chunk_0070"
+    ]
+  },
+  {
+    "id": "eded84ccf961",
+    "name": "생태계 및 Key Players",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 보고서 개요",
+    "description": "생태계 설명",
+    "evidence_list": [
+      "Agentic AI 생태계 및 Key Players"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0005",
+      "ppt1_chunk_0033",
+      "ppt1_chunk_0036",
+      "ppt1_chunk_0064",
+      "ppt1_chunk_0071"
+    ]
+  },
+  {
+    "id": "fd4619283f0f",
+    "name": "컨설팅 방법론 및 사례",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 보고서 개요",
+    "description": "방법론 및 사례 제시",
+    "evidence_list": [
+      "컨설팅 추진 방법론 및 주요 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0006",
+      "ppt1_chunk_0034",
+      "ppt1_chunk_0072",
+      "ppt1_chunk_0122",
+      "ppt1_chunk_0125"
+    ]
+  },
+  {
+    "id": "12744a54f4b1",
+    "name": "FY26 추진 필요성",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 보고서 개요",
+    "description": "미래 전략 및 필요성",
+    "evidence_list": [
+      "FY26 Agent-X 추진 필요성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0122",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "81902b703678",
+    "name": "Agentic AI 집중해야 하는 영역",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "기업 변화 기대치 및 AI 활용 접근법",
+    "evidence_list": [
+      "기업 변화 기대치 및 AI 활용 접근법"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074"
+    ]
+  },
+  {
+    "id": "95e14a86446b",
+    "name": "Human+Agent 협업",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 집중해야 하는 영역",
+    "description": "사람과 AI 협업 업무 방식",
+    "evidence_list": [
+      "64% 기업 협업 방식 채택"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074",
+      "ppt1_chunk_0075"
+    ]
+  },
+  {
+    "id": "655a579931c7",
+    "name": "업무 재설계",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 집중해야 하는 영역",
+    "description": "프로세스 및 Agent 재설계",
+    "evidence_list": [
+      "프로세스 재설계 필요"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074",
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "c9c92fe627e9",
+    "name": "AI 주도 역할",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 집중해야 하는 영역",
+    "description": "AI 중심 업무 수행",
+    "evidence_list": [
+      "22% AI 주도"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074"
+    ]
+  },
+  {
+    "id": "23de6e9163f3",
+    "name": "인적 역량 우선",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 집중해야 하는 영역",
+    "description": "AI 보조적 활용",
+    "evidence_list": [
+      "14% 인적 역량 우선"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074"
+    ]
+  },
+  {
+    "id": "2a0dc247be3b",
+    "name": "협업 비중",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Agentic AI 집중해야 하는 영역",
+    "description": "인간+Agent+프로세스 협업 78%",
+    "evidence_list": [
+      "78% 협업 비중"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0074"
+    ]
+  },
+  {
+    "id": "067a1b50c125",
+    "name": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "반도체 제조 Value Chain 최적화",
+    "evidence_list": [
+      "반도체 제조 Value Chain 최적화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078"
+    ]
+  },
+  {
+    "id": "ae3c00e0f1fd",
+    "name": "설계 연계",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "description": "설계 데이터 및 Mask/Layout 적용",
+    "evidence_list": [
+      "설계 엔지니어 협업"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0079"
+    ]
+  },
+  {
+    "id": "af04bd5cc8e6",
+    "name": "원재료 입고",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "description": "소재 입고 확인 및 BOM 매칭",
+    "evidence_list": [
+      "구매 담당자 협업"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0080"
+    ]
+  },
+  {
+    "id": "d2bdac6b5b74",
+    "name": "공정준비",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "description": "설비 상태 진단 및 파라미터 셋팅",
+    "evidence_list": [
+      "현장 오퍼레이터 협업"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0081"
+    ]
+  },
+  {
+    "id": "3cd78469f244",
+    "name": "웨이퍼 전공정",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "description": "공정 진행 및 수율 모니터링",
+    "evidence_list": [
+      "공정 엔지니어 협업"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0082"
+    ]
+  },
+  {
+    "id": "8eb4feb9d04d",
+    "name": "후공정(조립)",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계 : E2E 최적화 프로세스 설계",
+    "description": "조립 및 검사 단계 전환",
+    "evidence_list": [
+      "품질 담당자 협업"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0083"
+    ]
+  },
+  {
+    "id": "13ff28a3034f",
+    "name": "AI Agent 서비스 과제 발굴 관점",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "Value-chain, 기술, 활용 유형별 과제 발굴",
+    "evidence_list": [
+      "Value-chain, 기술, 활용 유형별 과제 발굴"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "dac4641fd0bd",
+    "name": "Value-chain",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "AI Agent 서비스 과제 발굴 관점",
+    "description": "비즈니스 영역별 적용 가능성",
+    "evidence_list": [
+      "공통업무, HR, 재무 등"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0085"
+    ]
+  },
+  {
+    "id": "f5a076d65ebb",
+    "name": "기술 유형",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "AI Agent 서비스 과제 발굴 관점",
+    "description": "텍스트, 이미지, 코드 생성 등",
+    "evidence_list": [
+      "텍스트 생성, RAG, OCR"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "8b7bb89e84bb",
+    "name": "활용 유형",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "AI Agent 서비스 과제 발굴 관점",
+    "description": "문서 요약, AI assistant 등",
+    "evidence_list": [
+      "문서 요약, 멀티모달 검색"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0087"
+    ]
+  },
+  {
+    "id": "eab3a3e6dbe9",
+    "name": "모니터링 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "AI Agent 서비스 과제 발굴 관점",
+    "description": "상황 진단 및 이상 감지",
+    "evidence_list": [
+      "AMS/MS 이상 감지"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0091",
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0102"
+    ]
+  },
+  {
+    "id": "5097a498a72c",
+    "name": "업무 특화 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "AI Agent 서비스 과제 발굴 관점",
+    "description": "설비, 품질, IT 모니터링",
+    "evidence_list": [
+      "설비 모니터링 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0078",
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "69724ac00b26",
+    "name": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "6개 기능 특화 Agent 유형 정의",
+    "evidence_list": [
+      "6개 기능 특화 Agent 유형 정의"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089"
+    ]
+  },
+  {
+    "id": "9f5c897c0aa7",
+    "name": "검색/탐색 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "description": "정형/비정형 데이터 검색 및 Tool 호출",
+    "evidence_list": [
+      "RAG, Tool Calling, ReAct"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0090"
+    ]
+  },
+  {
+    "id": "1618c22f436e",
+    "name": "모니터링 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "description": "시스템 상태 및 이상 감지",
+    "evidence_list": [
+      "이상감지, 네트워크 모니터링"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0091",
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0102"
+    ]
+  },
+  {
+    "id": "775d0f04fe34",
+    "name": "분석/진단 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "description": "이상값 분류 및 원인 진단",
+    "evidence_list": [
+      "Root cause 진단, Self-Reflection"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0092"
+    ]
+  },
+  {
+    "id": "68ffa19c7cb1",
+    "name": "조치 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "description": "문제 해결 가이드 및 자동 조치",
+    "evidence_list": [
+      "조치 시나리오 추천"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0093",
+      "ppt1_chunk_0097"
+    ]
+  },
+  {
+    "id": "079d6b99fd72",
+    "name": "생성/요약 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 Agent 유형 사전 정의",
+    "description": "문서 요약 및 코드 생성",
+    "evidence_list": [
+      "CodeAct, Multi-Agent Workflow 생성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0094"
+    ]
+  },
+  {
+    "id": "1c1271992a38",
+    "name": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "기능 특화 Agent 활용 업무 협업 프로세스",
+    "evidence_list": [
+      "기능 특화 Agent 활용 업무 협업 프로세스"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "7c586363f8d5",
+    "name": "모니터링 Agent",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "description": "시스템 리소스 및 UI 상태 감시",
+    "evidence_list": [
+      "상태 모니터링 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0091",
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0102"
+    ]
+  },
+  {
+    "id": "b9b48029285a",
+    "name": "이상징후 탐지",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "description": "로그 변화 및 응답속도 분석",
+    "evidence_list": [
+      "이상 감지 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "52a73cdd628f",
+    "name": "원인 분석",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "description": "Root Cause 및 상관관계 분석",
+    "evidence_list": [
+      "Root Cause 분석 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0088",
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0101",
+      "ppt1_chunk_0102"
+    ]
+  },
+  {
+    "id": "4c11733561f0",
+    "name": "조치방안 도출",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "description": "조치 가이드 및 자동 실행",
+    "evidence_list": [
+      "자동 조치 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0096"
+    ]
+  },
+  {
+    "id": "106c06c5ff23",
+    "name": "결과 보고",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "업무 재설계: 기능 특화 기반 업무 특화 Agent 설계",
+    "description": "보고서 작성 및 알람 기능",
+    "evidence_list": [
+      "보고서 작성 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0097",
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0116"
+    ]
+  },
+  {
+    "id": "447126ab2532",
+    "name": "Case 1-1. IT Outsourcing : 모니터링",
+    "type": "Page",
+    "topic": "컨설팅 방법론",
+    "description": "ITO 업무에 AI Agent 적용 사례",
+    "evidence_list": [
+      "ITO 업무에 AI Agent 적용 사례"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0100"
+    ]
+  },
+  {
+    "id": "0a28e5012ba8",
+    "name": "수작업 모니터링",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Case 1-1. IT Outsourcing : 모니터링",
+    "description": "수동 점검 및 이상 감지",
+    "evidence_list": [
+      "8개 화면 25개 기능 점검"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0100",
+      "ppt1_chunk_0101"
+    ]
+  },
+  {
+    "id": "4109cc5fb2dc",
+    "name": "AI Agent 운영",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Case 1-1. IT Outsourcing : 모니터링",
+    "description": "자동 모니터링 및 조치",
+    "evidence_list": [
+      "이상 감지, 자동 조치 수행"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0100"
+    ]
+  },
+  {
+    "id": "76a6b258c4e5",
+    "name": "생산성 향상",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Case 1-1. IT Outsourcing : 모니터링",
+    "description": "93% 업무 효율 개선",
+    "evidence_list": [
+      "IT 모니터링 자율 운영 5.3분"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0009",
+      "ppt1_chunk_0012",
+      "ppt1_chunk_0068",
+      "ppt1_chunk_0100"
+    ]
+  },
+  {
+    "id": "87a2f76c7973",
+    "name": "기술 연계",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Case 1-1. IT Outsourcing : 모니터링",
+    "description": "LLM, RAG, RPA 등 활용",
+    "evidence_list": [
+      "LLM, Vector DB, RPA"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0100"
+    ]
+  },
+  {
+    "id": "7ed1163a6243",
+    "name": "연계 시스템",
+    "type": "Keyword",
+    "topic": "컨설팅 방법론",
+    "page": "Case 1-1. IT Outsourcing : 모니터링",
+    "description": "AMS, 인프라 모니터링, 로그 관리",
+    "evidence_list": [
+      "Dynatrace, Nagios, Splunk"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0100",
+      "ppt1_chunk_0102",
+      "ppt1_chunk_0105"
+    ]
+  },
+  {
+    "id": "9d4e54510234",
+    "name": "FY26 Agent-X 추진 필요성",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "Agent-X 프로젝트 추진 당위성 및 계획",
+    "evidence_list": [
+      "Agent-X 프로젝트 추진 당위성 및 계획"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "77cc45309dcb",
+    "name": "FY26 목표",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "FY26 Agent-X 추진 필요성",
+    "description": "2026년 프로젝트 목표 설정",
+    "evidence_list": [
+      "FY26 Agent-X 추진 필요성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "9f84e9df0485",
+    "name": "미래 전략",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "FY26 Agent-X 추진 필요성",
+    "description": "장기 비전 및 전략 수립",
+    "evidence_list": [
+      "미래 전략 수립"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "289e798054a7",
+    "name": "프로젝트 필요성",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "FY26 Agent-X 추진 필요성",
+    "description": "조직 및 산업 변화 대응",
+    "evidence_list": [
+      "프로젝트 추진 필요성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "38a9c0489414",
+    "name": "기술 도입 타당성",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "FY26 Agent-X 추진 필요성",
+    "description": "신기술 도입 근거",
+    "evidence_list": [
+      "Agent-X 필요성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "f2830a399386",
+    "name": "목표 달성 조건",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "FY26 Agent-X 추진 필요성",
+    "description": "프로젝트 성공 요인",
+    "evidence_list": [
+      "목표 달성 위한 조건"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126"
+    ]
+  },
+  {
+    "id": "8d77f410b9b9",
+    "name": "Agentic AI 서비스 방법론",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "Agent 서비스 기획부터 운영까지 단계별 방법론",
+    "evidence_list": [
+      "Agent 서비스 기획부터 운영까지 단계별 방법론"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0127"
+    ]
+  },
+  {
+    "id": "4a0b4c9cc5ab",
+    "name": "서비스 전략 수립",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "Agentic AI 서비스 방법론",
+    "description": "Value Chain 분석 및 과제 발굴",
+    "evidence_list": [
+      "고객/산업별 Value Chain 분석"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0128",
+      "ppt1_chunk_0127"
+    ]
+  },
+  {
+    "id": "e69b070e79dd",
+    "name": "Agent 설계",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "Agentic AI 서비스 방법론",
+    "description": "핵심 기능별 Agent 정의 및 커스터마이징",
+    "evidence_list": [
+      "핵심 Activity 유형별 Agent 기능 정의"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0127",
+      "ppt1_chunk_0129",
+      "ppt1_chunk_0132",
+      "ppt1_chunk_0133"
+    ]
+  },
+  {
+    "id": "247f0a6ea01d",
+    "name": "Agent 개발",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "Agentic AI 서비스 방법론",
+    "description": "AI 모델 선택 및 프롬프트 개발",
+    "evidence_list": [
+      "AI 모델 선택, Prompt Engineering"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0037",
+      "ppt1_chunk_0043",
+      "ppt1_chunk_0077",
+      "ppt1_chunk_0127",
+      "ppt1_chunk_0130"
+    ]
+  },
+  {
+    "id": "60a5ae207860",
+    "name": "운영 및 모니터링",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "Agentic AI 서비스 방법론",
+    "description": "성능 모니터링 및 지속 개선",
+    "evidence_list": [
+      "SLA/KPI 기반 모니터링"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0127"
+    ]
+  },
+  {
+    "id": "d00274a697a0",
+    "name": "Human-Agent 협업",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "Agentic AI 서비스 방법론",
+    "description": "업무 협업 가이드 및 교육",
+    "evidence_list": [
+      "Human-Agent 업무 협업 가이드"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0127",
+      "ppt1_chunk_0128"
+    ]
+  },
+  {
+    "id": "d36d9e87fb0f",
+    "name": "PwC Agentic AI 서비스 모델",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "PwC의 Agentic AI 통합 서비스 모델",
+    "evidence_list": [
+      "PwC의 Agentic AI 통합 서비스 모델"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0132"
+    ]
+  },
+  {
+    "id": "4bc0d929dc82",
+    "name": "산업 특화 Agent",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC Agentic AI 서비스 모델",
+    "description": "산업별 맞춤형 Agent 설계 및 운영",
+    "evidence_list": [
+      "제조 불량 분석, 금융 Risk 요약"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0132",
+      "ppt1_chunk_0143"
+    ]
+  },
+  {
+    "id": "944e7b7d935e",
+    "name": "기능 특화 Agent",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC Agentic AI 서비스 모델",
+    "description": "업무 중심 자동화 Agent 개발",
+    "evidence_list": [
+      "문서 요약, 코드 생성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0089",
+      "ppt1_chunk_0096",
+      "ppt1_chunk_0128",
+      "ppt1_chunk_0132",
+      "ppt1_chunk_0133"
+    ]
+  },
+  {
+    "id": "3b61502b1857",
+    "name": "개발 도구",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC Agentic AI 서비스 모델",
+    "description": "Agent 개발 체계 및 템플릿 제공",
+    "evidence_list": [
+      "Agent 개발 체계, Multi-Agent 관리"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0132",
+      "ppt1_chunk_0134"
+    ]
+  },
+  {
+    "id": "b746a91ca412",
+    "name": "인프라 최적화",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC Agentic AI 서비스 모델",
+    "description": "LLM 기반 인프라 설계 및 운영",
+    "evidence_list": [
+      "Vector DB, GPU 최적화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0132"
+    ]
+  },
+  {
+    "id": "c77dafc8558b",
+    "name": "Managed Service",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC Agentic AI 서비스 모델",
+    "description": "원스톱 설계, 구현, 운영 서비스",
+    "evidence_list": [
+      "Managed Service 제공"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0132"
+    ]
+  },
+  {
+    "id": "5d05cd943fa5",
+    "name": "개발 플랫폼 검토",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "Agent 서비스 개발 플랫폼 전략 검토",
+    "evidence_list": [
+      "Agent 서비스 개발 플랫폼 전략 검토"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0136"
+    ]
+  },
+  {
+    "id": "9e306e96f364",
+    "name": "자체 개발 프레임워크",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "개발 플랫폼 검토",
+    "description": "Prompt 설계 및 Multi-Agent Orchestrator",
+    "evidence_list": [
+      "Prompt 설계, Agent SDK"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0136",
+      "ppt1_chunk_0137"
+    ]
+  },
+  {
+    "id": "09e7af40cf5e",
+    "name": "글로벌 Agent OS 활용",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "개발 플랫폼 검토",
+    "description": "산업별 특화 및 커스터마이징",
+    "evidence_list": [
+      "Agent OS 기능, SDK 호환성"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0136",
+      "ppt1_chunk_0138"
+    ]
+  },
+  {
+    "id": "7f1efd81d31b",
+    "name": "플랫폼 협업",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "개발 플랫폼 검토",
+    "description": "기술 적용 및 유지보수 생태계",
+    "evidence_list": [
+      "플랫폼 SDK, API 구조"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0136",
+      "ppt1_chunk_0139"
+    ]
+  },
+  {
+    "id": "505ae47d5668",
+    "name": "보안 및 거버넌스",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "개발 플랫폼 검토",
+    "description": "보안 정책 및 IP 관리",
+    "evidence_list": [
+      "보안/거버넌스 체계"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0136",
+      "ppt1_chunk_0140"
+    ]
+  },
+  {
+    "id": "4faa1c043060",
+    "name": "R&D 투자",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "개발 플랫폼 검토",
+    "description": "기술 및 리소스 확보",
+    "evidence_list": [
+      "R&D/개발 리소스, GPU 확보"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0136"
+    ]
+  },
+  {
+    "id": "bdd544d99f0c",
+    "name": "PwC's agent OS 개요",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "PwC agent OS 플랫폼 및 기능 소개",
+    "evidence_list": [
+      "PwC agent OS 플랫폼 및 기능 소개"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0141"
+    ]
+  },
+  {
+    "id": "03dc874d2020",
+    "name": "Agent OS 플랫폼",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's agent OS 개요",
+    "description": "AI Agent 개발 및 워크플로우 구성",
+    "evidence_list": [
+      "PwC agent OS 운영체제"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0141"
+    ]
+  },
+  {
+    "id": "f2ff5aae6b16",
+    "name": "글로벌 롤아웃",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's agent OS 개요",
+    "description": "2025년 7월 글로벌 배포 예정",
+    "evidence_list": [
+      "2025년 7월 글로벌 rollout"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0141",
+      "ppt1_chunk_0142"
+    ]
+  },
+  {
+    "id": "dc9bcd3c59fe",
+    "name": "Multi-Agent 관리",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's agent OS 개요",
+    "description": "다중 에이전트 통합 제어",
+    "evidence_list": [
+      "Multi Agent 통합 관리"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0134",
+      "ppt1_chunk_0141",
+      "ppt1_chunk_0143"
+    ]
+  },
+  {
+    "id": "09a37f6687da",
+    "name": "Low-Code 개발 환경",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's agent OS 개요",
+    "description": "GUI 기반 Agent 생성",
+    "evidence_list": [
+      "Low-Code 개발 환경"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0141",
+      "ppt1_chunk_0143"
+    ]
+  },
+  {
+    "id": "9edea2e7931f",
+    "name": "성능 및 보안 모니터링",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's agent OS 개요",
+    "description": "Agent 성능 및 AI 거버넌스",
+    "evidence_list": [
+      "처리 시간, 정확도, 보안 관리"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0141"
+    ]
+  },
+  {
+    "id": "dc9673e3e9ce",
+    "name": "PwC's Agent DEMO",
+    "type": "Page",
+    "topic": "추진 필요성",
+    "description": "PwC agent OS 기반 HR 유지관리 워크플로우 시연",
+    "evidence_list": [
+      "PwC agent OS 기반 HR 유지관리 워크플로우 시연"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0007",
+      "ppt1_chunk_0035",
+      "ppt1_chunk_0073",
+      "ppt1_chunk_0126",
+      "ppt1_chunk_0144"
+    ]
+  },
+  {
+    "id": "2f3bd98ea06f",
+    "name": "HR Retention Workflow",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's Agent DEMO",
+    "description": "HR 유지관리 프로세스 자동화",
+    "evidence_list": [
+      "HR Retention Workflow 데모"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0144",
+      "ppt1_chunk_0145"
+    ]
+  },
+  {
+    "id": "e21c436ef452",
+    "name": "Agent 역할 분담",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's Agent DEMO",
+    "description": "ABAP Pseudocode Reviewer 등",
+    "evidence_list": [
+      "다양한 HR 관련 Agent"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0144"
+    ]
+  },
+  {
+    "id": "8b3ff2217a50",
+    "name": "워크플로우 시각화",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's Agent DEMO",
+    "description": "단계별 프로세스 전환 및 데이터 흐름",
+    "evidence_list": [
+      "Transition, Data-flow 시각화"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0144"
+    ]
+  },
+  {
+    "id": "9a8b0cbf7aac",
+    "name": "사용자 인터페이스",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's Agent DEMO",
+    "description": "Diagram View 및 Zoom 기능",
+    "evidence_list": [
+      "Diagram view, 50% 확대"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0091",
+      "ppt1_chunk_0138",
+      "ppt1_chunk_0144",
+      "ppt1_chunk_0145"
+    ]
+  },
+  {
+    "id": "f92c7275b6bf",
+    "name": "운영 기능",
+    "type": "Keyword",
+    "topic": "추진 필요성",
+    "page": "PwC's Agent DEMO",
+    "description": "워크플로우 저장, 실행, 설정",
+    "evidence_list": [
+      "Save, Run workflow, Workflow Settings"
+    ],
+    "source_chunks": [
+      "ppt1_chunk_0144",
+      "ppt1_chunk_0145"
+    ]
+  }
+]

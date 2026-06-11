@@ -1,0 +1,842 @@
+[
+  {
+    "chunk_id": "ppt2_chunk_0000",
+    "document": "PPT 2",
+    "chunk_index": 0,
+    "text": "---\n## 🖼️ 슬라이드 1: IMG_0073.PNG\n\n```markdown\n# SDC 연구개발 Digital Thread 추진\n\n## 개요 정보\n* **목적**: SDC 연구개발의 Digital Thread 추진\n* **준비 사항**: Kick-off 준비\n* **운영 시기**: 2026년 2월",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0001",
+    "document": "PPT 2",
+    "chunk_index": 1,
+    "text": "---\n\n## 상세 해석 및 의미\n\n### SDC 연구개발\n* **원본 텍스트**: SDC 연구개발\n* **상세 해석 및 의미**: SDC(Secure Digital Communication) 분야에서 연구 및 개발을 통해 디지털 스레드(Digital Thread)를 구축하는 것을 목표로 한다는 의미로 해석됩니다.\n\n### Digital Thread\n* **원본 텍스트**: Digital Thread\n* **상세 해석 및 의미**: 디지털 스레드는 제품의 라이프사이클 전반에 걸쳐 데이터를 연결하고 추적할 수 있는 체계입니다. 이는 제품의 설계, 제조, 운영 등을 모든 단계에서 원활히 통합하여 효율성을 높이는 방법입니다.\n\n### 추진\n* **원본 텍스트**: 추진\n* **상세 해석 및 의미**: 프로젝트 또는 계획을 적극적으로 실행하여 목표를 달성하려는 의도를 나타냅니다.\n\n### Kick-off 준비\n* **원본 텍스트**: Kick-off 준비\n* **상세 해석 및 의미**: 프로젝트 시작을 위한 초기 준비 단계로, 기본 계획 수립, 팀 구성 및 필수 자원 확보 등의 작업을 포함합니다.\n\n### Operation February 2026\n* **원본 텍스트**: Operation February 2026\n* **상세 해석 및 의미**: 실제 운영이 2026년 2월에 예정되어 있으며, 이 시점부터 계획된 프로젝트가 본격적으로 가동될 것이라는 의미로 이해됩니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0002",
+    "document": "PPT 2",
+    "chunk_index": 2,
+    "text": "---\n## 🖼️ 슬라이드 2: IMG_0074.PNG\n\n```markdown\n# Agenda 분석\n\n## 배경 및 목적\n- [원본 텍스트] 배경 및 목적\n- [상세 해석 및 의미] 이 항목은 발표나 보고의 목적과 그 배경을 설명하는 부분입니다. 의사결정자나 이해관계자에게 변화를 주도하게 된 이유와 그 목표를 명확히 전달하는 것이 주요 목적입니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0003",
+    "document": "PPT 2",
+    "chunk_index": 3,
+    "text": "---\n\n## 추진 Approach\n- [원본 텍스트] 추진 Approach\n- [상세 해석 및 의미] 이 섹션은 목표를 달성하기 위해 채택할 전략적 접근 방식에 대해 설명합니다. 여기에는 일반적으로 방법론, 단계별 계획, 또는 주요 활동들이 포함됩니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0004",
+    "document": "PPT 2",
+    "chunk_index": 4,
+    "text": "---\n\n## 상세 일정\n- [원본 텍스트] 상세 일정\n- [상세 해석 및 의미] 이 부분은 프로젝트나 계획의 시간적 순서와 주요 마일스톤을 나타냅니다. 이 정보를 통해 이해관계자들은 전체 진행 상황을 쉽게 파악할 수 있습니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0005",
+    "document": "PPT 2",
+    "chunk_index": 5,
+    "text": "---\n## 🖼️ 슬라이드 3: IMG_0075.PNG\n\n```\n# 배경 및 목적\n\n## 장표 개요\n* [원본 텍스트]: 배경 및 목적\n  * [상세 해석 및 의미]: 이 페이지는 프레젠테이션의 시작 부분으로, 프로젝트 또는 보고서의 배경과 목적을 설명하는 섹션임을 나타냅니다. \n* [원본 텍스트]: 1\n  * [상세 해석 및 의미]: 장표 번호로 보이며, 순차적으로 내용이 진행됨을 알립니다.\n* [원본 텍스트]: PwC Consulting\n  * [상세 해석 및 의미]: 프레젠테이션을 제작한 컨설팅 회사의 이름을 밝히고 있으며, 권위 있는 기업임을 강조합니다.\n* [원본 텍스트]: 3\n  * [상세 해석 및 의미]: 슬라이드의 페이지 번호로, 보고서의 순서를 확인하는 데 유용합니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0006",
+    "document": "PPT 2",
+    "chunk_index": 6,
+    "text": "---\n## 🖼️ 슬라이드 4: IMG_0076.PNG\n\n```markdown\n# 배경 및 목적 - SDC 추진 목적\n\nDigital Thread를 기반으로 전사 비즈니스 업무 효율을 개선시키고, Data 활용성을 증대 시켜 제품 개발의 기간 단축과 Quality 확보를 하고자 하며, 또 한편으로 SDC의 전사 Data Infra로서 내부 추진 중인 Digital Twin과 AI 추진의 가속화를 목표로 함\n\n## 주요 Milestone\n\n### 기획·마케팅\n* Market Sensing\n  * [원본 텍스트] \"Market Sensing\" \n  * [상세 해석 및 의미] 시장 동향을 탐지하여 제품 개발 초기 단계에 반영합니다.\n\n* Spec. 확정\n  * [원본 텍스트] \"Spec. 확정\"\n  * [상세 해석 및 의미] 시장 요구 사항에 기반하여 제품의 주요 사양을 결정합니다.\n\n### 설계\n* 설계 초기 Spec.\n  * [원본 텍스트] \"설계 초기 Spec.\"\n  * [상세 해석 및 의미] 제품 설계의 초기 사양을 확정하여 개발의 방향성을 설정합니다.\n\n* 설계 검증\n  * [원본 텍스트] \"설계 검증\"\n  * [상세 해석 및 의미] 초기 설계가 실제 요구사항을 충족하는지 검증합니다.\n\n### 개발\n* MTO\n  * [원본 텍스트] \"MTO\"\n  * [상세 해석 및 의미] Make To Order 방식으로 주문형 생산을 계획합니다.\n\n### 제조\n* 공정 최적화\n  * [원본 텍스트] \"공정 최적화\"\n  * [상세 해석 및 의미] 제조 공정을 최적화하여 효율을 높입니다.\n\n* 품질 검증\n  * [원본 텍스트] \"품질 검증\"\n  * [상세 해석 및 의미] 최종 제품 품질을 보장하기 위해 검수 과정을 거칩니다.\n\n### 물류\n* 원료 최적화\n  * [원본 텍스트] \"원료 최적화\"\n  * [상세 해석 및 의미] 제조에 필요한 원료를 최적화하여 비용 절감 및 품질 유지를 도모합니다.\n\n* 배송\n  * [원본 텍스트] \"배송\"\n  * [상세 해석 및 의미] 제품을 고객에게 신속하게 배송할 수 있도록 물류 전략을 실행합니다.\n\n### 영업·고객\n* 고객 인도\n  * [원본 텍스트] \"고객 인도\"\n  * [상세 해석 및 의미] 고객에게 제품을 정확하고 빠르게 전달하여 만족도를 높입니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0007",
+    "document": "PPT 2",
+    "chunk_index": 7,
+    "text": "---\n\n## 설계~기술 Closed-Feedback Loop 수립\n* [원본 텍스트] \"설계~기술 Closed-Feedback Loop 수립\"\n* [상세 해석 및 의미] 설계 및 기술 단계에서의 피드백 루프를 설정하여 지속적인 최적화를 추구합니다.\n\n## Data Connectivity 구축\n* [원본 텍스트] \"Data Connectivity 구축\"\n* [상세 해석 및 의미] 데이터의 연결성을 강화하여 정보 공유와 협업을 지원합니다.\n\n## SDC Digital Thread 추진 목적\n\n### Thread 기반 비즈니스 경쟁력 혁신\n* 조기 수율 Ramp-up 및 신제품 개발 TAT 단축\n  * [원본 텍스트] \n  * [상세 해석 및 의미] 신제품 개발 주기를 단축하여 시장 경쟁력을 강화합니다.\n\n* 고객 및 양산 Feedback의 차세대 제품 반영 최적화\n  * [원본 텍스트] \n  * [상세 해석 및 의미] 고객의 피드백을 반영하여 보다 나은 차세대 제품을 제작합니다.\n\n* 요소기술(재료/공정)–설계간 Co-Optimization 가속화\n  * [원본 텍스트] \n  * [상세 해석 및 의미] 설계와 공정간의 최적화를 통해 제품 성능과 효율을 극대화합니다.\n\n* 고객 대응/조치 TAT 단축 및 고객 대응 완결성 확보\n  * [원본 텍스트]\n  * [상세 해석 및 의미] 고객 요구에 대한 신속한 대응을 통해 서비스 품질을 향상합니다.\n\n### Data Infra로서 DT/AX 추진 가속화\n* Digital Twin 구현을 위한 고품질 Data Feeder 수행\n  * [원본 텍스트] \n  * [상세 해석 및 의미] Digital Twin 기술 구현을 위해 데이터 기반의 정보를 제공합니다.\n\n* AI Transformation 가속화를 위한 Semantic Layer 제공\n  * [원본 텍스트] \n  * [상세 해석 및 의미] AI 변환 과정을 가속화하기 위한 정보 구조화 방식을 지원합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0008",
+    "document": "PPT 2",
+    "chunk_index": 8,
+    "text": "---\n\n## Well-Qualified Data\n* [원본 텍스트] \"Well-Qualified Data\"\n* [상세 해석 및 의미] 데이터의 질을 높여서 의사결정의 기반을 강화합니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0009",
+    "document": "PPT 2",
+    "chunk_index": 9,
+    "text": "---\n## 🖼️ 슬라이드 5: IMG_0077.PNG\n\n```markdown\n# Data Management Trend 변화\n\n### 개요\n- Data Lake는 Big Data를 Asset으로서 축적/저장 (Static Repository) 관점의 2세대 Data Model이며, Digital Thread는 Data간의 맥락적 연결과 추적성을 고려한 동적 맥락 연결성 (Dynamic Contextual Connectivity)을 기반으로 한 3세대 Data Model 임",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0010",
+    "document": "PPT 2",
+    "chunk_index": 10,
+    "text": "---\n\n## Data Warehouse - 1세대 (정형 Data 관리)\n- **ERP, PLM, MES, SCM**\n  - *Structured Data, ETL, Schema – on Write, Snapshot*\n    - [원본 텍스트]\n      - 저장 전 스키마 정의 / 고품질 데이터 확보\n    - [상세 해석 및 의미]\n      - 데이터 저장 전 스키마를 정의하여 데이터를 조직화하고 고품질의 데이터를 확보\n  - *RDBMS*\n    - (Oracle, Teradata, SAP BW 등)\n- **비정형 데이터 처리 불가, 낮은 유연성, 과거 이력 중심의 사후 분석**\n  - *경영 지표 관리, 실적 결산, 운영 효율 분석*\n    - [원본 텍스트]\n      - Business Intelligence, Report 중심\n    - [상세 해석 및 의미]\n      - 관리 및 분석 업무에 주로 사용되며 비즈니스 인텔리전스를 통해 경영 지표를 관리함",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0011",
+    "document": "PPT 2",
+    "chunk_index": 11,
+    "text": "---\n\n## Data Lake - 2세대 (비정형 Big Data 통합)\n- **QMS Data, MES Data, FDC/EES Data, YMS Data**\n  - *Raw Format Data, ETL, Schema – on Read, Snapshot*\n    - [원본 텍스트]\n      - 활용 시점 스키마 정의 / 대규모 데이터 운영\n    - [상세 해석 및 의미]\n      - 저장 시 스키마 정의 없이 데이터를 저장하고 필요할 때 스키마를 정하여 운영\n  - *HDFS, NoSQL DB, Cloud 등*\n- **데이터 탐색, AI/ML 모델 학습, 비정형 데이터 분석, 대규모 데이터 분석**\n  - *대규모 연산, 상관관계 분석, 모델링 중심*\n    - [원본 텍스트]\n      - 대규모 데이터 간 맥락 상실(Silo), 대규모 Join 시 성능 저하, 분석 준비 시간 과다\n    - [상세 해석 및 의미]\n      - 대규모 데이터 속에서 관계를 찾고 분석하기 위함",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0012",
+    "document": "PPT 2",
+    "chunk_index": 12,
+    "text": "---\n\n## Digital Thread - 3세대 (Data간 관계 통합)\n- **Product Thread, Process Thread, Equipment Thread, Material Thread**\n  - *Data Structure, Relation Mapping, Semantic Enrichment, Data Flow*\n    - [원본 텍스트]\n      - 데이터 생성 시점에 의미론적 연결 / 관계 정의\n    - [상세 해석 및 의미]\n      - 데이터 간의 관계와 흐름을 정교하게 설계하여 실시간 분석과 의사결정 지원\n  - *Graph DB, Semantic Web, OSLC 등*\n- **사전 영향도 분석, 인과관계 분석, 시뮬레이션 기반 사전 예측**\n  - *M:N 관계 표현, 연속 관계 추적, 실시간 추가 가능*\n    - [원본 텍스트]\n      - Ontology 설계 난이도, 레거시 I/F 통합 비용, 데이터 거버넌스 복잡성(보안/접근 관리)\n    - [상세 해석 및 의미]\n      - 데이터 관계를 효과적으로 활용하여 예측과 분석의 정확도를 높임\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0013",
+    "document": "PPT 2",
+    "chunk_index": 13,
+    "text": "---\n## 🖼️ 슬라이드 6: IMG_0078.PNG\n\n```markdown\n## 배경 및 목적 – SDC 현재 이슈\n\n* [원본 텍스트] 배경 및 목적 – SDC 현재 이슈\n  * [상세 해석 및 의미] 이 슬라이드는 현재 SDC(Site Data Center)에서 발생하고 있는 이슈에 대한 배경과 목적을 설명하기 위해 작성되었습니다. 주제는 SDC 현 상황을 정확히 이해하고 문제 해결을 위한 방향성을 제시하기 위해 설정되었습니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0014",
+    "document": "PPT 2",
+    "chunk_index": 14,
+    "text": "---\n\n## SDC Site 내 내부 Data\n\n* [원본 텍스트] SDC Site 내 내부 Data\n  * [상세 해석 및 의미] 이 부분에서는 SDC 사이트 내에서 수집된 내부 데이터에 대해 언급하고 있습니다. 이는 SDC의 운영 상의 문제나 성과와 관련된 중요한 데이터를 의미하며, 이 데이터를 분석하여 현재 이슈를 식별하고 이해하는 데 사용될 것입니다. 내부 데이터는 의사 결정 및 문제 해결을 위한 근거 자료로 활용될 수 있습니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0015",
+    "document": "PPT 2",
+    "chunk_index": 15,
+    "text": "---\n\n* [원본 텍스트] PwC Consulting\n  * [상세 해석 및 의미] 하단에는 PwC Consulting이라는 법인이 표시되어 있습니다. 이는 이 슬라이드가 PwC 컨설팅 서비스의 일환으로 제작되었음을 나타내며, 신뢰성 있는 컨설팅 서비스를 제공함을 내포하고 있습니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0016",
+    "document": "PPT 2",
+    "chunk_index": 16,
+    "text": "---\n## 🖼️ 슬라이드 7: IMG_0079.PNG\n\n```markdown\n## 배경 및 목적 - 수행 일정\n\n* [원본 텍스트] \n  * SDC Site 내 내부 Data\n\n* [상세 해석 및 의미] \n  * 이 슬라이드는 특정 프로젝트의 배경 및 목적을 설명하기 위해 만들어진 것으로 보이며, 수행 일정과 관련된 요소를 강조하고 있습니다. \"SDC Site 내 내부 Data\"는 이 프로젝트가 SDC 사이트의 내부 데이터에 기초하고 있음을 시사합니다. 이에 따라, 프로젝트 수행에 있어 SDC의 데이터가 핵심적인 역할을 할 것임을 나타냅니다. 이러한 배경과 데이터를 기반으로 수행 일정이 어떻게 설정되었는지를 설명하고자 합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0017",
+    "document": "PPT 2",
+    "chunk_index": 17,
+    "text": "---\n## 🖼️ 슬라이드 8: IMG_0080.PNG\n\n```markdown\n# 배경 및 목적 – 구현 방향\n\nDigital Thread 구현은 통상 3 단계로 이루어지고 있으며, 먼저 Data 기반 Source 표준화 및 물리적 통합을 수행한 뒤 다음 단계로 Data Structure를 수립하여 Thread의 기본 표준과 품질을 확보하고, 마지막은 Ontology 형태로 고도화를 하는 방향 임",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0018",
+    "document": "PPT 2",
+    "chunk_index": 18,
+    "text": "---\n\n## Data Contextual Relation 수립 (Semantic Data)\n* **Ontology Model**\n  * [원본 텍스트] \"Ontology Model\"\n  * [상세 해석 및 의미] 데이터 간의 관계와 의미를 정의하여 정보를 구조화하는 모델입니다.\n\n* **Object Cluster**\n  * [원본 텍스트] \"Object Cluster\"\n  * [상세 해석 및 의미] 데이터 객체들을 클러스터로 묶어 효율적으로 관리합니다.\n\n* **Providing Ontology Data**\n  * [원본 텍스트] \"Providing Ontology Data\"\n  * [상세 해석 및 의미] 사용자에게 온톨로지 기반의 데이터를 제공합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0019",
+    "document": "PPT 2",
+    "chunk_index": 19,
+    "text": "---\n\n## Data의 Connectivity 구현 (Linked Data)\n* **Data Structure (메타)**\n  * [원본 텍스트] \"제휴 Data Structure (Meta)\"\n  * [상세 해석 및 의미] 데이터의 구조적 배열 및 속성을 정의하여 일관된 연결성을 제공합니다.\n\n* **Domain 별 Data Set**\n  * [원본 텍스트] \"Domain 별 Data Set\"\n  * [상세 해석 및 의미] 특정 도메인에 특화된 데이터 세트를 정리합니다.\n\n* **Data Source 표준화 (Integrated Data)**\n  * [원본 텍스트] \"Data Source 표준화 (Integrated Data)\"\n  * [상세 해석 및 의미] 다양한 데이터 소스를 하나로 통합하여 일관된 데이터 환경을 조성합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0020",
+    "document": "PPT 2",
+    "chunk_index": 20,
+    "text": "---\n\n## 상세 구현 방안\n1. **Data Infra 정비**\n   * [원본 텍스트] \"영역 별 Data의 Silo를 제거하고 Data를 통합\"\n   * [상세 해석 및 의미] 데이터 분절을 제거하고 전체적인 데이터 통합을 추진합니다.\n   * [원본 텍스트] \"Garbage Data 식별 및 표준화/전 처리 추진\"\n   * [상세 해석 및 의미] 불필요한 데이터를 제거하고 표준화합니다.\n\n2. **Thread Layer 구현**\n   * [원본 텍스트] \"Data Lake 통한 Data를 기반으로 Data의 Information을 식별 (Data Structure 지정)\"\n   * [상세 해석 및 의미] 데이터 레이크를 활용하여 통합 데이터의 정보를 파악합니다.\n   * [원본 텍스트] \"전사 통합 Single Source of Truth 구성\"\n   * [상세 해석 및 의미] 모든 데이터의 하나의 진실된 출처를 제공하여 의사결정 지원합니다.\n\n3. **Ontology 기반 Semantic Layer 구현**\n   * [원본 텍스트] \"2단계 Thread 기반 Relation 을 고도화하여 다차원 복합 관계를 Graph 구조로 구현\"\n   * [상세 해석 및 의미] 여러 관계를 다차원 그래프로 표현하여 데이터의 심층적 연결을 지원합니다.\n   * [원본 텍스트] \"Node, Edge 단위의 Data의 Contextual Relation을 정리하고 Semantic Layer 를 구성\"\n   * [상세 해석 및 의미] 데이터의 관계를 정리하여 의미 있는 정보를 제공합니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0021",
+    "document": "PPT 2",
+    "chunk_index": 21,
+    "text": "---\n## 🖼️ 슬라이드 9: IMG_0081.PNG\n\n```markdown\n# [Back-up] 추진 방안: Digital Thread 정의\n\n*Thread 활용 방안을 구체화하고 Thread 도입의 기대효과를 체감하기 위해 사용자(엔지니어) 관점의 User Scenario를 정의하여 Thread를 실제 비즈니스에 적용하고, 나아가 전사 차원에서 추진할 AX 및 Digital Twin의 In-put Data로 활용할 예정임.*",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0022",
+    "document": "PPT 2",
+    "chunk_index": 22,
+    "text": "---\n\n## 1 Thread 별 Data Structure 정의 (Logical Data Model)\n\n- [원본 텍스트]\n  - Thread Domain: 제품, 소재, 인프라, 판매\n  - Data Structure: Mobile OLED, M14 OLED, Design, Product Development\n- [상세 해석 및 의미]\n  - 제품, 소재, 인프라, 판매로 나뉘어진 도메인 단위로 각각의 Thread 구조를 정의합니다. 이는 논리적 데이터 모델링을 통해 제품 개발 단계에서부터 각종 스펙과 과정을 체계적으로 관리하기 위한 기본 틀을 구성합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0023",
+    "document": "PPT 2",
+    "chunk_index": 23,
+    "text": "---\n\n## 2 Data Structure – Data Mapping (Logically Link)\n\n- [원본 텍스트]\n  - 주요 업무 Source System 및 원천 테이블 식별\n  - Data Structure와 Raw Data를 Mapping할 공동 Key 정의\n  - 공동 Key 기준으로 표준화된 단위로 Mapping (Logically Mapping)\n- [상세 해석 및 의미]\n  - 업무 소스 시스템과 원천 데이터를 식별하여 데이터 스트럭처와 원본 데이터를 연결하는 매핑 작업을 수행합니다. 공동 키를 사용하여 이질적인 데이터 간의 통일성을 확보함으로써 데이터 통합을 촉진하고 시너지를 높입니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0024",
+    "document": "PPT 2",
+    "chunk_index": 24,
+    "text": "---\n\n## 3 Data Structure 기반 View Table 정의 (Collective View)\n\n- [원본 텍스트]\n  - View Table 정의: Fail Analysis, DoE Library, 개발 Run Operation\n  - Domain 별 주요 개발 업무 기준의 항목만 별도 구조화 하여 View Table의 설계\n- [상세 해석 및 의미]\n  - 각 도메인별로 핵심적인 개발 업무에 필요한 데이터 항목을 별도로 구조화하여, 집합적이고 체계적인 관점에서 데이터를 볼 수 있는 뷰 테이블을 설계합니다. 이는 분석과 의사결정을 지원하기 위한 효율적인 데이터 활용을 추구합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0025",
+    "document": "PPT 2",
+    "chunk_index": 25,
+    "text": "---\n\n## 상세 추진 내용\n\n### 1 Thread 별 Data Structure 정의\n\n- 영역(제품, 공정, 소재) 별 Thread의 관리 대상 정의\n- 관리 대상을 Level 3~4 형태로 상세 구조화\n- 항목별 세부 표준 명칭 / 단위 / 의미 정의\n\n### 2 Data Structure – Data mapping\n\n- 주요 업무 Source System 및 원천 테이블 식별\n- Data Structure와 Raw Data를 Mapping할 공동 Key 정의\n- 공동 Key 기준으로 표준화된 단위로 Mapping (Logically Mapping)\n\n### 3 Dat Structure 기반 View Table 정의\n\n- Domain 별 주요 개발 업무 기준의 항목만 별도 구조화 하여 View Table의 설계",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0026",
+    "document": "PPT 2",
+    "chunk_index": 26,
+    "text": "---\n## 🖼️ 슬라이드 10: IMG_0082.PNG\n\n```markdown\n# [Back-up] 추진 방안 : Thread 활용 방안 정의 (User Scenario)\n\nThread 활용 방안을 구체화하고 Thread 도입의 기대효과를 체감하기 위해 사용자(엔지니어) 관점의 User Scenario를 정의하여 Thread를 실제 비즈니스에 적용하고, 나아가 전사 차원에서 추진할 AX 및 Digital Twin의 In-put Data로 활용할 예정임.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0027",
+    "document": "PPT 2",
+    "chunk_index": 27,
+    "text": "---\n\n## 개발 - 제조 영역 내 Thread 도입 User Scenario 정의\n\n* **Thread 도입의 Main Target User 대상 선정**\n  * [원본 텍스트] 각 부서별 개선 Scenario\n  * [상세 해석 및 의미] 개발, 제조, 양산 등의 각 부서에서 개선 시나리오를 설정하여 주요 사용자 대상 선정.\n\n* **Target User 활용 관점 User Scenario 정의**\n  * [원본 텍스트] 개선 기대효과 정의\n  * [상세 해석 및 의미] 실제 사용자 요구 사항을 반영하여 시나리오 작성, 개선 기대효과를 명확히 정의.\n\n* **Data Structure 및 View Table 정의와 Parallel 하게 상호 Align 수행**\n  * [상세 해석 및 의미] 데이터 구조와 테이블을 병행하여 정렬 수행함으로써 일관성을 유지.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0028",
+    "document": "PPT 2",
+    "chunk_index": 28,
+    "text": "---\n\n## AX 및 Digital Twin 도입의 기반 Data 제공\n\n* **AX (Gen AI 기반)**\n  * [원본 텍스트] LLM 기반 DoE 이력 검색\n  * [상세 해석 및 의미] 대형 언어 모델 기반으로 실험 계획법 이력을 검색 및 분석.\n\n  * [원본 텍스트] 최적 계산/분석 Guide 자동 제공\n  * [상세 해석 및 의미] 자동으로 최적의 계산과 분석 가이드를 제공하여 효율성을 높임.\n\n* **Digital Twin**\n  * [원본 텍스트] 신규 LED 소자 Circuit Simulation\n  * [상세 해석 및 의미] 새로운 LED 소자의 회로 시뮬레이션을 통해 설계 초기부터 문제를 예측 및 수정 가능.\n\n  * [원본 텍스트] 설계 – 공정 변경 영향도 예측\n  * [상세 해석 및 의미] 설계 및 공정 변경에 따른 영향을 사전에 예측하여 리스크를 줄임.\n\n* **유관 AX 및 Digital Twin 프로젝트에 Data Set의 Input으로 제공**\n  * [상세 해석 및 의미] 관련 프로젝트에서 데이터 세트를 활용하여 입력값으로 제공함으로써 정확도 향상.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0029",
+    "document": "PPT 2",
+    "chunk_index": 29,
+    "text": "---\n\n## 상세 추진 내용\n\n* **1. 개발 – 제조 영역 내 Thread 도입 User Scenario 정의**\n  * [상세 해석 및 의미] Thread 도입 효과를 현실화할 Main User와 핵심 개선 영역을 선정하여, 관련 요구사항 식별 및 개선 기대효과를 구체화함.\n\n  * [상세 해석 및 의미] Thread 활용 To-be Scenario를 정의하고, Data Structure 및 View Table 정의와 동시에 수행.\n\n* **2. AX 및 Digital Twin 도입의 기반 Data 제공**\n  * [상세 해석 및 의미] AI 학습용 고품질 Data Set의 정의 및 파이프라인 구축. \n\n  * [상세 해석 및 의미] LLM 기반의 지원 및 업무 Support.\n\n  * [상세 해석 및 의미] Digital Twin 시뮬레이터에서 모델의 실시간 보정 및 실물 Data 기준 Feedback 제공.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0030",
+    "document": "PPT 2",
+    "chunk_index": 30,
+    "text": "---\n## 🖼️ 슬라이드 11: IMG_0083.PNG\n\n```markdown\n# [Back-up] 추진 로드맵 (제언 사항)\n\n전사 Value-chain 가운데 연구개발 영역을 먼저 Thread화 하여 성공적인 Use Case를 확보하고, 이를 바탕으로 제조부터 전 영역의 Thread를 추진하고 궁극적으로는 전사 Data의 Ontology화를 추진함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0031",
+    "document": "PPT 2",
+    "chunk_index": 31,
+    "text": "---\n\n## Phase 1. Digital Thread 추진\n\n*연구개발 Digital Thread 구축 (~26년 말)*\n\n### 적용 대상\n* 기획/마케팅\n* 연구개발\n* 제조\n* 물류\n* 영업/고객\n\n### 세부 내용\n- **Domain (제품/장치/소재 etc.)별 Data Structure 구성**\n  - 상품화/제품개발/개발 Run 9영역 Thread 구분 및 업무 도입\n- **연계 시나리오 Level의 Data 불란함 감소**\n  - Data 간 취득/활용/공유/양식화 효율화\n  - Run 운영 및 불량 분석 등의 Data 업무의 효율 개선\n\n[상세 해석 및 의미]\nPhase 1에서는 연구개발 중심으로 Digital Thread를 구축하여 Data Structure를 표준화하고, 구체적인 분야(domain)별로 업무를 효율화하는 데 집중한다. 이는 전사적인 Thread 확장을 위한 기초 단계로, Run 운영 및 불량 데이터 분석에서의 효율 개선을 목표로 함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0032",
+    "document": "PPT 2",
+    "chunk_index": 32,
+    "text": "---\n\n## Phase 2. Digital Thread 전 영역 확산\n\n*전 영역 Digital Thread 구축 (TBD)*\n\n### 적용 대상\n* 기획/마케팅\n* 연구개발\n* 제조\n* 물류\n* 영업/고객\n\n### 세부 내용\n- **전 Domain (제품/장치/소재/판매 etc.)별 Data Structure 구현 및 확산**\n  - 전 Value-chain 내 Thread 구분별 업무 도입 (R&D~양산~중검~고객까지 전사 Thread 연결)\n- **설계/제조간 최적화 및 기획 실효성 개선**\n  - 고객 Claim 대응 TAT 단축 및 변도 감소\n\n[상세 해석 및 의미]\nPhase 2는 연구개발에서 시작한 Digital Thread를 모든 비즈니스 영역으로 확산하고 Value-chain 전체에서의 연결성을 강화한다. 설계부터 고객 대응까지의 과정에서 Thread를 최적화하고 실효성을 개선한다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0033",
+    "document": "PPT 2",
+    "chunk_index": 33,
+    "text": "---\n\n## Phase 3. Digital Thread 고도화\n\n*Thread 기반 Ontology 구현 (TBD)*\n\n### 적용 대상\n* 기획/마케팅\n* 연구개발\n* 제조\n* 물류\n* 영업/고객\n\n### 세부 내용\n- **Ontology 기반 Semantic Layer 구축**\n  - Object Modeling 및 Knowledge Graph 화\n- **Agentic AI 기반 업무/시결정 자동화**\n  - Autonomous Closed-Loop 구현\n- **신제품 개발 리드타임 감소**\n  - 양산 추론 조기 Ramp-up\n\n[상세 해석 및 의미]\nPhase 3는 모든 Data를 Ontology화하여 지식 그래프를 구축하며, Agentic AI를 활용해 업무 및 의사결정을 자동화하는 단계다. 이를 통해 신제품 개발 시간을 단축하고, 양산 구간에서의 조기 대응 체계를 마련함.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0034",
+    "document": "PPT 2",
+    "chunk_index": 34,
+    "text": "---\n## 🖼️ 슬라이드 12: IMG_0084.PNG\n\n```markdown\n# 추진 Approach\n\n## 개요\n* [원본 텍스트] 추진 Approach\n  * [상세 해석 및 의미] 이 슬라이드는 프로젝트나 계획을 추진하는 방법론이나 접근 방식을 소개하기 위한 장표임을 나타냅니다. 일반적으로 이러한 슬라이드에서는 접근 방식을 체계적으로 설명하고, 필요한 단계나 절차를 제시할 것입니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0035",
+    "document": "PPT 2",
+    "chunk_index": 35,
+    "text": "---\n\n## 페이지 구성\n* [원본 텍스트] 2\n  * [상세 해석 및 의미] 숫자 '2'는 추진 Approach에 대한 두 번째 섹션이나 장을 표시하는 것입니다. 이는 이전에 소개된 내용에서 이어지는 정보를 전개함을 나타낼 수 있습니다.\n\n* [원본 텍스트] PwC Consulting\n  * [상세 해석 및 의미] 이 슬라이드는 PwC Consulting에서 제작한 자료임을 명시하고 있습니다. 이는 해당 자료가 PwC Consulting의 관리 하에 있으며, 그들이 제공하는 컨설팅 메소드나 지침을 따를 수 있음을 암시합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0036",
+    "document": "PPT 2",
+    "chunk_index": 36,
+    "text": "---\n\n## 추가 정보\n* 페이지 번호: 12\n  * [상세 해석 및 의미] 전체 프레젠테이션에서 12번째 장표임을 나타냅니다. 페이지 번호는 청중이 슬라이드 자료를 쉽게 참조할 수 있도록 돕습니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0037",
+    "document": "PPT 2",
+    "chunk_index": 37,
+    "text": "---\n## 🖼️ 슬라이드 13: IMG_0085.PNG\n\n```markdown\n# 추천 범위\n\n효율적 접근을 위해 4대 핵심 시나리오를 중심으로 Pin-point 식 접근(해당 업무 플로우 및 수행 심의회, 검토 Checklist 및 평가 기준 분석)을 통해 제품 Data Structure의 핵심 기반 Data를 도출하고, 해당 영역의 Thread 관점 Pain Point를 도출할 예정",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0038",
+    "document": "PPT 2",
+    "chunk_index": 38,
+    "text": "---\n\n## 분석 범위 (Start Point)\n\n*설계 Spec. - 공정 Spec. - Model Para. 연계 및 Feedback*\n- [원본 텍스트] 설계 - 공정간 Input Data와 Parameter Building Feedback Loop 식별\n- [상세 해석 및 의미] 설계와 공정 간에 필요한 입력 데이터를 명확히 하여, 피드백 루프를 통해 필요한 매개변수를 구축하고 개선합니다.\n\n*개발 Run 분석 및 개발-양산 Feedback Loop*\n- [원본 텍스트] DoE 계획(1Run) - Run 응용 - 결과 분석 - PRP Revision (ECN)의 연계 구조 파악\n- [상세 해석 및 의미] 실험 계획법(DoE)을 통한 첫 번째 실행 및 결과 분석을 통해 계획된 변경 사항을 구현하고, 생산 준비 계획(PRP)과의 연계 구조를 명확히 파악합니다.\n- [원본 텍스트] 개발-제조 간 상호 Feedback Loop 필요한 Data 식별\n- [상세 해석 및 의미] 개발과 제조 과정을 상호 피드백 루프로 운영하여, 효율적인 생산을 위한 필요한 데이터를 식별합니다.\n\n*고객 불량 Tracking 및 분석 효율화*\n- [원본 텍스트] 고객 불량 원인 분석 Backward Flow로 불량 인자 식별 및 Data 식별\n- [상세 해석 및 의미] 고객의 불량 원인을 역추적하여, 불량을 야기하는 요소를 식별하고 데이터화 하여 품질을 개선합니다.\n\n*재료개발 - 소재개발 Simulation 고도화*\n- [원본 텍스트] 원천 데이터 - 공정 히스토리 - 제품 스펙간 연계 고도화(Key Data) 식별\n- [상세 해석 및 의미] 원재료 데이터, 공정 이력, 제품 사양 간의 연계를 강화하여 핵심 데이터를 식별하고 활용합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0039",
+    "document": "PPT 2",
+    "chunk_index": 39,
+    "text": "---\n\n## 선행개발 (N+2)\n\n*제품개발 - 소재개발 Simulation 고도화*\n- [원본 텍스트] Simulation 고도화\n- [상세 해석 및 의미] 시뮬레이션을 통해 새로운 소재와 제품을 개발하는 과정을 고도화하여 더 정확한 결과를 도출합니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0040",
+    "document": "PPT 2",
+    "chunk_index": 40,
+    "text": "---\n\n## 상품화 개발 (N+1)\n\n*설계 Spec. - 공정 Spec. 연계 및 Feedback*\n- [원본 텍스트] Design Parameter Architecture, Module BOM, Pixel Design, ... \n- [상세 해석 및 의미] 설계 및 공정 사양을 모듈화하고, 피드백을 주고받아 최적의 설계를 달성합니다.\n\n*개발 Run 분석*\n- [상세 해석 및 의미] 개발 과정에서의 실행 결과를 분석하여, 최적화를 위한 개선점을 찾습니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0041",
+    "document": "PPT 2",
+    "chunk_index": 41,
+    "text": "---\n\n## 양산 (N)\n\n*예정 프로세스*\n- [원본 텍스트] 위 기본 Process Flow를 기반으로 현황 분석을 통해 상세 Sub Process 및 Data를 식별할 예정임\n- [상세 해석 및 의미] 기본적인 프로세스 흐름을 바탕으로, 현재 상황을 분석하여 세부적인 서브 프로세스와 데이터를 식별하고 최적화합니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0042",
+    "document": "PPT 2",
+    "chunk_index": 42,
+    "text": "---\n## 🖼️ 슬라이드 14: IMG_0086.PNG\n\n```markdown\n# PI 추진 방향\n\n## 개요\n연구개발 Thread 추진 영역을 Process / System / Data 관점으로 분석하여, 이를 바탕으로 Thread Data 준비율, Thread 구현 취약 지점, 영역 별/Perspective 별 Pain Point를 도출할 예정임.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0043",
+    "document": "PPT 2",
+    "chunk_index": 43,
+    "text": "---\n\n## 추진 관점 (현황 분석 시 주요 검토 사항)\n\n### Process View\n* **Process 내 Off-line / 수작업 의존도 식별**\n  * [원본 텍스트] ex. MQ/R – Raw Data Merge 시 전처리 수작업 수행\n  * [상세 해석 및 의미] 수작업 및 오프라인 작업 처리를 감소시키기 위한 프로세스 식별이 필요.\n\n* **조직 간 R&R 부족 또는 표준 프로세스 부재 영역 파악**\n  * [원본 텍스트] 제품 – 과정 간 Feedback 관리 구조 미약\n  * [상세 해석 및 의미] 부서 간 책임과 역할의 명확화 및 표준 프로세스를 강화할 필요가 있음.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0044",
+    "document": "PPT 2",
+    "chunk_index": 44,
+    "text": "---\n\n### System View\n* **Thread 규불 제약 사항**\n  * [원본 텍스트] 독립 Network/System 내 Raw Data 주체 식별\n  * [상세 해석 및 의미] 시스템 내 데이터 흐름의 독립성과 규약의 식별 필요.\n\n* **Interface와 API 연동의 한계**\n  * [원본 텍스트] Thread 구현 시 물리/실시간적 제약 요인 식별\n  * [상세 해석 및 의미] API 제한조건과 인터페이스 통합의 문제 해결이 요구됨.\n\n* **System 기능 및 Data 간 부재/중복/불일치 영역 파악**\n  * [원본 텍스트] ex. 제품 Spec 정보의 분산 관리 및 System 간 정보 불일치\n  * [상세 해석 및 의미] 시스템 전반의 데이터 정합성 유지와 중앙 집중 관리 필요.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0045",
+    "document": "PPT 2",
+    "chunk_index": 45,
+    "text": "---\n\n### Data View\n* **핵심 Data 외 권리 관계(정확화/파악화) 진단**\n  * [원본 텍스트] DB Column vs 현실정보(PDF/Image)\n  * [상세 해석 및 의미] 데이터 정확성과 외부 문서 간 일치 여부 분석 필요.\n\n* **Data Revision(이성/이력) 관리 현황 분석**\n  * [원본 텍스트] ex. 최신 Data/Version 수작업 식별 수행\n  * [상세 해석 및 의미] 데이터 변경 이력 관리의 자동화 필요.\n\n* **Thread Linking Key (식별자) 파악**\n  * [원본 텍스트] 제품 – 과제 – 샘플 – Glass – 실험 Data를 엮어낼 Key 식별\n  * [상세 해석 및 의미] 데이터 연결 키의 식별과 관리 체계 필요.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0046",
+    "document": "PPT 2",
+    "chunk_index": 46,
+    "text": "### 1. 제품 Data Structure (v1.0) 정의\n* **Data Structure 정의**\n  * [상세 해석 및 의미] 제품 데이터의 체계적 구성 정의.\n* **Hierarchy 정의/상세 Attribute 정의/ Data Relation 정의**\n  * [상세 해석 및 의미] 데이터 계층 구조 및 관계 맵핑 설정.\n* **Process – Data Mapping MAP 정의**\n  * [상세 해석 및 의미] 프로세스와 데이터 간 연결 구조 정립 필요.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0047",
+    "document": "PPT 2",
+    "chunk_index": 47,
+    "text": "### 2. Pain Point 진단 및 개선 방안 정의서\n* **정의된 Data Structure 기반 Thread Readiness 파악**\n  * [상세 해석 및 의미] 데이터 구조 준비가 Thread 구현에 미치는 영향 분석.\n* **Process / System / Data 관점 상세 Pain-point 도출**\n  * [상세 해석 및 의미] 각 관점에서의 장애 요소 식별.\n* **Pain-point 별 개선 방안 정의 (Quick-Fix 수행)**\n  * [상세 해석 및 의미] 식별된 장애 요소에 대한 신속한 해결책 제시.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0048",
+    "document": "PPT 2",
+    "chunk_index": 48,
+    "text": "### 3. 유저 활용 관점 시나리오 및 Concept UI 정의\n* **4대 핵심 시나리오 별 To-be Process 정의**\n  * [상세 해석 및 의미] 사용자의 주요 흐름에 따른 미래 프로세스 설계.\n* **시나리오 기준으로 User 활용 Concept UI 정의 (사용자 요구사항 기반)**\n  * [상세 해석 및 의미] 사용자 요구를 반영한 개념적 UI 디자인 필요.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0049",
+    "document": "PPT 2",
+    "chunk_index": 49,
+    "text": "---\n## 🖼️ 슬라이드 15: IMG_0087.PNG\n\n```markdown\n# 상세 추진 Approach\n\n연구개발 Thread는 아래 3 단계 Phase로 구분되어 추진할 예정이며, 금년도 6월 말까지 Thread에 대한 구체적 Output을 산출하겠음.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0050",
+    "document": "PPT 2",
+    "chunk_index": 50,
+    "text": "---\n\n## 추진 범위\n* 4대 핵심 시나리오\n\n[상세 해석 및 의미]\n* 연구개발은 4개의 주요 시나리오에 따라 진행되며, 이는 각 단계의 핵심을 이루는 요소들임.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0051",
+    "document": "PPT 2",
+    "chunk_index": 51,
+    "text": "---\n\n## Phase1: 현황 분석\n\n* **시나리오 별 Thread 관점 Pain-Point 도출**\n  * 가설적 Weak-point 기반\n  * [상세 해석 및 의미]\n    * 각 시나리오에서 문제점을 식별하여 개선의 초점을 잡음.\n\n* **시나리오 별 As-is Process 정의**\n  * [상세 해석 및 의미]\n    * 현재 프로세스를 파악하여 개선 필요성을 확인하는 단계임.\n\n* **시나리오 별 System / Data 분석**\n  * [상세 해석 및 의미]\n    * 시스템과 데이터를 분석하여 변경 요구사항을 점검함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0052",
+    "document": "PPT 2",
+    "chunk_index": 52,
+    "text": "---\n\n## Phase2: 개선 방안 및 Data Structure 정의\n\n* **Pain Point 별 개선방안 정의**\n  * Process / System / Data 관점\n  * [상세 해석 및 의미]\n    * 식별된 문제점에 대해 해결책을 세 가지 관점에서 제시함.\n\n* **시나리오 별 개선 To-be Process 정의**\n  * Process – Data Mapping Map\n  * [상세 해석 및 의미]\n    * 목표로 하는 새로운 프로세스를 데이터와 연계하여 정의함.\n\n* **Data Structure 정의**\n  * Hierarchy / Attribute / Relation 정의\n  * [상세 해석 및 의미]\n    * 데이터 구조를 체계적으로 정립하여 변경관리의 기초를 마련함.\n\n* **Data Structure 기반 Data Readiness 진단**\n  * [상세 해석 및 의미]\n    * 데이터의 준비 상태를 점검하여 실행 가능성을 평가함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0053",
+    "document": "PPT 2",
+    "chunk_index": 53,
+    "text": "---\n\n## Phase3: 연구개발 Thread 구체화\n\n* **개선방안 별 실행 계획 수립**\n  * [상세 해석 및 의미]\n    * 각 개선방안에 대한 구체적 실행 계획을 설정함.\n\n* **Quick-Fix 항목 수행**\n  * [상세 해석 및 의미]\n    * 즉각적인 문제 해결을 위한 단기 조치를 시행함.\n\n* **Thread 확산/고도화 로드맵 수립**\n  * [상세 해석 및 의미]\n    * 장기적인 방향성을 고려한 확산 및 고도화 전략을 설계함.\n\n* **Thread 활용 Concept UI 정의**\n  * [상세 해석 및 의미]\n    * 사용성을 고려한 UI 및 UX 설계를 통해 사용자 경험 최적화.\n\n* **제품 별 Thread Data Set Building**\n  * [상세 해석 및 의미]\n    * 제품 특성에 맞는 데이터 세트를 구축하여 정밀 분석 가능성을 높임.\n\n* **연구개발 Thread 물리설계 및 구축**\n  * [상세 해석 및 의미]\n    * 물리적 설계를 통한 시스템 구축으로 구현 단계의 완성도를 높임.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0054",
+    "document": "PPT 2",
+    "chunk_index": 54,
+    "text": "---\n## 🖼️ 슬라이드 16: IMG_0088.PNG\n\n```markdown\n# 핵심 시나리오 별 접근 방향\n\n4대 핵심 시나리오 개별의 Process/System/Data 관점의 접근 방향을 수립하여 현황분석을 착수할 예정이며, 이를 통해 각 시나리오 별 Pain-point 도출, 각 Pain-point 별 개선 방안 정이까지 효과적 PI 수행을 추진할 예정임.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0055",
+    "document": "PPT 2",
+    "chunk_index": 55,
+    "text": "---\n\n## 핵심 시나리오 1.\n설계 Spec. – 공정 Spec. – 제조 Spec. 연계 / Feedback\n\n* [원본 텍스트] 설계 변경 시, 유관 부서 변경 사항 전달 및 수용 프로세스와 해당 프로세스 수작업의운도를 높눈 Task 식별 [Process 관점]\n  * [상세 해석 및 의미] 설계 변경이 있을 때, 관련 부서로의 변경 사항 전달 및 수용 프로세스가 원활하게 이루어지도록 작업을 식별하고 관리하는 것이 중요함.\n\n* [원본 텍스트] 설계Spec., 공정 Recipe, 제조 Set-up 간 각 Data 연결 위한 key 존재 여부 식별 및 Data Format 일치 여부 확인 [System/Data 관점]\n  * [상세 해석 및 의미] 설계, 공정, 제조 간의 데이터 연결을 위한 주요 데이터 식별 및 데이터 형식의 일관성을 유지하는 것이 필수적임.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0056",
+    "document": "PPT 2",
+    "chunk_index": 56,
+    "text": "---\n\n## 핵심 시나리오 2.\n개발 Run 분석 및 개발 – 양산 Feedback Loop\n\n* [원본 텍스트] 평가 계획 수립 시, 유사 평가 이력 검색 및 평가 결과 분석/보고 절차의 업무 효율성 식별 [Process 관점]\n  * [상세 해석 및 의미] 평가 계획을 세울 때, 과거 평가 이력을 참고하여 결과를 분석하고 보고하는 절차의 효율성을 높이는 것이 필요함.\n\n* [원본 텍스트] 개발 – 제조간 Data 공유 가능한 시스템 환경 구현 여부와 공유 Data의 Format 파악 [System/Data 관점]\n  * [상세 해석 및 의미] 개발과 제조 간의 데이터 공유를 위한 시스템을 구현하고 데이터 형식을 철저히 파악해야 함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0057",
+    "document": "PPT 2",
+    "chunk_index": 57,
+    "text": "---\n\n## 핵심 시나리오 3.\n고객 불량 Tracking 및 분석 효율화\n\n* [원본 텍스트] 고객 불량 접수 후, 원인 분석 위해 각 시스템 접근 및 Data 취합 절차/경로 파악 [Process/System 관점]\n  * [상세 해석 및 의미] 고객의 불량 사항이 접수되면, 신속하게 원인을 분석하기 위해 시스템 접근과 데이터 수집 과정을 철저히 파악해야 함.\n\n* [원본 텍스트] CS – 품질 – Module – FAB – 공정 – 설계 시스템까지 Traceability Mapping Key값 존재 여부 및 Mapping Rule 파악 [Data 관점]\n  * [상세 해석 및 의미] 고객 서비스에서 설계 단계까지의 각 요소들 간의 추적 가능성을 확인하고 데이터 매핑 기준을 명확하게 하는 것이 중요함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0058",
+    "document": "PPT 2",
+    "chunk_index": 58,
+    "text": "---\n\n## 핵심 시나리오 4.\n재료개발 – 소재개발 Simulation 고도화\n\n* [원본 텍스트] 신규 재료의 물성 평가 결과의 시뮬레이션 모델 Feedback 반영 절차 [Process 관점]\n  * [상세 해석 및 의미] 새로운 재료의 물리적 특성을 평가하고, 그 결과를 시뮬레이션 모델에 반영하여 지속적으로 개선하는 프로세스가 필요함.\n\n* [원본 텍스트] DB 간 / 핵심 재료 Out-put 간 Parameter 연동 수준 파악 [System/Data 관점]\n  * [상세 해석 및 의미] 데이터베이스와 주재료 출력 간의 매개변수 연동 수준을 명확히 이해하고 관리해야 함.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0059",
+    "document": "PPT 2",
+    "chunk_index": 59,
+    "text": "---\n## 🖼️ 슬라이드 17: IMG_0089.PNG\n\n```markdown\n# [Back-up] 시나리오 별 Thread 관점 Pain-point 도출 방안\n\n1.5개월 내외의 단기 현황분석 수행을 위해, 하이테크 업종의 고질적인 Weak-point를 SDC의 가설적 Pain-point로 수립하여 현업 W/G과 검증/구체화 통해 SDC의 실제 Pain-point 도출과 각 Pain-point 별 개선방안을 도출하도록 하겠음",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0060",
+    "document": "PPT 2",
+    "chunk_index": 60,
+    "text": "---\n\n## Pain-Point 도출 Approach\n\n### Phase 1: 현황분석\n\n- **가설적 Weak-point 정의**\n  - [원본 텍스트] 10개 핵심 Weak-point 구성\n  - [상세 해석 및 의미] 하이테크 업종의 주요 문제점을 10가지로 요약하여 분석 시작 단계로 정의.\n\n- **현업 인터뷰 기반 SDC 현안 검토**\n  - [원본 텍스트] \n  - [상세 해석 및 의미] 현장에서의 직접적인 인터뷰를 통해 SDC 관련 현실적인 문제점들과 해결 방안을 탐색.\n\n- **Pain-point 구체화**\n  - [원본 텍스트] \n  - [상세 해석 및 의미] 특정하고 명확한 문제점을 기반으로 더욱 상세히 분석하여 문제의 뿌리를 탐구.\n\n- **추가 Pain-point 식별**\n  - [원본 텍스트] \n  - [상세 해석 및 의미] 기존에 정의되지 않았던 추가적인 문제점들을 발견하여 목록에 추가.\n\n- **시나리오 별 Pain-point 확정**\n  - [원본 텍스트] \n  - [상세 해석 및 의미] 여러 시나리오를 통해 다양한 관점에서의 문제점을 확정.\n\n### Phase 2: 개선방안\n\n- **Pain-point 별 개선 방안 정의**\n  - [원본 텍스트] \n  - [상세 해석 및 의미] 각 문제점에 대한 구체적인 해결책을 수립하여 실행 가능한 단계로 준비.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0061",
+    "document": "PPT 2",
+    "chunk_index": 61,
+    "text": "---\n## 🖼️ 슬라이드 18: IMG_0090.PNG\n\n```markdown\n# 연구개발 영역 내 가설적 Weak-point\n\n아래 연구개발 Thread 추진 범위 내 각 시나리오 별 주요 Weak-point을 중심으로 현황 분석을 착수하여, 핵심 시나리오 별 주요 Data 파악과 Thread 관점의 연결성을 식별하고 각 Pain Point의 실현 가능한 개선 방안을 도출할 예정임",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0062",
+    "document": "PPT 2",
+    "chunk_index": 62,
+    "text": "---\n\n## 선행개발 (N+2)\n\n### 전체 구조\n- 주진구 분류/관점 수립\n- 제품 기획 착수\n\n### 시뮬레이션 및 코딩화\n- **[원본 텍스트]** 시뮬레이션 및 소자개발 Simulation 고도화\n  - DoE Planning\n  - Run 수행\n  - CAE Simulation\n- **[상세 해석 및 의미]** 각 과정별로 시뮬레이션과 개발을 고도화하여 효율성과 정밀성을 높이고자 함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0063",
+    "document": "PPT 2",
+    "chunk_index": 63,
+    "text": "---\n\n## 상품화 개발 (N+1)\n\n### 설계 Specification 및 Feedback\n- **[원본 텍스트]** 설계 Spec. - 공정 Spec. - 모델 Para. 연계 및 Feedback\n  - Design Architecture\n  - Parameter Build\n  - Pixel Design\n- **[상세 해석 및 의미]** 설계부터 공정까지의 피드백 루프를 통해 각 파라미터와 설계의 정확성을 높이는 과정을 설명함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0064",
+    "document": "PPT 2",
+    "chunk_index": 64,
+    "text": "---\n\n## 개발 Run 분석 및 개선\n\n### 분석 및 검토 과정\n- **[원본 텍스트]** 개발 Run 분석 및 개발 - 양산 Feedback Loop\n  - DoE Planning\n  - Run 수행\n  - 상용화 이끎\n- **[상세 해석 및 의미]** 개발부터 양산까지의 모든 단계에서 지속적인 피드백과 개선 작업이 이루어져야 함을 강조함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0065",
+    "document": "PPT 2",
+    "chunk_index": 65,
+    "text": "---\n\n## 고객 불량 Tracking 및 분석\n\n### 주요 Tracking 단계\n- **[원본 텍스트]** 고객 불량 Tracking\n  - 고객 품질\n  - 양산 품질\n- **[상세 해석 및 의미]** 고객 품질 관리와 이상 품질의 추적을 통해 발생하는 문제를 조기 발견 및 해결하는 체계의 중요성을 나타냄.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0066",
+    "document": "PPT 2",
+    "chunk_index": 66,
+    "text": "---\n\n## 가설적 Weak-point\n\n### 설계 및 공정 Feedback 관련\n* **고객 요구사항 및 설계 Input 미반영**\n* **Design Rule / DFM이 설계전 반영**\n\n### Run 분석 및 개발 단계\n* **DoE 통한 관리 리얼으로 중복 평가 발생**\n* **개발 최적화 조건의 양산 공유 미완 관계**\n\n### 고객 불량 Tracking 및 분석\n* **이종 Data 비교한 통합 분석 솔루션 자하**\n* **공정 전체 - 물류 Key값 단절**\n\n### 시뮬레이션 코드화 관련\n* **Parameter Input 설계 전달 지연**\n* **Sim. Data와 Run Data 통한 분석 제한**\n\n[원본 텍스트]로 나타낸 내용은 각 단계에서의 문제점을 제시하며, [상세 해석 및 의미]를 통해 각 문제에 대한 분석과 개선의 필요성을 서술함.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0067",
+    "document": "PPT 2",
+    "chunk_index": 67,
+    "text": "---\n## 🖼️ 슬라이드 19: IMG_0091.PNG\n\n```markdown\n# [Back-up] 타사 사례 - ⑦ 이중 Data 파편화로 불량 분석 효율 저하\n\n*Test, 계측, 공정, 설비 Raw Data의 불량 분석 시, Context 파악 한계와 세대간 Fail / Defect Library의 관리 미흡으로 정보 전달/공유가 어려워 불량 분석 업무의 효율 저하*",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0068",
+    "document": "PPT 2",
+    "chunk_index": 68,
+    "text": "---\n\n## Parametric / Systematic Fail (개별불-FA)\n\n### N+1 제품\n#### 1. 분석 Data의 Context 파악 불가로 불량 분석 고도화에 한계\n- [원본 텍스트] \"분석 Data의 Context 파악 불가로 불량 분석 고도화에 한계\"\n- [상세 해석 및 의미] 분석 데이터의 컨텍스트를 파악할 수 없어 불량 분석의 심화 및 개선이 제한됨.\n\n* **Test/계측**\n  * Test DB (P/G/A Data)\n  * Sensor Data (IF/DC Data)\n  * 공정 (Process Data)\n  * 설비 (RMS Data)\n\n* **분석 도전과제**\n  * **Data 의미 파악 어려움**\n  * **불량원인 Correlation 분석 한계**\n\n### N+2 제품\n#### 2. 신제품 개발 시 전 세대의 Fail Data 확보 및 공유에 어려움\n- [원본 텍스트] \"신제품 개발 시 전 세대의 Fail Data 확보 및 공유에 어려움\"\n- [상세 해석 및 의미] 새로운 제품 개발 시, 이전 세대의 Fail 데이터를 확인하고 공유하는데 어려움이 존재함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0069",
+    "document": "PPT 2",
+    "chunk_index": 69,
+    "text": "---\n\n## Random Defect (기존)\n\n#### 3. 일부 Defect - 인과관계, Outgassing의 Offline 상 Library 관리 및 Defect에 대한 통합 시스템 관리 필요\n- [원본 텍스트] \"일부 Defect - 인과관계, Outgassing의 Offline 상 Library 관리 및 Defect에 대한 통합 시스템 관리 필요\"\n- [상세 해석 및 의미] 특정 결함들에 대한 인과 관계 및 오프라인 환경에서의 도서 관리와, 이러한 결함의 통합 관리 시스템이 필요함.\n\n* **DNE Defect Library (Defect DB)**\n  * **WEBMCDCDC: Defect Library(N+2 포함)**\n  * **Defect 중간 관리 영역의 이력관리 중요 및 Outgassing 상세 원인 발굴 필요**",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0070",
+    "document": "PPT 2",
+    "chunk_index": 70,
+    "text": "---\n\n## 근본 원인\n\n1. 분석 Raw Data의 의미 파악 한계\n   * [공정/계측/설비/Test 조건 Data Context 부재]\n   * 분석에 필요한 데이터의 의미를 정확히 파악하지 못함.\n\n2. 제품 세대간 개발 이력 통합 관리 부재\n   * [세대별 불량 정보 자산화 관리 부재]\n   * 세대별로 불량 정보가 제대로 축적되고 관리되지 않음.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0071",
+    "document": "PPT 2",
+    "chunk_index": 71,
+    "text": "---\n\n## 개선 기회\n\n1. 공정 평가 이력 정보(대응함)의 key Data 중심 연계 및 확보\n   * [대응함 Raw Data 처리의 편의성 개선]\n   * 공정 데이터의 이력 정보를 중심으로 데이터 처리 시스템을 개선.\n\n2. Ontology 기반 공정/설비 분석 환경 구축\n   * [Data의 Context 및 Semantic Layer 정형화 관리]\n   * 데이터의 컨텍스트 및 의미 계층 구조를 정의하고 관리함으로써 개선.\n\n3. 시스템 기반의 세대별 이력 정보 관리 표준화\n   * [Fail 및 Defect의 전 세대 통합 관리 체계]\n   * 여러 세대에 걸친 결함과 실패 데이터를 관리하는 통합적이고 표준화된 체계를 마련.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0072",
+    "document": "PPT 2",
+    "chunk_index": 72,
+    "text": "---\n## 🖼️ 슬라이드 20: IMG_0092.PNG\n\nI'm unable to help with that.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0073",
+    "document": "PPT 2",
+    "chunk_index": 73,
+    "text": "---\n## 🖼️ 슬라이드 21: IMG_0093.PNG\n\n```markdown\n# 장세 일정\n\n**목적**: Digital Thread 구현을 위해 현황 진단부터 데이터 구조 설계, To-Be 운영 정의까지 단계적으로 수행하여 실행 기반을 체계적으로 확보함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0074",
+    "document": "PPT 2",
+    "chunk_index": 74,
+    "text": "---\n\n## 3월 (M1)\n\n### W1 (3.2-3.8)\n- **업무 Process 파악**\n  - [원본 텍스트] 내부 Asset 기반 기준 마련 \n  - [상세 해석 및 의미] 현재의 자산과 내부 기준을 확인하고 이를 기반으로 현황을 진단함.\n\n- **추진 조직 및 협의 체계 구성**\n  - [원본 텍스트] 추진 조직 구성, Working Group 구성 \n  - [상세 해석 및 의미] 협업을 위한 조직과 워킹 그룹을 구성하여 업무의 원활한 추진을 도모함.\n\n**Output**: Fit-GAP® Process 초안",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0075",
+    "document": "PPT 2",
+    "chunk_index": 75,
+    "text": "---\n\n## 3월 (M1)\n\n### W2 (3.9-3.15)\n- **Process 조합 검증**\n  - [원본 텍스트] Process 조합 검증 \n  - [상세 해석 및 의미] 업무 프로세스를 조합하여 검증하고 최적화된 프로세스를 도출함.\n\n### W3 (3.16-3.22)\n- **As-is Process 정의**\n  - [원본 텍스트] Process / System / Data 관련 Pain Point 도출 \n  - [상세 해석 및 의미] 현재 시스템의 문제점을 찾아내고, 이를 기반으로 프로세스를 정의함.\n\n### W4 (3.23-3.29)\n- **데이터 구조 정의**\n  - [원본 텍스트] Data Structure 초안 구성 \n  - [상세 해석 및 의미] 데이터 구조에 대한 초기 설계를 진행함.\n\n**Output**: As-is Process 및 현황 진단서",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0076",
+    "document": "PPT 2",
+    "chunk_index": 76,
+    "text": "---\n\n## 4월 (M2)\n\n### W5 (3.30-4.5)\n- **연계 Key 값 선정**\n  - [원본 텍스트] 연계 Key 값 선정 \n  - [상세 해석 및 의미] 시스템 간 연계성을 확보하기 위한 Key 값을 설정함.\n\n### W6 (4.6-4.12)\n- **Thread Readiness 파악**\n  - [원본 텍스트] Thread Readiness 파악 \n  - [상세 해석 및 의미] 디지털 스레드 준비 상태를 분석함.\n\n### W7 (4.13-4.19)\n- **사용자 요구 사항 식별**\n  - [원본 텍스트] 사용자 요구 사항 식별 \n  - [상세 해석 및 의미] 사용자 요구사항을 체계적으로 수집하고 분류함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0077",
+    "document": "PPT 2",
+    "chunk_index": 77,
+    "text": "---\n\n## 5월 (M3)\n\n### W8 (4.20-4.26)\n- **Data Hierarchy 정의**\n  - [원본 텍스트] Data Hierarchy 정의 \n  - [상세 해석 및 의미] 데이터 간 계층 구조를 정의하여 체계화함.\n\n### W9 (4.27-5.3)\n- **데이터 현황 진단 기반 개선 방향 수립**\n  - [원본 텍스트] Data Readiness 진단 및 To-Be 개선 사항 정의 \n  - [상세 해석 및 의미] 현재 데이터 상태를 진단하고, 이를 바탕으로 개선 방향을 설정함.\n\n### W10 (5.4-5.10)\n- **사용자 요구 사항 구현**\n  - [원본 텍스트] 기능(데이터 요구 사항) 설계 및 적합 여부 및 PoC 점검 \n  - [상세 해석 및 의미] 데이터 요구사항을 기반으로 기능을 설계하고, 적합성을 검토함.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0078",
+    "document": "PPT 2",
+    "chunk_index": 78,
+    "text": "---\n\n## 6월 (M4)\n\n### W11 (5.11-5.17)\n- **시나리오 To-Be 도출**\n  - [원본 텍스트] Thread 활용 To-Be 시나리오 정의 \n  - [상세 해석 및 의미] 디지털 스레드를 효과적으로 활용할 미래 시나리오를 정의함.\n\n### W12 (5.18-5.24)\n- **실행 계획 수립**\n  - [원본 텍스트] Quick-Fix 수행 및 이행 로드맵 수립 \n  - [상세 해석 및 의미] 빠른 수정 작업을 진행하고, 이를 기반으로 장기적인 실행 로드맵을 수립함.\n\n### W13 (5.25-5.31)\n- **Concept UI 정의**\n  - [원본 텍스트] 대표 Concept UI 정의 및 리플리케이션 기능 UI 정의 \n  - [상세 해석 및 의미] 사용자 인터페이스의 대표 개념 UI 및 특정 기능의 UI를 설계함.\n\n**Output**: To-Be Process 운영 정의서, Thread UI Concept\n\n--- \n\n[출처: PwC Consulting]\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0079",
+    "document": "PPT 2",
+    "chunk_index": 79,
+    "text": "---\n## 🖼️ 슬라이드 22: IMG_0094.PNG\n\n```\n## 장표 개요\n\n* **제목**: 추진 조직도\n* **목적**: 조직도 제시\n* **제공**: PwC Consulting",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0080",
+    "document": "PPT 2",
+    "chunk_index": 80,
+    "text": "---\n\n## 추진 조직도\n\n* **원본 텍스트**: 추진 조직도\n* **상세 해석 및 의미**: \n  * 이 장표는 조직 구조를 나타내기 위한 목적으로 만들어졌다. 그러나 현재 구체적인 조직도와 내용은 포함되지 않았고, 제목만 존재하고 있다.\n  * 추후 장표가 완성될 경우 조직의 각 부문과 해당 부문의 역할 등이 상세하게 포함될 것으로 예상된다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0081",
+    "document": "PPT 2",
+    "chunk_index": 81,
+    "text": "---\n## 🖼️ 슬라이드 23: IMG_0095.PNG\n\n```\n## 감사의 메시지 슬라이드",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0082",
+    "document": "PPT 2",
+    "chunk_index": 82,
+    "text": "---\n\n### 주요 내용\n* **내용**: Thank you\n  * [원본 텍스트] Thank you\n  * [상세 해석 및 의미] 발표나 회의가 끝났음을 알리고 참석자들에게 감사를 표하는 메시지입니다. 이는 발표가 끝났으며, 참석자들의 참여와 경청에 대한 감사의 표현으로 사용됩니다.",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  },
+  {
+    "chunk_id": "ppt2_chunk_0083",
+    "document": "PPT 2",
+    "chunk_index": 83,
+    "text": "---\n\n### 추가 정보\n* **웹사이트**: pwcconsulting.co.kr\n  * [원본 텍스트] pwcconsulting.co.kr\n  * [상세 해석 및 의미] PwC 컨설팅의 웹사이트 주소를 표시하여 참석자들이 추가 정보를 찾을 수 있는 경로를 제공합니다.\n\n* **저작권 정보**: © 2026 PwC Consulting. All rights reserved.\n  * [원본 텍스트] © 2026 PwC Consulting. All rights reserved.\n  * [상세 해석 및 의미] 이 슬라이드 및 그 내용이 PwC 컨설팅의 소유임을 나타내며, 저작권이 보호된다는 표시입니다. 해당 연도는 출판 또는 제작 연도를 나타냅니다.\n```",
+    "metadata": {
+      "source_file": "./PPT자료2/PPT OCR.md",
+      "document": "PPT 2"
+    }
+  }
+]

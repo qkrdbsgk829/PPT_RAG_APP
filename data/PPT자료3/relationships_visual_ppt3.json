@@ -1,0 +1,2717 @@
+[
+  {
+    "id": "a2f8cf932140",
+    "source": "PPT 3",
+    "source_id": "a3795511786d",
+    "source_type": "Document",
+    "relation": "HAS_TOPIC",
+    "target": "Overall Approach",
+    "target_id": "743482aceb49",
+    "target_type": "Topic",
+    "evidence_list": [
+      "PPT 3의 고정 대주제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0087",
+      "ppt2_chunk_0095",
+      "ppt2_chunk_0110"
+    ]
+  },
+  {
+    "id": "f476019bd534",
+    "source": "PPT 3",
+    "source_id": "a3795511786d",
+    "source_type": "Document",
+    "relation": "HAS_TOPIC",
+    "target": "구매 원가절감",
+    "target_id": "67eec4117cf4",
+    "target_type": "Topic",
+    "evidence_list": [
+      "PPT 3의 고정 대주제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0087",
+      "ppt2_chunk_0095",
+      "ppt2_chunk_0110"
+    ]
+  },
+  {
+    "id": "bcc718cdb94b",
+    "source": "PPT 3",
+    "source_id": "a3795511786d",
+    "source_type": "Document",
+    "relation": "HAS_TOPIC",
+    "target": "재고 절감",
+    "target_id": "2c95a8c7a99a",
+    "target_type": "Topic",
+    "evidence_list": [
+      "PPT 3의 고정 대주제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0087",
+      "ppt2_chunk_0095"
+    ]
+  },
+  {
+    "id": "8fc0701f09cc",
+    "source": "PPT 3",
+    "source_id": "a3795511786d",
+    "source_type": "Document",
+    "relation": "HAS_TOPIC",
+    "target": "물류비 절감",
+    "target_id": "ed25aa2d3d25",
+    "target_type": "Topic",
+    "evidence_list": [
+      "PPT 3의 고정 대주제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0087",
+      "ppt2_chunk_0095",
+      "ppt2_chunk_0097"
+    ]
+  },
+  {
+    "id": "1179089edd75",
+    "source": "PPT 3",
+    "source_id": "a3795511786d",
+    "source_type": "Document",
+    "relation": "HAS_TOPIC",
+    "target": "중장기 역량 강화 방안",
+    "target_id": "5bc9e78e44ef",
+    "target_type": "Topic",
+    "evidence_list": [
+      "PPT 3의 고정 대주제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072",
+      "ppt2_chunk_0087"
+    ]
+  },
+  {
+    "id": "b1dbf819e1dc",
+    "source": "Overall Approach",
+    "source_id": "743482aceb49",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "Agenda",
+    "target_id": "4126a0e2b838",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "발표의 주요 진행 내용을 영역별로 구분하여 정리한 목차(아젠다)"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "e98022673bcc",
+    "source": "Agenda",
+    "source_id": "4126a0e2b838",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "영역별 추진내용",
+    "target_id": "98f0444c9dd9",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "Agenda OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "f67ff20aa104",
+    "source": "Agenda",
+    "source_id": "4126a0e2b838",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "전반적 접근법",
+    "target_id": "1282f6f92188",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "Agenda 주요 프로세스"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "6d0c0db65a14",
+    "source": "Agenda",
+    "source_id": "4126a0e2b838",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "프로젝트 접근법",
+    "target_id": "2b57250eec17",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "e03982639743",
+    "source": "Agenda",
+    "source_id": "4126a0e2b838",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "To-Be 설계",
+    "target_id": "6b6981bb9bae",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "f29a5c5ea654",
+    "source": "Agenda",
+    "source_id": "4126a0e2b838",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "영역별 실행방안",
+    "target_id": "4b42d9b2c537",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "fbb17c9a178b",
+    "source": "Overall Approach",
+    "source_id": "743482aceb49",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "1.1 추진일정",
+    "target_id": "b503a52af3d9",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "2단계 7주 동안 To-Be 설계를 수행하며, 영역별 실행방안에 대해 격주 단위로 보고하는 추진일정"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "7cb81432ac37",
+    "source": "1.1 추진일정",
+    "source_id": "b503a52af3d9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "전략구매 체계",
+    "target_id": "43515315d8c5",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "2c177ea81ed2",
+    "source": "1.1 추진일정",
+    "source_id": "b503a52af3d9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "설비구매 관리체계",
+    "target_id": "65c88431697f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002"
+    ]
+  },
+  {
+    "id": "f4297772da90",
+    "source": "1.1 추진일정",
+    "source_id": "b503a52af3d9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "조직 운영 방향성",
+    "target_id": "865c0892f219",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "e55c0980d9c0",
+    "source": "1.1 추진일정",
+    "source_id": "b503a52af3d9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "재고관리 기준 수립",
+    "target_id": "31b6cc939156",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003"
+    ]
+  },
+  {
+    "id": "9271480eb1d3",
+    "source": "1.1 추진일정",
+    "source_id": "b503a52af3d9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "물류 Cost 운영 통합",
+    "target_id": "00c694885c32",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "1.1 추진일정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003"
+    ]
+  },
+  {
+    "id": "27f9c6aa191a",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "target_id": "961af5a2b784",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "원자재 및 부자재에 대한 전략구매 체계 구축을 위한 세부 과제 목록과 추진 항목"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "b54258c2efd9",
+    "source": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "source_id": "961af5a2b784",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "품목특성 분석",
+    "target_id": "07b6217bbe85",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005"
+    ]
+  },
+  {
+    "id": "d64a7d5089da",
+    "source": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "source_id": "961af5a2b784",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협력사 Sourcing",
+    "target_id": "4dc418838db2",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0018"
+    ]
+  },
+  {
+    "id": "acc1e7026665",
+    "source": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "source_id": "961af5a2b784",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협력사 관리",
+    "target_id": "e92fe805f2a7",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0014"
+    ]
+  },
+  {
+    "id": "05cf6012bc59",
+    "source": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "source_id": "961af5a2b784",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "개발-구매 협업",
+    "target_id": "e23d67493281",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050"
+    ]
+  },
+  {
+    "id": "f45a2a1b3dc2",
+    "source": "2.1 전략구매 체계 (원/부자재) – 세부과제 List",
+    "source_id": "961af5a2b784",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "전략구매 업무 표준화",
+    "target_id": "9d582f913ba7",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005"
+    ]
+  },
+  {
+    "id": "e493058ea263",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "target_id": "761ccab1bc36",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "품목 특성에 따른 차별화된 구매 전략과 협력사 관리 체계"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "240999da4c96",
+    "source": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "source_id": "761ccab1bc36",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "품목-협력사 운영 전략",
+    "target_id": "d23a4c92f994",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 Overall OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007"
+    ]
+  },
+  {
+    "id": "d25d81ba2838",
+    "source": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "source_id": "761ccab1bc36",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "잠재/신규 협력사 Sourcing",
+    "target_id": "27942bfdb955",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 Overall OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019"
+    ]
+  },
+  {
+    "id": "a883ef42de82",
+    "source": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "source_id": "761ccab1bc36",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협력사 평가 및 관리",
+    "target_id": "7245de3a79f6",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 Overall OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007"
+    ]
+  },
+  {
+    "id": "3d66ce94754c",
+    "source": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "source_id": "761ccab1bc36",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "가격 협상",
+    "target_id": "0d53cf70e1df",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 Overall OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0028",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "859f591dd656",
+    "source": "2.1 전략구매 체계 (원/부자재) – Overall",
+    "source_id": "761ccab1bc36",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "구매 원가 절감",
+    "target_id": "2982b0ccafc3",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1 전략구매 체계 Overall OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0007",
+      "ppt2_chunk_0053"
+    ]
+  },
+  {
+    "id": "4173199a3694",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "target_id": "e828c0f0e308",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "품목별 구매금액 중요도와 공급 Risk에 따른 전략구매 운영 및 평가 기준"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010"
+    ]
+  },
+  {
+    "id": "bb0cbc163e12",
+    "source": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "source_id": "e828c0f0e308",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "구매금액 중요도 평가",
+    "target_id": "97f6242678d6",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.1 품목특성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0014",
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0010"
+    ]
+  },
+  {
+    "id": "39b9921f1055",
+    "source": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "source_id": "e828c0f0e308",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "공급 Risk 평가",
+    "target_id": "d55d43cecbb9",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.1 품목특성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0013",
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009"
+    ]
+  },
+  {
+    "id": "efba3bd46b7b",
+    "source": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "source_id": "e828c0f0e308",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "품목군 분류",
+    "target_id": "2b078dd1d87b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.1 품목특성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0013"
+    ]
+  },
+  {
+    "id": "43ed64ca5190",
+    "source": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "source_id": "e828c0f0e308",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "차별화 구매 전략",
+    "target_id": "02d22a4e91af",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.1 품목특성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0013"
+    ]
+  },
+  {
+    "id": "4db0d73674e1",
+    "source": "2.1.1 품목특성을 고려한 전략구매 운영",
+    "source_id": "e828c0f0e308",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "전략품목 운영방안",
+    "target_id": "c6ec142435bd",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.1 품목특성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0008",
+      "ppt2_chunk_0009",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0011",
+      "ppt2_chunk_0013"
+    ]
+  },
+  {
+    "id": "95ed5406ceef",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1.2 잠재/신규 협력사 Sourcing",
+    "target_id": "d6c0d461e612",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "신규 및 잠재 협력사 발굴과 등록을 위한 표준화된 Sourcing 프로세스"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "860835fd8931",
+    "source": "2.1.2 잠재/신규 협력사 Sourcing",
+    "source_id": "d6c0d461e612",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Sourcing 대상 선정",
+    "target_id": "c44a3bf7e4c4",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.2 잠재/신규 협력사 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0021",
+      "ppt2_chunk_0022"
+    ]
+  },
+  {
+    "id": "03f773ace580",
+    "source": "2.1.2 잠재/신규 협력사 Sourcing",
+    "source_id": "d6c0d461e612",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "RFI 수행",
+    "target_id": "9db6248cd673",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.2 잠재/신규 협력사 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0021",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0022"
+    ]
+  },
+  {
+    "id": "d73975804756",
+    "source": "2.1.2 잠재/신규 협력사 Sourcing",
+    "source_id": "d6c0d461e612",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "신규업체 등록",
+    "target_id": "12cff2303e98",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.2 잠재/신규 협력사 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0027",
+      "ppt2_chunk_0028",
+      "ppt2_chunk_0029"
+    ]
+  },
+  {
+    "id": "b8875b5fffc6",
+    "source": "2.1.2 잠재/신규 협력사 Sourcing",
+    "source_id": "d6c0d461e612",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협상 및 계약",
+    "target_id": "7350dc0244cd",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.2 잠재/신규 협력사 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0020",
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0032",
+      "ppt2_chunk_0019"
+    ]
+  },
+  {
+    "id": "e1da3bdfcde2",
+    "source": "2.1.2 잠재/신규 협력사 Sourcing",
+    "source_id": "d6c0d461e612",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Nego. Card",
+    "target_id": "7dd8d87798fc",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.2 잠재/신규 협력사 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0031",
+      "ppt2_chunk_0032",
+      "ppt2_chunk_0018",
+      "ppt2_chunk_0019",
+      "ppt2_chunk_0020"
+    ]
+  },
+  {
+    "id": "76a67a8452e1",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1.3 협력사 관리",
+    "target_id": "ef9b4cb518c2",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "협력사와의 상생 파트너십 구축 및 차별화된 평가와 운영 전략"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0035"
+    ]
+  },
+  {
+    "id": "8b498fd450e3",
+    "source": "2.1.3 협력사 관리",
+    "source_id": "ef9b4cb518c2",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협력사 분류",
+    "target_id": "c3822cb3c390",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.3 협력사 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0039",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0035",
+      "ppt2_chunk_0036"
+    ]
+  },
+  {
+    "id": "46f69c82b352",
+    "source": "2.1.3 협력사 관리",
+    "source_id": "ef9b4cb518c2",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "평가 프로세스",
+    "target_id": "7ba13221bf30",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.3 협력사 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0017",
+      "ppt2_chunk_0022",
+      "ppt2_chunk_0030",
+      "ppt2_chunk_0033"
+    ]
+  },
+  {
+    "id": "3950ab1e0259",
+    "source": "2.1.3 협력사 관리",
+    "source_id": "ef9b4cb518c2",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "평가 항목",
+    "target_id": "5a7e136630ea",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.3 협력사 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0036",
+      "ppt2_chunk_0037",
+      "ppt2_chunk_0010",
+      "ppt2_chunk_0017"
+    ]
+  },
+  {
+    "id": "54e0b8de563a",
+    "source": "2.1.3 협력사 관리",
+    "source_id": "ef9b4cb518c2",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "운영 전략",
+    "target_id": "64558d3e7d80",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.3 협력사 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0040",
+      "ppt2_chunk_0042",
+      "ppt2_chunk_0045"
+    ]
+  },
+  {
+    "id": "2062aed0d70c",
+    "source": "2.1.3 협력사 관리",
+    "source_id": "ef9b4cb518c2",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "등급별 관리",
+    "target_id": "d5ea387544ad",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.3 협력사 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0033",
+      "ppt2_chunk_0034",
+      "ppt2_chunk_0035",
+      "ppt2_chunk_0036",
+      "ppt2_chunk_0037"
+    ]
+  },
+  {
+    "id": "3d6b43c52272",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.1.4 개발-구매 협업",
+    "target_id": "5c96656ac335",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "연구과제 중 Project 과제에 대한 개발-구매 협업 추진 및 프로세스"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050"
+    ]
+  },
+  {
+    "id": "54511fb69b28",
+    "source": "2.1.4 개발-구매 협업",
+    "source_id": "5c96656ac335",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "개발-구매 협업 프로세스",
+    "target_id": "38585b916594",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.4 개발-구매 협업 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0005",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050"
+    ]
+  },
+  {
+    "id": "0b5bdad64663",
+    "source": "2.1.4 개발-구매 협업",
+    "source_id": "5c96656ac335",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "APQP 표준 프로세스",
+    "target_id": "241f61cf4625",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.4 개발-구매 협업 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051"
+    ]
+  },
+  {
+    "id": "7ad41fda48f8",
+    "source": "2.1.4 개발-구매 협업",
+    "source_id": "5c96656ac335",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "신제품 개발 기획",
+    "target_id": "1bfc35397cda",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.4 개발-구매 협업 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049"
+    ]
+  },
+  {
+    "id": "839f0ca2446b",
+    "source": "2.1.4 개발-구매 협업",
+    "source_id": "5c96656ac335",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Sample 개발 단계",
+    "target_id": "0dd5c34605cd",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.4 개발-구매 협업 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0051",
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050"
+    ]
+  },
+  {
+    "id": "d3ab67c74980",
+    "source": "2.1.4 개발-구매 협업",
+    "source_id": "5c96656ac335",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "개발-구매 협업 제약요인",
+    "target_id": "b5b58c775e90",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.1.4 개발-구매 협업 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0049",
+      "ppt2_chunk_0050",
+      "ppt2_chunk_0051"
+    ]
+  },
+  {
+    "id": "d3bb63b32b2f",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.2 설비구매 관리 – 세부과제 List",
+    "target_id": "866ca6444364",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "설비투자 구매 프로세스 표준화 및 구매 이력 관리 체계 구축"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "fb1bcd1bce04",
+    "source": "2.2 설비구매 관리 – 세부과제 List",
+    "source_id": "866ca6444364",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "설비구매 프로세스 표준화",
+    "target_id": "4861ed3085c7",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2 설비구매 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057",
+      "ppt2_chunk_0058"
+    ]
+  },
+  {
+    "id": "3fd84c75fc34",
+    "source": "2.2 설비구매 관리 – 세부과제 List",
+    "source_id": "866ca6444364",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "설비구매 이력관리",
+    "target_id": "1ac3a0f85519",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2 설비구매 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0061"
+    ]
+  },
+  {
+    "id": "e0a9f08b7cc2",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.2.1 설비구매 프로세스 표준화",
+    "target_id": "a2f1a12d0e8c",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "설비구매 업무 프로세스 현황 및 To-Be 개선 방향과 역할 재배치"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0056"
+    ]
+  },
+  {
+    "id": "25b6a4ca8b45",
+    "source": "2.2.1 설비구매 프로세스 표준화",
+    "source_id": "a2f1a12d0e8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "As-Is 프로세스",
+    "target_id": "9a52c30a71d3",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2.1 설비구매 프로세스 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "3de23837a278",
+    "source": "2.2.1 설비구매 프로세스 표준화",
+    "source_id": "a2f1a12d0e8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "To-Be 프로세스",
+    "target_id": "5e131e10b150",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2.1 설비구매 프로세스 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "1ea54f976786",
+    "source": "2.2.1 설비구매 프로세스 표준화",
+    "source_id": "a2f1a12d0e8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "R&R 재정립",
+    "target_id": "1449f0e5e529",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2.1 설비구매 프로세스 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0053",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "2fbd64cc9d43",
+    "source": "2.2.1 설비구매 프로세스 표준화",
+    "source_id": "a2f1a12d0e8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "원가절감 강화",
+    "target_id": "231bd9c432fc",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.2.1 설비구매 프로세스 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0056",
+      "ppt2_chunk_0054",
+      "ppt2_chunk_0057"
+    ]
+  },
+  {
+    "id": "173527cb0a9c",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3 조직운영 방향성 – 세부과제 List",
+    "target_id": "f6de4116a503",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "성과지향적 구매조직 운영 및 구매 내/외 업무 효율성 강화 위한 조직운영 방향성 수립"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0063"
+    ]
+  },
+  {
+    "id": "ba5e987e144e",
+    "source": "2.3 조직운영 방향성 – 세부과제 List",
+    "source_id": "f6de4116a503",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "조직운영체계 효율화",
+    "target_id": "83699d33e30e",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3 조직운영 방향성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0063",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0065"
+    ]
+  },
+  {
+    "id": "c7e083c155a4",
+    "source": "2.3 조직운영 방향성 – 세부과제 List",
+    "source_id": "f6de4116a503",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "구매직무관리 체계 재정립",
+    "target_id": "b6dfd078060f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3 조직운영 방향성 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0063"
+    ]
+  },
+  {
+    "id": "4a194a30bfb3",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3.1 조직운영체계 효율화",
+    "target_id": "20c43620703f",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "구매 조직운영 이슈 분석 및 글로벌 통합 대응력 향상을 위한 조직운영 방향성 도출"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059"
+    ]
+  },
+  {
+    "id": "ca18615667c1",
+    "source": "2.3.1 조직운영체계 효율화",
+    "source_id": "20c43620703f",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "조달 중심 업무",
+    "target_id": "172760249254",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.1 조직운영체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0066"
+    ]
+  },
+  {
+    "id": "3dc8eeb94254",
+    "source": "2.3.1 조직운영체계 효율화",
+    "source_id": "20c43620703f",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Global 통합 운영",
+    "target_id": "714f21b80ef7",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.1 조직운영체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0068",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0065"
+    ]
+  },
+  {
+    "id": "5080496dd8ff",
+    "source": "2.3.1 조직운영체계 효율화",
+    "source_id": "20c43620703f",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "조직 혁신",
+    "target_id": "e875631420bf",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.1 조직운영체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0066"
+    ]
+  },
+  {
+    "id": "19a62e3ccc52",
+    "source": "2.3.1 조직운영체계 효율화",
+    "source_id": "20c43620703f",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "전략구매 확대",
+    "target_id": "fd5961579cdb",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.1 조직운영체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0066"
+    ]
+  },
+  {
+    "id": "39fe21ec3287",
+    "source": "2.3.1 조직운영체계 효율화",
+    "source_id": "20c43620703f",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "품목 전문성 강화",
+    "target_id": "cc8ed5c66f1f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.1 조직운영체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0064",
+      "ppt2_chunk_0058",
+      "ppt2_chunk_0059",
+      "ppt2_chunk_0065",
+      "ppt2_chunk_0066"
+    ]
+  },
+  {
+    "id": "851c8af7ca94",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3.2 구매직무관리체계 재정립",
+    "target_id": "a7ab7e0afaee",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "구매업무 전문성 강화를 위한 직무관리체계 정립 및 인력운영 방안"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0069"
+    ]
+  },
+  {
+    "id": "6304264071b9",
+    "source": "2.3.2 구매직무관리체계 재정립",
+    "source_id": "a7ab7e0afaee",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "직무분류체계 정의",
+    "target_id": "5ba89a68de50",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.2 구매직무관리체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071"
+    ]
+  },
+  {
+    "id": "b3c15ff02085",
+    "source": "2.3.2 구매직무관리체계 재정립",
+    "source_id": "a7ab7e0afaee",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "직무별 역량 도출",
+    "target_id": "652b4d4d56ae",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.2 구매직무관리체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071"
+    ]
+  },
+  {
+    "id": "37bb45d1d216",
+    "source": "2.3.2 구매직무관리체계 재정립",
+    "source_id": "a7ab7e0afaee",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "직급별 핵심업무",
+    "target_id": "e28a47f11370",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.2 구매직무관리체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071"
+    ]
+  },
+  {
+    "id": "4a7a5879796f",
+    "source": "2.3.2 구매직무관리체계 재정립",
+    "source_id": "a7ab7e0afaee",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "인사제도 기초",
+    "target_id": "7d15e6193a36",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "2.3.2 구매직무관리체계 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0069",
+      "ppt2_chunk_0070",
+      "ppt2_chunk_0071"
+    ]
+  },
+  {
+    "id": "ef74dc82e83e",
+    "source": "구매 원가절감",
+    "source_id": "67eec4117cf4",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.1 자재 수급(조달) 관리 – 세부과제 List",
+    "target_id": "e6e6681f5356",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "계획발주품목의 안전재고를 감안한 발주시점(ROP) 설정 및 운영 프로세스 수립"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "3185540abc59",
+    "source": "3.1 자재 수급(조달) 관리 – 세부과제 List",
+    "source_id": "e6e6681f5356",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "ROP 설정",
+    "target_id": "057d7e68e018",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073",
+      "ppt2_chunk_0082"
+    ]
+  },
+  {
+    "id": "8204465f654b",
+    "source": "3.1 자재 수급(조달) 관리 – 세부과제 List",
+    "source_id": "e6e6681f5356",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "발주 운영 프로세스",
+    "target_id": "68dc25af7140",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073"
+    ]
+  },
+  {
+    "id": "91451cfd5dec",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.1 자재 수급(조달) 관리 – Overall",
+    "target_id": "f15b16b65a57",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "재고 절감을 위한 자재 수급 관리 핵심 프로세스 및 관련 과제"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "b483f3619eab",
+    "source": "3.1 자재 수급(조달) 관리 – Overall",
+    "source_id": "f15b16b65a57",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "수요 예측",
+    "target_id": "9d1da100e2f3",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076",
+      "ppt2_chunk_0083"
+    ]
+  },
+  {
+    "id": "0dc7e9ac62b2",
+    "source": "3.1 자재 수급(조달) 관리 – Overall",
+    "source_id": "f15b16b65a57",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "S&OP 프로세스",
+    "target_id": "ae47e493a1df",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076"
+    ]
+  },
+  {
+    "id": "d48bc334138e",
+    "source": "3.1 자재 수급(조달) 관리 – Overall",
+    "source_id": "f15b16b65a57",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "생산 계획 및 MRP 연계",
+    "target_id": "fb824a56c628",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076"
+    ]
+  },
+  {
+    "id": "919d0dd2b9e3",
+    "source": "3.1 자재 수급(조달) 관리 – Overall",
+    "source_id": "f15b16b65a57",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "ROP 기준 재정립",
+    "target_id": "9780d8c598bf",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076"
+    ]
+  },
+  {
+    "id": "f67223e488a9",
+    "source": "3.1 자재 수급(조달) 관리 – Overall",
+    "source_id": "f15b16b65a57",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "장기/불용재고 관리",
+    "target_id": "ae890865990a",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 자재 수급 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0075",
+      "ppt2_chunk_0076",
+      "ppt2_chunk_0114"
+    ]
+  },
+  {
+    "id": "b2f524d51508",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.1.1 계획발주품목 별 ROP설정",
+    "target_id": "2b4a94ad07c3",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "계획발주품목별 안전재고(ROP) 설정 및 발주 운영 방안"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "818b740c156c",
+    "source": "3.1.1 계획발주품목 별 ROP설정",
+    "source_id": "2b4a94ad07c3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "ROP 산정",
+    "target_id": "5f59fea672cd",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1.1 계획발주품목 별 ROP설정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0080",
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0081"
+    ]
+  },
+  {
+    "id": "249dd72d3b54",
+    "source": "3.1.1 계획발주품목 별 ROP설정",
+    "source_id": "2b4a94ad07c3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "서비스 레벨 세분화",
+    "target_id": "d9aeee7c6f47",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1.1 계획발주품목 별 ROP설정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080",
+      "ppt2_chunk_0081"
+    ]
+  },
+  {
+    "id": "1e72ae3db5cb",
+    "source": "3.1.1 계획발주품목 별 ROP설정",
+    "source_id": "2b4a94ad07c3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Min-Max 재고 운영",
+    "target_id": "2deb321d285c",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1.1 계획발주품목 별 ROP설정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0084",
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080"
+    ]
+  },
+  {
+    "id": "01dce6232b1c",
+    "source": "3.1.1 계획발주품목 별 ROP설정",
+    "source_id": "2b4a94ad07c3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "재고 GAP 분석",
+    "target_id": "dcd3fa1e1c2c",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1.1 계획발주품목 별 ROP설정 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080",
+      "ppt2_chunk_0081"
+    ]
+  },
+  {
+    "id": "8b8eb32051a9",
+    "source": "3.1.1 계획발주품목 별 ROP설정",
+    "source_id": "2b4a94ad07c3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "발주 운영 프로세스",
+    "target_id": "bf538e818cc7",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1.2 계획발주 운영프로세스 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0073",
+      "ppt2_chunk_0077",
+      "ppt2_chunk_0078",
+      "ppt2_chunk_0079",
+      "ppt2_chunk_0080"
+    ]
+  },
+  {
+    "id": "2602e8282c63",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.2 장기/불용 재고 운영 – Overall",
+    "target_id": "b1c26109eac9",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "장기 및 불용 재고 억제를 위한 재고관리 기준, 프로세스, KPI, Reporting 체계 강화"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "a140ea8d2e08",
+    "source": "3.2 장기/불용 재고 운영 – Overall",
+    "source_id": "b1c26109eac9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "재고 Aging 관리",
+    "target_id": "8af139fb8c6a",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0089",
+      "ppt2_chunk_0090"
+    ]
+  },
+  {
+    "id": "719e1b0800fb",
+    "source": "3.2 장기/불용 재고 운영 – Overall",
+    "source_id": "b1c26109eac9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "장기재고 기준 재정립",
+    "target_id": "5900a830b355",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0088",
+      "ppt2_chunk_0089",
+      "ppt2_chunk_0090"
+    ]
+  },
+  {
+    "id": "6362e5242f7d",
+    "source": "3.2 장기/불용 재고 운영 – Overall",
+    "source_id": "b1c26109eac9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "불용재고 관리",
+    "target_id": "b49e6fe0b876",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0089",
+      "ppt2_chunk_0074",
+      "ppt2_chunk_0114"
+    ]
+  },
+  {
+    "id": "ed9dd42449b1",
+    "source": "3.2 장기/불용 재고 운영 – Overall",
+    "source_id": "b1c26109eac9",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "협의체 운영",
+    "target_id": "8f56bb708335",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0088",
+      "ppt2_chunk_0089",
+      "ppt2_chunk_0091",
+      "ppt2_chunk_0092",
+      "ppt2_chunk_0093"
+    ]
+  },
+  {
+    "id": "22cce80b3caf",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.2 장기/불용 재고 운영 – 협의체 운영",
+    "target_id": "27c6adf79485",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "장기/불용 재고 협의체 운영 프로세스 및 스케줄"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "a69333ad1aca",
+    "source": "3.2 장기/불용 재고 운영 – 협의체 운영",
+    "source_id": "27c6adf79485",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "주간 협의체 운영",
+    "target_id": "d3c0e86acbea",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "54dec9590ff3",
+    "source": "3.2 장기/불용 재고 운영 – 협의체 운영",
+    "source_id": "27c6adf79485",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Issue Item 도출",
+    "target_id": "4336bf9d680a",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0091"
+    ]
+  },
+  {
+    "id": "980098ff1def",
+    "source": "3.2 장기/불용 재고 운영 – 협의체 운영",
+    "source_id": "27c6adf79485",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Action Item 관리",
+    "target_id": "2c9ca430e25a",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "28db0b9e4254",
+    "source": "3.2 장기/불용 재고 운영 – 협의체 운영",
+    "source_id": "27c6adf79485",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "재고 현황 점검",
+    "target_id": "7a3a8b327a5d",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0092",
+      "ppt2_chunk_0093",
+      "ppt2_chunk_0094"
+    ]
+  },
+  {
+    "id": "f47172cead33",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.2 장기/불용 재고 운영 – 현황 분석",
+    "target_id": "084ba176d089",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "장기/불용 재고 현황 및 불용/폐기 현황 월별·주별 트렌드 분석"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "865a7d15b666",
+    "source": "3.2 장기/불용 재고 운영 – 현황 분석",
+    "source_id": "084ba176d089",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "재고 상태 분류",
+    "target_id": "50ef99c59ae3",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "cf2371ce035e",
+    "source": "3.2 장기/불용 재고 운영 – 현황 분석",
+    "source_id": "084ba176d089",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "트렌드 분석",
+    "target_id": "5765032b8cf9",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "68c98b3770d7",
+    "source": "3.2 장기/불용 재고 운영 – 현황 분석",
+    "source_id": "084ba176d089",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Action Item 협의",
+    "target_id": "b85df97d2cd9",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0092",
+      "ppt2_chunk_0093",
+      "ppt2_chunk_0094"
+    ]
+  },
+  {
+    "id": "ec4a16debd3b",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.2 장기/불용 재고 운영 – 문제 Item 분석",
+    "target_id": "bbf53f21f787",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "Aging 60일 기준 문제 Item 데이터 분석 및 회의 아젠다 활용"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "38ecbcdca278",
+    "source": "3.2 장기/불용 재고 운영 – 문제 Item 분석",
+    "source_id": "bbf53f21f787",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "문제 Item 분석",
+    "target_id": "25abff004edf",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "6552075c112e",
+    "source": "3.2 장기/불용 재고 운영 – 문제 Item 분석",
+    "source_id": "bbf53f21f787",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "End-Product 현황 분석",
+    "target_id": "625179c8a0f3",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "2f3301c355a1",
+    "source": "3.2 장기/불용 재고 운영 – 문제 Item 분석",
+    "source_id": "bbf53f21f787",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Action Item 도출",
+    "target_id": "0560aef25009",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 장기/불용 재고 운영 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0091",
+      "ppt2_chunk_0092"
+    ]
+  },
+  {
+    "id": "19578a308098",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "4.1 물류 Cost 통합 관리 – 세부과제 List",
+    "target_id": "67d2a58b7df3",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "물류 비용 통합 및 세분화 관리 체계 재정립과 관리 프로세스 및 주체 정립"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "cdc7203fe12d",
+    "source": "4.1 물류 Cost 통합 관리 – 세부과제 List",
+    "source_id": "67d2a58b7df3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "통합 물류 Cost 체계",
+    "target_id": "5bd4e1712218",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0096",
+      "ppt2_chunk_0099",
+      "ppt2_chunk_0100",
+      "ppt2_chunk_0103",
+      "ppt2_chunk_0105"
+    ]
+  },
+  {
+    "id": "779efe439a20",
+    "source": "4.1 물류 Cost 통합 관리 – 세부과제 List",
+    "source_id": "67d2a58b7df3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "관리 Process 및 주체",
+    "target_id": "72be797cb84f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0096",
+      "ppt2_chunk_0106",
+      "ppt2_chunk_0107",
+      "ppt2_chunk_0109"
+    ]
+  },
+  {
+    "id": "2bbf5ef89829",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "4.1 물류 Cost 통합 관리 – Overall",
+    "target_id": "a995078dba6b",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "물류비 통합 및 세분화 관리로 비용 증감 원인 분석 기능 강화 및 최적화 지원"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "e80051b9de60",
+    "source": "4.1 물류 Cost 통합 관리 – Overall",
+    "source_id": "a995078dba6b",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "물류비 통합 관리",
+    "target_id": "d2be634eeceb",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0097"
+    ]
+  },
+  {
+    "id": "a1035adc2121",
+    "source": "4.1 물류 Cost 통합 관리 – Overall",
+    "source_id": "a995078dba6b",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "비용 증감 원인 분석",
+    "target_id": "3ef306463c90",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0097",
+      "ppt2_chunk_0096",
+      "ppt2_chunk_0100"
+    ]
+  },
+  {
+    "id": "65383b9d348d",
+    "source": "4.1 물류 Cost 통합 관리 – Overall",
+    "source_id": "a995078dba6b",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "정확도 향상",
+    "target_id": "818ce1a76e9b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0097",
+      "ppt2_chunk_0096",
+      "ppt2_chunk_0098"
+    ]
+  },
+  {
+    "id": "eaf6fca6c1c8",
+    "source": "4.1 물류 Cost 통합 관리 – Overall",
+    "source_id": "a995078dba6b",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "기초 데이터 제공",
+    "target_id": "b2dd55968b3a",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0097"
+    ]
+  },
+  {
+    "id": "93a0c534169d",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "4.1 물류 Cost 통합 관리 – 관리 Process 및 주체 정립",
+    "target_id": "567ca834cb37",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "월 1회 물류비 마감 후 데이터 업데이트 및 보고 프로세스와 담당자 역할 정의"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "ef793a06bab2",
+    "source": "4.1 물류 Cost 통합 관리 – 관리 Process 및 주체 정립",
+    "source_id": "567ca834cb37",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "월별 마감 프로세스",
+    "target_id": "b7a04b3cb9db",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "1e7aa11c7532",
+    "source": "4.1 물류 Cost 통합 관리 – 관리 Process 및 주체 정립",
+    "source_id": "567ca834cb37",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "담당자 역할",
+    "target_id": "402b38988d2b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "40e5266a96ee",
+    "source": "재고 절감",
+    "source_id": "2c95a8c7a99a",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "4.1 물류 Cost 통합 관리 – 담당자 지정",
+    "target_id": "a62034f721a3",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "물류팀 내 각 영역별 담당자 지정 및 비용 항목별 책임자 배정"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062",
+      "ppt2_chunk_0072"
+    ]
+  },
+  {
+    "id": "ed81f549dfa8",
+    "source": "4.1 물류 Cost 통합 관리 – 담당자 지정",
+    "source_id": "a62034f721a3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "담당자 지정",
+    "target_id": "47bfa5a3522f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0048",
+      "ppt2_chunk_0089",
+      "ppt2_chunk_0107",
+      "ppt2_chunk_0109"
+    ]
+  },
+  {
+    "id": "32c9f9330e78",
+    "source": "4.1 물류 Cost 통합 관리 – 담당자 지정",
+    "source_id": "a62034f721a3",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "비용 항목별 책임자",
+    "target_id": "854e96b58d57",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "4.1 물류 Cost 통합 관리 OCR 원문"
+    ],
+    "source_chunks": []
+  },
+  {
+    "id": "36883dbcd13e",
+    "source": "물류비 절감",
+    "source_id": "ed25aa2d3d25",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3. 물류비 절감 - Roadmap",
+    "target_id": "7ab1ac78b770",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "물류비 절감을 위한 통합 관리 체계 구축과 고도화 단계"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052",
+      "ppt2_chunk_0062"
+    ]
+  },
+  {
+    "id": "f9f1ffbcfb89",
+    "source": "3. 물류비 절감 - Roadmap",
+    "source_id": "7ab1ac78b770",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "통합 물류비 관리",
+    "target_id": "502dac109403",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3. 물류비 절감 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "472ab83e6cbe",
+    "source": "3. 물류비 절감 - Roadmap",
+    "source_id": "7ab1ac78b770",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "창고 관리 효율화",
+    "target_id": "e5a551ad8d22",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3. 물류비 절감 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0119"
+    ]
+  },
+  {
+    "id": "5aac85da2808",
+    "source": "3. 물류비 절감 - Roadmap",
+    "source_id": "7ab1ac78b770",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "물류 통합 관리",
+    "target_id": "8bf8beeddeaf",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3. 물류비 절감 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0120"
+    ]
+  },
+  {
+    "id": "3cc3c7e8cfca",
+    "source": "3. 물류비 절감 - Roadmap",
+    "source_id": "7ab1ac78b770",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "조직 재정비 및 성과관리",
+    "target_id": "37a0a1ff86b5",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3. 물류비 절감 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0121"
+    ]
+  },
+  {
+    "id": "905810167f03",
+    "source": "물류비 절감",
+    "source_id": "ed25aa2d3d25",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.1 창고 관리 효율화",
+    "target_id": "26bc9cef2c8c",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "재고관리 기능 강화 및 창고 운영 업무 효율성 향상을 위한 Location 관리 체계 구축과 바코드 시스템 도입"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0119",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "56ef993582ef",
+    "source": "3.1 창고 관리 효율화",
+    "source_id": "26bc9cef2c8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Location 관리 체계",
+    "target_id": "c7a05f985d8b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 창고 관리 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0119"
+    ]
+  },
+  {
+    "id": "4c1a315896a9",
+    "source": "3.1 창고 관리 효율화",
+    "source_id": "26bc9cef2c8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "창고 인프라 개선",
+    "target_id": "f1ce93b32750",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 창고 관리 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0119",
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "afcf9230578e",
+    "source": "3.1 창고 관리 효율화",
+    "source_id": "26bc9cef2c8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "바코드 시스템 도입",
+    "target_id": "3e3de01d608b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 창고 관리 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0119"
+    ]
+  },
+  {
+    "id": "8938c78f9c1b",
+    "source": "3.1 창고 관리 효율화",
+    "source_id": "26bc9cef2c8c",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "업무 Load 개선",
+    "target_id": "8ee13a6cfc38",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.1 창고 관리 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0119",
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "dd3c51ddc98e",
+    "source": "물류비 절감",
+    "source_id": "ed25aa2d3d25",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.2 물류 통합 관리 및 수/배송 정보 관리 효율화",
+    "target_id": "5ecc9c571539",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "물류 Flow 관점의 통합 관리 체계 구축과 배송 스케줄링 및 수/배송 정보 관리 시스템 개선"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0120",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "675bc20e848e",
+    "source": "3.2 물류 통합 관리 및 수/배송 정보 관리 효율화",
+    "source_id": "5ecc9c571539",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "물류 Flow 통합 관리",
+    "target_id": "9eaa1972bae1",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 물류 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0120"
+    ]
+  },
+  {
+    "id": "8291050f5626",
+    "source": "3.2 물류 통합 관리 및 수/배송 정보 관리 효율화",
+    "source_id": "5ecc9c571539",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "배송 스케줄링 개선",
+    "target_id": "12f10dd4725b",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 물류 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0120"
+    ]
+  },
+  {
+    "id": "651c457db965",
+    "source": "3.2 물류 통합 관리 및 수/배송 정보 관리 효율화",
+    "source_id": "5ecc9c571539",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "수/배송 정보 관리",
+    "target_id": "94a9c2f9cdb6",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 물류 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0120"
+    ]
+  },
+  {
+    "id": "5f31854ea177",
+    "source": "3.2 물류 통합 관리 및 수/배송 정보 관리 효율화",
+    "source_id": "5ecc9c571539",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "In-transit tracking",
+    "target_id": "b416602f0a9c",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.2 물류 통합 관리 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0120",
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "ce95a3decef8",
+    "source": "물류비 절감",
+    "source_id": "ed25aa2d3d25",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "3.3 물류 효율화 관점의 조직 재정비 및 성과관리 체계 구축",
+    "target_id": "17864cde4f09",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "3PL 도입 검토, 물류기획 업무 강화, 성과 지표 정의 및 관리 체계 구축"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0121",
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "1b9fbd4f1647",
+    "source": "3.3 물류 효율화 관점의 조직 재정비 및 성과관리 체계 구축",
+    "source_id": "17864cde4f09",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "3PL 도입 검토",
+    "target_id": "b58ff7da391d",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.3 물류 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0121",
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "1138ca9b6221",
+    "source": "3.3 물류 효율화 관점의 조직 재정비 및 성과관리 체계 구축",
+    "source_id": "17864cde4f09",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "물류기획 강화",
+    "target_id": "73873a3ce50f",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.3 물류 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0121"
+    ]
+  },
+  {
+    "id": "430505b0bc24",
+    "source": "3.3 물류 효율화 관점의 조직 재정비 및 성과관리 체계 구축",
+    "source_id": "17864cde4f09",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "성과 지표 정의",
+    "target_id": "b9120a03e869",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.3 물류 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0118",
+      "ppt2_chunk_0121"
+    ]
+  },
+  {
+    "id": "d7fb45e094e0",
+    "source": "3.3 물류 효율화 관점의 조직 재정비 및 성과관리 체계 구축",
+    "source_id": "17864cde4f09",
+    "source_type": "SubTopic",
+    "relation": "HAS_KEYWORD",
+    "target": "Monitoring 시스템",
+    "target_id": "1530cce827c0",
+    "target_type": "Keyword",
+    "evidence_list": [
+      "3.3 물류 효율화 OCR 원문"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0121",
+      "ppt2_chunk_0118"
+    ]
+  },
+  {
+    "id": "8d4fa38f82f8",
+    "source": "중장기 역량 강화 방안",
+    "source_id": "5bc9e78e44ef",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3 조직운영 방향성 – 세부과제 List",
+    "target_id": "f6f9d10ef865",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "성과지향적 구매조직 운영 및 구매 내/외 업무 효율성 강화를 위한 조직운영 방향성 수립"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "0ba469edcd5a",
+    "source": "중장기 역량 강화 방안",
+    "source_id": "5bc9e78e44ef",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3.1 조직운영체계 효율화",
+    "target_id": "2c66f942849f",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "구매 조직운영 이슈 분석 및 글로벌 통합 대응력 향상을 위한 조직운영 방향성 도출"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  },
+  {
+    "id": "ce5fd4321dc2",
+    "source": "중장기 역량 강화 방안",
+    "source_id": "5bc9e78e44ef",
+    "source_type": "Topic",
+    "relation": "HAS_SUBTOPIC",
+    "target": "2.3.2 구매직무관리체계 재정립",
+    "target_id": "9a53dd3311d7",
+    "target_type": "SubTopic",
+    "evidence_list": [
+      "구매업무 전문성 강화를 위한 직무관리체계 정립 및 인력운영 방안"
+    ],
+    "source_chunks": [
+      "ppt2_chunk_0001",
+      "ppt2_chunk_0002",
+      "ppt2_chunk_0003",
+      "ppt2_chunk_0004",
+      "ppt2_chunk_0052"
+    ]
+  }
+]
