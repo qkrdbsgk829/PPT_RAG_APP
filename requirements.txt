@@ -1,8 +1,9 @@
 streamlit==1.37.1
-streamlit-agraph
-openai
+streamlit-agraph==0.0.45
+openai>=1.40.0
 python-dotenv
 numpy
 tqdm
 langgraph
 tavily-python
+neo4j
