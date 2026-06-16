@@ -465,6 +465,8 @@ def get_answer_basis(result):
         return "내부자료 기준"
     if used_web:
         return "외부자료 기준"
+    if intent == "REASONING":
+        return "대화맥락 기반 심층분석"
     if intent in ["REPORT", "SUMMARY", "CHAT"]:
         return "대화맥락 기반 작성"
     return "LLM 작성/정리"
@@ -919,7 +921,7 @@ with left:
             basis = get_answer_basis(result)
             if used_chunks_text or web_sources_text:
                 st.markdown("---")
-                st.markdown("## 8. 출처")
+                st.markdown("## 출처")
                 st.markdown(f"**사용 근거:** {basis}")
 
                 if used_chunks_text:

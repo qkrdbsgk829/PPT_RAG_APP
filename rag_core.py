@@ -489,6 +489,7 @@ def orchestrate_question_node(state: IntegratedRAGState):
 의도 분류:
 - SEARCH: 내부 PPT/문서 자료에서 찾아 답해야 하는 질문
 - WEB: 최신 정보, 외부 사례, 시장/뉴스/오늘자/최근 자료가 필요한 질문
+- REASONING: 이미 제시된 답변/검색결과를 바탕으로 부족점, 원인, 해결책, 시사점, 리스크를 심층 분석하는 질문
 - REPORT: 보고서, 제안서, PPT 문구, 표, 로드맵 등 산출물을 작성/재작성하는 질문
 - SUMMARY: 이전 답변이나 검색 결과를 요약/정리하는 질문
 - CHAT: 검색 없이 일반적으로 답할 수 있는 질문
@@ -498,16 +499,17 @@ def orchestrate_question_node(state: IntegratedRAGState):
 1. "이것", "저것", "아까", "방금", "위 내용", "그걸로" 같은 지시어가 있으면 이전 대화 맥락을 사용해 standalone_question에 구체화한다.
 2. standalone_question은 검색/작성에 바로 사용할 수 있는 완전한 질문으로 만든다.
 3. 최신/최근/오늘/외부사례/국내 사례/벤치마킹/뉴스/주가/시장/현재 정보가 필요하면 WEB 또는 MIXED로 둔다.
-4. "보고서 작성", "PPT용", "표로", "로드맵", "제안서", "합쳐서", "섞어서", "다듬어줘"는 REPORT 성격이 강하다.
-5. 기본값은 needs_internal_search=true다. 사용자가 단순 인사/잡담만 한 경우를 제외하면 내부검색을 우선 수행해야 한다.
-6. REPORT/SUMMARY 질문이라도 PPT/프로젝트/자료/앞선 답변과 관련되면 needs_internal_search=true로 둔다.
-7. WEB/최근/외부사례 질문도 내부자료와 함께 비교할 수 있으므로 needs_internal_search=true로 둔다.
-8. 외부검색이 반드시 먼저 필요한 경우에만 needs_web_first=true로 둔다.
-9. JSON 형식으로만 답한다.
+4. "부족한 점", "해결법", "시사점", "리스크", "성공요인", "조직 변화관리", "자동화 도구", "심층 분석"은 REASONING 성격이 강하다.
+5. "보고서 작성", "PPT용", "표로", "로드맵", "제안서", "합쳐서", "섞어서", "다듬어줘"는 REPORT 성격이 강하다.
+6. 기본값은 needs_internal_search=true다. 단, 사용자가 "방금 답변을 기반으로", "위 답변 기준", "추가로 심층 분석", "해결법 알려줘"처럼 이미 확보된 답변/검색결과를 해석하라고 하면 needs_internal_search=false로 둔다.
+7. REPORT/SUMMARY/REASONING 질문은 이전 답변을 재구성하거나 심층화하는 요청이면 검색을 반복하지 않는다.
+8. WEB/최근/외부사례/벤치마킹 질문은 외부검색이 필요하므로 WEB 또는 MIXED로 둔다.
+9. 외부검색이 반드시 먼저 필요한 경우에만 needs_web_first=true로 둔다.
+10. JSON 형식으로만 답한다.
 
 출력 형식:
 {
-  "intent": "SEARCH|WEB|REPORT|SUMMARY|CHAT|MIXED",
+  "intent": "SEARCH|WEB|REASONING|REPORT|SUMMARY|CHAT|MIXED",
   "intent_reason": "판단 이유",
   "standalone_question": "맥락을 반영해 재작성한 완전한 질문",
   "answer_mode": "search|web|report|summary|chat|mixed",
@@ -553,7 +555,7 @@ def orchestrate_question_node(state: IntegratedRAGState):
     )
 
     intent = str(parsed.get("intent", "SEARCH")).upper()
-    if intent not in ["SEARCH", "WEB", "REPORT", "SUMMARY", "CHAT", "MIXED"]:
+    if intent not in ["SEARCH", "WEB", "REASONING", "REPORT", "SUMMARY", "CHAT", "MIXED"]:
         intent = "SEARCH"
 
     standalone_question = parsed.get("standalone_question") or question
@@ -1303,7 +1305,115 @@ def generate_node(state: IntegratedRAGState):
 
 
 # ============================================================
-# 13-A. Direct Generate Node for Chat / Summary / Report
+# 13-A. Consultant Agent Node for REASONING
+# ============================================================
+
+def consultant_agent_node(state: IntegratedRAGState):
+    """
+    REASONING 전용 노드.
+
+    목적:
+    - 사용자가 "부족한 점", "해결법", "시사점", "리스크", "조직 변화관리"처럼
+      이미 답변된 내용에 대한 심층 분석을 요구할 때 검색을 반복하지 않는다.
+    - 직전 답변/대화 이력/저장 메모리에 남아 있는 근거를 기준으로
+      LLM이 컨설턴트처럼 해석, 진단, 보완책을 도출한다.
+    """
+    question = state["question"]
+    standalone_question = state.get("standalone_question") or question
+    intent_reason = state.get("intent_reason", "")
+    conversation_context = state.get("conversation_context", "")
+    memory_context = state.get("memory_context", "")
+
+    # 혹시 이전 라우팅에서 검색 근거가 이미 state에 들어온 경우에는 보조 근거로 사용한다.
+    context = state.get("context", "")
+    web_analysis_context = state.get("web_analysis_context", "")
+
+    system_prompt = """
+너는 RAG 검색 결과를 바탕으로 심층 인사이트를 도출하는 선임 컨설턴트 Agent다.
+
+핵심 역할:
+- 새 내부검색/외부검색을 반복하지 않는다.
+- 직전 답변, 화면 대화 이력, 저장된 대화 기억, 이미 확보된 내부/외부 근거를 바탕으로 심층 분석한다.
+- 사용자가 요구한 부족점, 원인, 리스크, 해결법, 조직 변화관리, 자동화 도구, 실행방안을 도출한다.
+
+답변 원칙:
+1. 먼저 "기존 답변/근거에서 확인되는 점"과 "LLM이 추가로 해석한 점"을 분리한다.
+2. 근거에 없는 새로운 회사명, 수치, 최신 사례, 날짜는 만들지 않는다.
+3. 다만 컨설턴트적 판단, 리스크 구조화, 실행 방안, To-Be 방향은 제시한다.
+4. 사용자가 "부족했던 부분의 해결법"을 물으면 반드시 다음 관점 중 필요한 항목을 포함한다.
+   - 프로세스/업무 운영
+   - 자동화 도구/시스템 기능
+   - 데이터/지식관리
+   - 조직 변화관리
+   - KPI/거버넌스
+   - 단계별 실행 로드맵
+5. 답변은 한국어로 작성한다.
+6. 본문에 intent, route, retrieval_grade 같은 내부 디버그 표현을 쓰지 않는다.
+7. 출처는 새로 조회한 것처럼 꾸미지 말고, "직전 답변 및 기존 검색 근거 기준"이라고 정직하게 표현한다.
+
+권장 구조:
+- 핵심 결론
+- 기존 답변 기준으로 보이는 한계
+- 심층 인사이트
+- 보완 방향
+- 실행 과제
+- 주의사항
+"""
+
+    user_prompt = f"""
+[현재 질문]
+{question}
+
+[맥락 반영 질문]
+{standalone_question}
+
+[REASONING 판단 이유]
+{intent_reason}
+
+[현재 화면 대화 이력]
+{conversation_context}
+
+[저장된 이전 대화 기억]
+{memory_context}
+
+[이미 확보된 내부자료 근거가 있으면 참고]
+{context}
+
+[이미 확보된 외부검색 분석이 있으면 참고]
+{web_analysis_context}
+
+위 내용을 바탕으로 새 검색 없이 심층 컨설팅 답변을 작성해줘.
+특히 사용자가 요구한 부족점/해결법/조직 변화관리/자동화 도구 관점을 구체적으로 보완해줘.
+"""
+
+    response = client.chat.completions.create(
+        model=CHAT_MODEL,
+        temperature=0.35,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    )
+
+    answer = response.choices[0].message.content or ""
+    if not answer.strip():
+        answer = "심층 분석 답변 생성 결과가 비어 있습니다. 직전 답변 또는 질문을 조금 더 구체화해 주세요."
+
+    return {
+        "retrieval_grade": "reasoning_not_searched",
+        "grade_reason": "이전 답변/대화 맥락 기반 심층 분석 요청으로 판단하여 검색을 반복하지 않았습니다.",
+        "retrieved_chunks": [],
+        "context": "",
+        "need_web_search": False,
+        "web_results": [],
+        "web_analysis": {},
+        "web_analysis_context": "",
+        "answer": answer
+    }
+
+
+# ============================================================
+# 13-B. Direct Generate Node for Chat / Summary / Report
 # ============================================================
 
 def generate_direct_node(state: IntegratedRAGState):
@@ -1321,8 +1431,9 @@ def generate_direct_node(state: IntegratedRAGState):
 1. 현재 질문과 이전 대화 맥락을 함께 사용한다.
 2. REPORT 의도이면 보고서/제안서/PPT 문구처럼 바로 활용 가능한 산출물 형태로 작성한다.
 3. SUMMARY 의도이면 단순 축약이 아니라 핵심 메시지, 논리 흐름, 활용 포인트를 함께 정리한다.
-4. CHAT 의도이면 검색을 억지로 수행하지 말고 자연스럽게 답한다.
-5. 내부 문서나 외부검색 결과를 실제로 조회하지 않은 경우, 근거를 조회한 것처럼 말하지 않는다.
+4. REASONING 의도이면 검색을 반복하지 말고 이전 답변/대화 맥락을 바탕으로 부족점, 원인, 해결책, 실행방안을 깊게 도출한다.
+5. CHAT 의도이면 검색을 억지로 수행하지 말고 자연스럽게 답한다.
+6. 내부 문서나 외부검색 결과를 실제로 새로 조회하지 않은 경우, 새 근거를 조회한 것처럼 말하지 않는다.
 6. 모르는 내용은 추측하지 말고 추가 검색이나 내부자료 확인이 필요하다고 말한다.
 7. 답변은 한국어로 작성한다.
 8. 컨설팅 보고서 스타일로 구조화한다.
@@ -1398,57 +1509,60 @@ def save_memory_node(state: IntegratedRAGState):
 # ============================================================
 def route_after_orchestration(state: IntegratedRAGState):
     """
-    v8 핵심 수정: Router가 내부검색을 건너뛰지 않도록 한다.
-
-    기존 구조는 LLM Router가 질문을 CHAT/REPORT/WEB으로 분류하면
-    내부 PPT 검색을 생략하는 경우가 있어, PPT 안에 있는 내용도
-    내부자료 기준으로 답하지 못하는 문제가 있었다.
-
-    개선 원칙:
-    1. 거의 모든 질문은 내부검색을 1회 먼저 수행한다.
-    2. WEB/MIXED 질문도 내부검색 후 외부검색으로 보완한다.
-    3. REPORT/SUMMARY 질문도 내부자료가 있으면 그 근거를 사용해 작성한다.
-    4. 정말 짧은 인사/일반 대화만 direct 답변을 허용한다.
+    최종 라우팅 정책:
+    - SEARCH/MIXED/WEB: 내부자료를 먼저 검색한다.
+    - REASONING/REPORT/SUMMARY 중 "이전 답변 기반 심층화"는 검색을 반복하지 않고 LLM 컨설턴트 노드로 간다.
+    - CHAT: 순수 대화는 바로 답한다.
+    이렇게 해야 "검색 근거 확보"와 "LLM 심층 인사이트"가 서로 잡아먹지 않는다.
     """
     intent = str(state.get("intent", "SEARCH")).upper()
     question = (state.get("question") or "").strip()
+    needs_internal_search = bool(state.get("needs_internal_search", True))
+    needs_web_first = bool(state.get("needs_web_first", False))
 
-    # 순수 인사/잡담은 검색하지 않아도 됨
     pure_chat_examples = {"안녕", "안녕하세요", "하이", "hello", "hi", "고마워", "감사", "땡큐"}
     if intent == "CHAT" and question.lower() in pure_chat_examples:
         return "generate_direct"
 
-    # 그 외에는 무조건 내부검색을 먼저 수행
-    return "extract_required_conditions"
+    # 최신/외부 사례가 질문의 1차 목적이면 바로 외부검색
+    if needs_web_first or intent == "WEB":
+        return "web_search"
 
+    # 이전 답변/검색결과 기반 심층 분석은 검색 반복 금지 후 Consultant Agent로 이동
+    if intent == "REASONING" and not needs_internal_search:
+        return "consultant_agent"
+
+    # 보고서화/요약/일반 대화는 검색 반복 없이 Direct Generator로 이동
+    if intent in ["REPORT", "SUMMARY", "CHAT"] and not needs_internal_search:
+        return "generate_direct"
+
+    # 그 외는 내부자료 검색을 먼저 수행
+    return "extract_required_conditions"
 
 
 def route_after_grade(state: IntegratedRAGState):
     """
-    v9 FINAL 라우팅 정책
-
-    최종 정책:
-    1. 질문이 들어오면 내부검색은 항상 먼저 수행한다.
-    2. 내부검색 결과가 good/weak이면 내부자료를 기준점으로 잡고 외부검색을 무조건 추가한다.
-       => 내부 + 외부자료 + LLM 심층해석
-    3. 내부검색 결과가 bad이면 한 번만 질문을 재작성해 내부검색을 재시도한다.
-    4. 재검색 후에도 bad이면 외부검색으로 답변한다.
-       => 외부자료 + LLM 심층해석
-    5. 즉, 내부자료가 있으면 내부만 답하지 않고 반드시 외부 보완까지 수행한다.
+    검색 이후 라우팅 정책:
+    1. 내부검색 good/weak → 바로 generate. LLM이 내부 근거 기반으로 해석/시사점까지 작성한다.
+    2. 사용자가 외부/최신/벤치마킹을 요구한 WEB/MIXED이면 web_search로 보완한다.
+    3. 내부검색 bad → 한 번만 rewrite 후 재검색. 그래도 bad이면 generate에서 한계를 명시한다.
+    4. force_web_search=True이면 무조건 web_search.
     """
     grade = state.get("retrieval_grade", "")
     corrected = state.get("corrected", False)
+    intent = str(state.get("intent", "SEARCH")).upper()
+    force_web = bool(state.get("user_approved_web_search", False))
+    need_web = bool(state.get("need_web_search", False))
 
-    # 내부자료가 의미 있게 잡힌 경우: 내부 + 외부 + LLM 심층해석
-    if grade in ["good", "weak"]:
+    if force_web or intent in ["WEB", "MIXED"]:
         return "web_search"
 
-    # 내부자료가 부족하면 한 번만 질문 재작성 후 내부검색 재시도
     if grade == "bad" and not corrected:
         return "rewrite_question"
 
-    # 재검색 후에도 내부자료가 부족하면 외부 + LLM 심층해석
-    return "web_search"
+    # 내부자료가 weak/bad여도 무조건 외부검색으로 튀지 않는다.
+    # 최종 답변에서 '내부자료 한계'와 'LLM 해석'을 분리해 작성한다.
+    return "generate"
 
 def route_after_permission(state: IntegratedRAGState):
     if state["user_approved_web_search"]:
@@ -1485,6 +1599,7 @@ workflow = StateGraph(IntegratedRAGState)
 
 workflow.add_node("load_memory", load_memory_node)
 workflow.add_node("orchestrate_question", orchestrate_question_node)
+workflow.add_node("consultant_agent", consultant_agent_node)
 workflow.add_node("generate_direct", generate_direct_node)
 workflow.add_node("extract_required_conditions", extract_required_conditions_node)
 workflow.add_node("retrieve", retrieve_node)
@@ -1505,11 +1620,13 @@ workflow.add_conditional_edges(
     route_after_orchestration,
     {
         "web_search": "web_search",
+        "consultant_agent": "consultant_agent",
         "generate_direct": "generate_direct",
         "extract_required_conditions": "extract_required_conditions"
     }
 )
 
+workflow.add_edge("consultant_agent", "save_memory")
 workflow.add_edge("generate_direct", "save_memory")
 workflow.add_edge("extract_required_conditions", "retrieve")
 workflow.add_edge("retrieve", "grade_retrieval")
