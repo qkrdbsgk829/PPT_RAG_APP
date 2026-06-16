@@ -1425,48 +1425,30 @@ def route_after_orchestration(state: IntegratedRAGState):
 
 def route_after_grade(state: IntegratedRAGState):
     """
-    v8 핵심 수정: 내부검색 결과를 더 적극적으로 사용한다.
+    v9 FINAL 라우팅 정책
 
-    기존에는 grade가 weak/bad이면 외부검색으로 쉽게 넘어가서
-    내부자료에 실제 내용이 있어도 '내부자료 기준' 답변이 줄어드는 문제가 있었다.
-
-    개선 원칙:
-    - WEB/MIXED/force_web은 내부검색 결과를 확보한 뒤 외부검색까지 수행
-    - good/weak는 내부자료 기준으로 답변 생성
-    - bad는 한 번만 질문 재작성 후 재검색
-    - 재검색 후에도 bad이면, 외부검색이 필요한 질문만 외부검색으로 보완
-      그렇지 않으면 내부자료 기준으로 한계까지 포함해 답변
+    최종 정책:
+    1. 질문이 들어오면 내부검색은 항상 먼저 수행한다.
+    2. 내부검색 결과가 good/weak이면 내부자료를 기준점으로 잡고 외부검색을 무조건 추가한다.
+       => 내부 + 외부자료 + LLM 심층해석
+    3. 내부검색 결과가 bad이면 한 번만 질문을 재작성해 내부검색을 재시도한다.
+    4. 재검색 후에도 bad이면 외부검색으로 답변한다.
+       => 외부자료 + LLM 심층해석
+    5. 즉, 내부자료가 있으면 내부만 답하지 않고 반드시 외부 보완까지 수행한다.
     """
     grade = state.get("retrieval_grade", "")
     corrected = state.get("corrected", False)
-    intent = str(state.get("intent", "SEARCH")).upper()
-    question = (state.get("question") or "") + " " + (state.get("standalone_question") or "")
-    needs_web_first = bool(state.get("needs_web_first", False))
-    force_web = bool(state.get("user_approved_web_search", False))
 
-    web_keywords = [
-        "최근", "최신", "오늘", "현재", "뉴스", "외부", "사례", "벤치마킹",
-        "시장", "동향", "주가", "환율", "검색", "인터넷", "해외", "국내 업체",
-        "competitor", "benchmark", "latest", "recent"
-    ]
-    explicit_web_needed = any(k.lower() in question.lower() for k in web_keywords)
-
-    # 외부가 필요한 질문도 내부검색 결과를 버리지 않고, 외부검색으로 보완한다.
-    if force_web or needs_web_first or intent in ["WEB", "MIXED"] or explicit_web_needed:
+    # 내부자료가 의미 있게 잡힌 경우: 내부 + 외부 + LLM 심층해석
+    if grade in ["good", "weak"]:
         return "web_search"
 
-    # good뿐 아니라 weak도 내부자료 기준으로 답한다.
-    # weak는 내부 청크가 일부 관련 있다는 뜻이므로, 외부검색으로 밀어내지 않는다.
-    if grade in ["good", "weak"]:
-        return "generate"
-
-    # bad는 한 번만 재작성해서 내부검색 재시도
-    if not corrected:
+    # 내부자료가 부족하면 한 번만 질문 재작성 후 내부검색 재시도
+    if grade == "bad" and not corrected:
         return "rewrite_question"
 
-    # 재검색 후에도 bad이면 외부검색으로 자동 이동하지 말고,
-    # 내부자료 기준의 한계와 확인 가능한 범위를 답변하게 한다.
-    return "generate"
+    # 재검색 후에도 내부자료가 부족하면 외부 + LLM 심층해석
+    return "web_search"
 
 def route_after_permission(state: IntegratedRAGState):
     if state["user_approved_web_search"]:
