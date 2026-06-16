@@ -1,9 +1,8 @@
 streamlit
 streamlit-agraph
 openai
+python-dotenv
 numpy
 tqdm
 langgraph
 tavily-python
-python-dotenv
-neo4j

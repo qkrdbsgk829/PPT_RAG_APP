@@ -35,9 +35,9 @@ client = OpenAI(
 )
 
 PPT_FOLDERS = {
-    "PPT 1": "./PPT자료1",
-    "PPT 2": "./PPT자료2",
-    "PPT 3": "./PPT자료3",
+    "PPT 1": "./data/PPT자료1",
+    "PPT 2": "./data/PPT자료2",
+    "PPT 3": "./data/PPT자료3",
 }
 
 CHUNK_FILE_NAME = "chunks.json"
@@ -93,6 +93,14 @@ def load_all_chunks():
 
     for document_name, folder_path in PPT_FOLDERS.items():
         chunk_path = os.path.join(folder_path, CHUNK_FILE_NAME)
+
+        # app.py는 ./data/PPT자료* 경로를 사용한다.
+        # 예전 노트북처럼 ./PPT자료*에 둔 경우도 fallback으로 지원한다.
+        if not os.path.exists(chunk_path) and folder_path.startswith("./data/"):
+            fallback_folder = folder_path.replace("./data/", "./", 1)
+            fallback_chunk_path = os.path.join(fallback_folder, CHUNK_FILE_NAME)
+            if os.path.exists(fallback_chunk_path):
+                chunk_path = fallback_chunk_path
 
         if not os.path.exists(chunk_path):
             print(f"[경고] chunks.json 없음: {chunk_path}")
@@ -265,7 +273,7 @@ def generate_answer(query, top_k=5):
 
     response = client.chat.completions.create(
         model=CHAT_MODEL,
-        temperature=0.2,
+        temperature=0.35,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -280,7 +288,7 @@ def generate_answer(query, top_k=5):
 
 
 # ============================================================
-# LangGraph 통합 최종 코드 v3
+# LangGraph 통합 최종 코드 v8
 # Memory + Corrective RAG + HITL + Tavily Web Search
 # + LLM 기반 Required Conditions / Relevance Gate
 # + LLM 기반 Web Search Plan
@@ -311,10 +319,10 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 MEMORY_PATH = "./conversation_memory.json"
 MAX_MEMORY_TURNS = 6
 
-if "여기에" in TAVILY_API_KEY:
-    raise ValueError("Tavily API Key를 실제 키로 입력하세요.")
-
-tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
+if not TAVILY_API_KEY or "여기에" in TAVILY_API_KEY:
+    tavily_client = None
+else:
+    tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 
 
 # ============================================================
@@ -387,8 +395,17 @@ def format_memory(memory):
 
 class IntegratedRAGState(TypedDict):
     question: str
+    conversation_context: str
     memory: List[Dict[str, Any]]
     memory_context: str
+
+    # Orchestration fields
+    intent: str
+    intent_reason: str
+    standalone_question: str
+    answer_mode: str
+    needs_internal_search: bool
+    needs_web_first: bool
 
     required_conditions: List[str]
     main_intent: str
@@ -449,11 +466,116 @@ def load_memory_node(state: IntegratedRAGState):
 
 
 # ============================================================
+# 5-A. Front Orchestration Node
+# ============================================================
+
+def orchestrate_question_node(state: IntegratedRAGState):
+    """
+    사용자 질문을 바로 RAG 검색에 넣지 않고,
+    1) 이전 대화의 지시어(이것/저것/아까/방금)를 해소하고
+    2) 질문 의도를 분류하고
+    3) 검색용 질문과 답변 모드를 결정한다.
+    """
+    question = state["question"]
+    memory_context = state.get("memory_context", "")
+    conversation_context = state.get("conversation_context", "")
+
+    system_prompt = """
+너는 RAG 챗봇의 앞단 오케스트레이터다.
+
+역할:
+사용자의 현재 질문을 보고, 바로 검색할지 / 외부검색할지 / 이전 답변을 활용해 작성할지 / 요약할지 / 일반 대화로 답할지 결정한다.
+
+의도 분류:
+- SEARCH: 내부 PPT/문서 자료에서 찾아 답해야 하는 질문
+- WEB: 최신 정보, 외부 사례, 시장/뉴스/오늘자/최근 자료가 필요한 질문
+- REPORT: 보고서, 제안서, PPT 문구, 표, 로드맵 등 산출물을 작성/재작성하는 질문
+- SUMMARY: 이전 답변이나 검색 결과를 요약/정리하는 질문
+- CHAT: 검색 없이 일반적으로 답할 수 있는 질문
+- MIXED: 내부자료와 외부자료 또는 이전 답변을 함께 섞어야 하는 질문
+
+중요 규칙:
+1. "이것", "저것", "아까", "방금", "위 내용", "그걸로" 같은 지시어가 있으면 이전 대화 맥락을 사용해 standalone_question에 구체화한다.
+2. standalone_question은 검색/작성에 바로 사용할 수 있는 완전한 질문으로 만든다.
+3. 최신/최근/오늘/외부사례/국내 사례/벤치마킹/뉴스/주가/시장/현재 정보가 필요하면 WEB 또는 MIXED로 둔다.
+4. "보고서 작성", "PPT용", "표로", "로드맵", "제안서", "합쳐서", "섞어서", "다듬어줘"는 REPORT 성격이 강하다.
+5. 기본값은 needs_internal_search=true다. 사용자가 단순 인사/잡담만 한 경우를 제외하면 내부검색을 우선 수행해야 한다.
+6. REPORT/SUMMARY 질문이라도 PPT/프로젝트/자료/앞선 답변과 관련되면 needs_internal_search=true로 둔다.
+7. WEB/최근/외부사례 질문도 내부자료와 함께 비교할 수 있으므로 needs_internal_search=true로 둔다.
+8. 외부검색이 반드시 먼저 필요한 경우에만 needs_web_first=true로 둔다.
+9. JSON 형식으로만 답한다.
+
+출력 형식:
+{
+  "intent": "SEARCH|WEB|REPORT|SUMMARY|CHAT|MIXED",
+  "intent_reason": "판단 이유",
+  "standalone_question": "맥락을 반영해 재작성한 완전한 질문",
+  "answer_mode": "search|web|report|summary|chat|mixed",
+  "needs_internal_search": true 또는 false,
+  "needs_web_first": true 또는 false
+}
+"""
+
+    user_prompt = f"""
+[현재 사용자 질문]
+{question}
+
+[현재 화면 대화 이력]
+{conversation_context}
+
+[저장된 이전 대화 기억]
+{memory_context}
+
+위 정보를 바탕으로 질문을 오케스트레이션해줘.
+"""
+
+    response = client.chat.completions.create(
+        model=CHAT_MODEL,
+        temperature=0,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    )
+
+    raw = response.choices[0].message.content
+
+    parsed = safe_json_loads(
+        raw,
+        fallback={
+            "intent": "SEARCH",
+            "intent_reason": "분류 실패로 내부검색 기본값 적용",
+            "standalone_question": question,
+            "answer_mode": "search",
+            "needs_internal_search": True,
+            "needs_web_first": False
+        }
+    )
+
+    intent = str(parsed.get("intent", "SEARCH")).upper()
+    if intent not in ["SEARCH", "WEB", "REPORT", "SUMMARY", "CHAT", "MIXED"]:
+        intent = "SEARCH"
+
+    standalone_question = parsed.get("standalone_question") or question
+    answer_mode = parsed.get("answer_mode") or intent.lower()
+
+    return {
+        "intent": intent,
+        "intent_reason": parsed.get("intent_reason", ""),
+        "standalone_question": standalone_question,
+        "answer_mode": answer_mode,
+        "needs_internal_search": bool(parsed.get("needs_internal_search", intent in ["SEARCH", "MIXED"])),
+        "needs_web_first": bool(parsed.get("needs_web_first", intent == "WEB")),
+        "search_question": standalone_question
+    }
+
+
+# ============================================================
 # 6. Required Conditions 추출 Node
 # ============================================================
 
 def extract_required_conditions_node(state: IntegratedRAGState):
-    question = state["question"]
+    question = state.get("standalone_question") or state.get("search_question") or state["question"]
 
     system_prompt = """
 너는 사용자의 질문에서 RAG 검색 시 반드시 만족해야 하는 조건을 추출하는 전문가다.
@@ -522,9 +644,11 @@ def extract_required_conditions_node(state: IntegratedRAGState):
 def retrieve_node(state: IntegratedRAGState):
     search_question = state.get("search_question") or state["question"]
 
+    # 심층 답변을 위해 Top-K를 5개에서 8개로 확대
+    # 단, 화면에는 app.py에서 상위 청크만 표시하므로 UI가 과도하게 길어지지는 않음
     retrieved_chunks = retrieve_chunks(
         search_question,
-        top_k=5
+        top_k=8
     )
 
     return {
@@ -788,7 +912,24 @@ def plan_web_search_with_llm(question: str):
 # ============================================================
 
 def web_search_node(state: IntegratedRAGState):
-    question = state["question"]
+    question = state.get("standalone_question") or state["question"]
+
+    if tavily_client is None:
+        return {
+            "web_search_plan": {
+                "search_intent": question,
+                "queries": [question],
+                "needs_freshness": True,
+                "needs_exact_value": False,
+                "preferred_source_types": []
+            },
+            "web_results": [],
+            "web_context": """
+[외부검색]
+TAVILY_API_KEY가 설정되지 않아 외부검색을 실행하지 못했습니다.
+.env 파일에 TAVILY_API_KEY를 설정하면 외부검색이 활성화됩니다.
+"""
+        }
 
     search_plan = plan_web_search_with_llm(question)
 
@@ -820,7 +961,8 @@ def web_search_node(state: IntegratedRAGState):
             search_response = tavily_client.search(
                 query=query,
                 search_depth="advanced",
-                max_results=5,
+                # 심층 답변을 위해 외부 검색 결과를 조금 더 확보
+                max_results=7,
                 include_answer=True,
                 include_raw_content=True,
                 auto_parameters=True
@@ -896,7 +1038,7 @@ URL: {item.get("url", "")}
 # ============================================================
 
 def analyze_web_results_node(state: IntegratedRAGState):
-    question = state["question"]
+    question = state.get("standalone_question") or state["question"]
     web_context = state.get("web_context", "")
     web_results = state.get("web_results", [])
     web_search_plan = state.get("web_search_plan", {})
@@ -1052,6 +1194,10 @@ def analyze_web_results_node(state: IntegratedRAGState):
 
 def generate_node(state: IntegratedRAGState):
     question = state["question"]
+    standalone_question = state.get("standalone_question") or question
+    intent = state.get("intent", "SEARCH")
+    intent_reason = state.get("intent_reason", "")
+    conversation_context = state.get("conversation_context", "")
     memory_context = state["memory_context"]
     context = state["context"]
     retrieval_grade = state["retrieval_grade"]
@@ -1063,25 +1209,55 @@ def generate_node(state: IntegratedRAGState):
     web_analysis_context = state.get("web_analysis_context", "")
 
     system_prompt = """
-너는 내부 자료와 외부검색 결과를 함께 활용하는 RAG Assistant다.
+너는 내부 자료와 외부검색 결과를 함께 활용하는 선임 컨설턴트형 RAG Assistant다.
 
-답변 규칙:
-1. 내부 자료 근거를 1차 근거로 사용한다.
-2. 단, 내부 자료 검색 품질 평가가 good이 아닐 경우 내부 자료 내용을 억지로 답변에 사용하지 않는다.
-3. retrieval_grade가 weak 또는 bad이고 외부검색도 사용하지 않았다면,
-   '내부 자료에서는 해당 질문에 대한 직접 근거를 찾지 못했습니다'라고 답한다.
-4. 외부검색 결과가 있으면 '외부검색 기준'이라고 구분한다.
-5. 외부검색 핵심 사실을 사용할 때는 문장 끝에 출처번호를 표시한다. 예: [W1], [W2]
-6. 검색 결과에 없는 내용은 절대 만들지 않는다.
-7. 답변은 한국어로 작성한다. 외국어 자료는 한국어로 번역해서 작성한다.
-8. 컨설팅 보고서 스타일로 간결하고 구조화한다.
-9. 답변 하단에 반드시 '출처' 섹션을 둔다.
-10. 외부검색이 실행되지 않은 경우에는 '내부 자료 기준'으로만 답한다.
+목표:
+- 단순 검색 요약이 아니라, 근거 기반으로 해석·비교·시사점·실행과제까지 도출한다.
+- 내부 PPT 자료와 외부검색 자료가 함께 있으면 둘을 연결하여 사용자의 프로젝트 관점에서 의미를 해석한다.
+
+답변 원칙:
+1. 사실과 해석을 구분한다.
+   - 검색 근거에서 확인되는 내용은 '확인 내용'으로 작성한다.
+   - LLM이 도출한 판단은 '해석', '시사점', '적용방안'으로 분리해서 작성한다.
+2. 내부 자료 근거를 1차 근거로 사용한다.
+3. retrieval_grade가 weak여도 내부 검색 청크가 있으면 내부자료 기준 확인 내용에 적극적으로 반영한다. 단, 근거가 약한 부분은 한계로 명시한다.
+4. retrieval_grade가 bad여도 내부 청크가 있으면 '내부자료에서 직접 확인되는 범위'와 '확인되지 않는 범위'를 구분해서 답한다.
+5. 외부검색 결과가 있으면 내부 자료는 기준점으로, 외부자료는 보완 근거로 연결해서 사용한다.
+6. 외부검색 핵심 사실을 사용할 때는 문장 끝에 출처번호를 표시한다. 예: [W1], [W2]
+5. 내부 자료에서 확인한 내용은 문서명/청크 ID를 답변 하단 출처에 남긴다.
+6. 검색 결과에 전혀 없는 구체적 수치·회사명·사례·날짜는 만들지 않는다.
+7. 단, 근거에서 합리적으로 도출 가능한 컨설턴트적 해석, 리스크, 실행방안은 제시해도 된다.
+8. 답변은 한국어로 작성한다. 외국어 자료는 한국어로 번역해서 작성한다.
+9. 답변은 피상적인 bullet 나열이 아니라, '왜 중요한지 / 그래서 무엇을 해야 하는지'까지 설명한다.
+10. 사용자가 짧게 물어봐도 가능한 한 깊이 있게 답하되, 불필요하게 장황한 일반론은 피한다.
+
+권장 답변 구조:
+- 핵심 결론
+- 확인 내용: 내부자료 기준
+- 확인 내용: 외부자료 기준  ※ 외부검색이 있을 때만
+- 종합 해석
+- 사용자 프로젝트 관점의 시사점
+- 실행 과제 또는 적용 방안
+- 한계 및 추가 확인 필요사항
+- 출처
+
+주의:
+- '답변 기준', '모드', '검색등급' 같은 내부 디버그 표현은 본문에 쓰지 않는다.
+- 출처 섹션 외에는 청크 ID를 과도하게 반복하지 않는다.
 """
 
     user_prompt = f"""
 [현재 질문]
 {question}
+
+[맥락 반영 질문]
+{standalone_question}
+
+[분류된 의도]
+{intent} / {intent_reason}
+
+[현재 화면 대화 이력]
+{conversation_context}
 
 [이전 대화 기억]
 {memory_context}
@@ -1099,12 +1275,13 @@ def generate_node(state: IntegratedRAGState):
 {context}
 
 [외부검색 사용 여부]
-{user_approved_web_search}
+{user_approved_web_search} 또는 web_analysis_context 존재 시 사용
 
 [외부검색]
 {web_analysis_context}
 
 위 근거를 바탕으로 답변해줘.
+단순 요약으로 끝내지 말고, 내부자료와 외부자료의 연결점, 차이점, 프로젝트 적용 시사점, 실행과제까지 포함해서 심층적으로 작성해줘.
 """
 
     response = client.chat.completions.create(
@@ -1116,8 +1293,90 @@ def generate_node(state: IntegratedRAGState):
         ]
     )
 
+    answer = response.choices[0].message.content or ""
+    if not answer.strip():
+        answer = "답변 생성 결과가 비어 있습니다. 검색 근거 또는 질문을 확인해 주세요."
+
     return {
-        "answer": response.choices[0].message.content
+        "answer": answer
+    }
+
+
+# ============================================================
+# 13-A. Direct Generate Node for Chat / Summary / Report
+# ============================================================
+
+def generate_direct_node(state: IntegratedRAGState):
+    question = state["question"]
+    standalone_question = state.get("standalone_question") or question
+    intent = state.get("intent", "CHAT")
+    intent_reason = state.get("intent_reason", "")
+    conversation_context = state.get("conversation_context", "")
+    memory_context = state.get("memory_context", "")
+
+    system_prompt = """
+너는 대화 맥락을 이해하고 사용자의 산출물을 작성하는 선임 컨설턴트형 AI Assistant다.
+
+답변 규칙:
+1. 현재 질문과 이전 대화 맥락을 함께 사용한다.
+2. REPORT 의도이면 보고서/제안서/PPT 문구처럼 바로 활용 가능한 산출물 형태로 작성한다.
+3. SUMMARY 의도이면 단순 축약이 아니라 핵심 메시지, 논리 흐름, 활용 포인트를 함께 정리한다.
+4. CHAT 의도이면 검색을 억지로 수행하지 말고 자연스럽게 답한다.
+5. 내부 문서나 외부검색 결과를 실제로 조회하지 않은 경우, 근거를 조회한 것처럼 말하지 않는다.
+6. 모르는 내용은 추측하지 말고 추가 검색이나 내부자료 확인이 필요하다고 말한다.
+7. 답변은 한국어로 작성한다.
+8. 컨설팅 보고서 스타일로 구조화한다.
+9. 사용자가 '살 붙여줘', '보고서처럼', '심층적으로'라고 요청하면 다음을 포함한다:
+   - 핵심 결론
+   - 배경/문제의식
+   - 주요 내용
+   - 해석 및 시사점
+   - 실행 과제
+   - 주의사항
+10. '답변 기준', '모드', '검색등급' 같은 내부 디버그 표현은 본문에 쓰지 않는다.
+"""
+
+    user_prompt = f"""
+[현재 질문]
+{question}
+
+[맥락 반영 질문]
+{standalone_question}
+
+[분류된 의도]
+{intent} / {intent_reason}
+
+[현재 화면 대화 이력]
+{conversation_context}
+
+[저장된 이전 대화 기억]
+{memory_context}
+
+위 정보를 바탕으로 답변해줘.
+사용자가 바로 보고서나 발표자료에 활용할 수 있도록 논리와 문장을 충분히 다듬어줘.
+"""
+
+    response = client.chat.completions.create(
+        model=CHAT_MODEL,
+        temperature=0.35,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    )
+
+    answer = response.choices[0].message.content or ""
+    if not answer.strip():
+        answer = "답변 생성 결과가 비어 있습니다. 질문을 조금 더 구체화해서 다시 시도해 주세요."
+
+    return {
+        "retrieval_grade": "not_used",
+        "grade_reason": "검색보다 대화 맥락 기반 작성/요약/일반 답변이 적합하다고 판단했습니다.",
+        "retrieved_chunks": [],
+        "context": "",
+        "need_web_search": False,
+        "web_analysis_context": "",
+        "answer": answer
     }
 
 
@@ -1137,19 +1396,77 @@ def save_memory_node(state: IntegratedRAGState):
 # ============================================================
 # 15. 조건부 분기
 # ============================================================
+def route_after_orchestration(state: IntegratedRAGState):
+    """
+    v8 핵심 수정: Router가 내부검색을 건너뛰지 않도록 한다.
+
+    기존 구조는 LLM Router가 질문을 CHAT/REPORT/WEB으로 분류하면
+    내부 PPT 검색을 생략하는 경우가 있어, PPT 안에 있는 내용도
+    내부자료 기준으로 답하지 못하는 문제가 있었다.
+
+    개선 원칙:
+    1. 거의 모든 질문은 내부검색을 1회 먼저 수행한다.
+    2. WEB/MIXED 질문도 내부검색 후 외부검색으로 보완한다.
+    3. REPORT/SUMMARY 질문도 내부자료가 있으면 그 근거를 사용해 작성한다.
+    4. 정말 짧은 인사/일반 대화만 direct 답변을 허용한다.
+    """
+    intent = str(state.get("intent", "SEARCH")).upper()
+    question = (state.get("question") or "").strip()
+
+    # 순수 인사/잡담은 검색하지 않아도 됨
+    pure_chat_examples = {"안녕", "안녕하세요", "하이", "hello", "hi", "고마워", "감사", "땡큐"}
+    if intent == "CHAT" and question.lower() in pure_chat_examples:
+        return "generate_direct"
+
+    # 그 외에는 무조건 내부검색을 먼저 수행
+    return "extract_required_conditions"
+
+
 
 def route_after_grade(state: IntegratedRAGState):
-    grade = state["retrieval_grade"]
-    corrected = state["corrected"]
+    """
+    v8 핵심 수정: 내부검색 결과를 더 적극적으로 사용한다.
 
-    if grade == "good":
+    기존에는 grade가 weak/bad이면 외부검색으로 쉽게 넘어가서
+    내부자료에 실제 내용이 있어도 '내부자료 기준' 답변이 줄어드는 문제가 있었다.
+
+    개선 원칙:
+    - WEB/MIXED/force_web은 내부검색 결과를 확보한 뒤 외부검색까지 수행
+    - good/weak는 내부자료 기준으로 답변 생성
+    - bad는 한 번만 질문 재작성 후 재검색
+    - 재검색 후에도 bad이면, 외부검색이 필요한 질문만 외부검색으로 보완
+      그렇지 않으면 내부자료 기준으로 한계까지 포함해 답변
+    """
+    grade = state.get("retrieval_grade", "")
+    corrected = state.get("corrected", False)
+    intent = str(state.get("intent", "SEARCH")).upper()
+    question = (state.get("question") or "") + " " + (state.get("standalone_question") or "")
+    needs_web_first = bool(state.get("needs_web_first", False))
+    force_web = bool(state.get("user_approved_web_search", False))
+
+    web_keywords = [
+        "최근", "최신", "오늘", "현재", "뉴스", "외부", "사례", "벤치마킹",
+        "시장", "동향", "주가", "환율", "검색", "인터넷", "해외", "국내 업체",
+        "competitor", "benchmark", "latest", "recent"
+    ]
+    explicit_web_needed = any(k.lower() in question.lower() for k in web_keywords)
+
+    # 외부가 필요한 질문도 내부검색 결과를 버리지 않고, 외부검색으로 보완한다.
+    if force_web or needs_web_first or intent in ["WEB", "MIXED"] or explicit_web_needed:
+        return "web_search"
+
+    # good뿐 아니라 weak도 내부자료 기준으로 답한다.
+    # weak는 내부 청크가 일부 관련 있다는 뜻이므로, 외부검색으로 밀어내지 않는다.
+    if grade in ["good", "weak"]:
         return "generate"
 
+    # bad는 한 번만 재작성해서 내부검색 재시도
     if not corrected:
         return "rewrite_question"
 
-    return "ask_web_permission"
-
+    # 재검색 후에도 bad이면 외부검색으로 자동 이동하지 말고,
+    # 내부자료 기준의 한계와 확인 가능한 범위를 답변하게 한다.
+    return "generate"
 
 def route_after_permission(state: IntegratedRAGState):
     if state["user_approved_web_search"]:
@@ -1185,6 +1502,8 @@ def skip_web_search_node(state: IntegratedRAGState):
 workflow = StateGraph(IntegratedRAGState)
 
 workflow.add_node("load_memory", load_memory_node)
+workflow.add_node("orchestrate_question", orchestrate_question_node)
+workflow.add_node("generate_direct", generate_direct_node)
 workflow.add_node("extract_required_conditions", extract_required_conditions_node)
 workflow.add_node("retrieve", retrieve_node)
 workflow.add_node("grade_retrieval", grade_retrieval_node)
@@ -1197,7 +1516,19 @@ workflow.add_node("save_memory", save_memory_node)
 workflow.add_node("skip_web_search", skip_web_search_node)
 
 workflow.add_edge(START, "load_memory")
-workflow.add_edge("load_memory", "extract_required_conditions")
+workflow.add_edge("load_memory", "orchestrate_question")
+
+workflow.add_conditional_edges(
+    "orchestrate_question",
+    route_after_orchestration,
+    {
+        "web_search": "web_search",
+        "generate_direct": "generate_direct",
+        "extract_required_conditions": "extract_required_conditions"
+    }
+)
+
+workflow.add_edge("generate_direct", "save_memory")
 workflow.add_edge("extract_required_conditions", "retrieve")
 workflow.add_edge("retrieve", "grade_retrieval")
 
@@ -1207,7 +1538,7 @@ workflow.add_conditional_edges(
     {
         "generate": "skip_web_search",
         "rewrite_question": "rewrite_question",
-        "ask_web_permission": "ask_web_permission"
+        "web_search": "web_search"
     }
 )
 
@@ -1235,11 +1566,19 @@ integrated_rag_graph = workflow.compile()
 # 17. 실행 함수
 # ============================================================
 
-def run_integrated_rag(question, force_web_search=False):
+def run_integrated_rag(question, force_web_search=False, conversation_context=""):
     result = integrated_rag_graph.invoke({
         "question": question,
+        "conversation_context": conversation_context,
         "memory": [],
         "memory_context": "",
+
+        "intent": "",
+        "intent_reason": "",
+        "standalone_question": question,
+        "answer_mode": "",
+        "needs_internal_search": True,
+        "needs_web_first": False,
 
         "required_conditions": [],
         "main_intent": "",
